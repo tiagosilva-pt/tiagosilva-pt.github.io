@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>How Amazon builds an Inventory</title>
+
+  <!-- Custom styles for this template -->
+  <link href="../assets/css/journal.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-12">
+        <div class="col-lg-12 jumbotron mt-3">
+            <!-- Title -->
+            <h1 class="text-center">How Amazon builds an Inventory</h1>
+        </div>
+
+                    <!-- Author -->
+                    <div class="row mt-4 mb-1">
+                        <div class="col-lg-6">
+                            <p>Tiago Silva</p>
+                            <h6><small>eng.tiagos@gmail.com</small></h6>
+                        </div>
+                        <div class="col-lg-6 text-right mt-4">
+                            <p>November 17, 2020</p>
+                        </div>
+                    </div>
+                    <hr>
+
+
+
+        <!-- Preview Image -->
+        <div class="row mt-4 mb-1">
+            <div class="col-lg-8 offset-2">
+                <img class="img-fluid rounded text-center" src="../assets/img/blog/amazon_1.jpg" alt="">
+            </div>
+        </div>    
+    
+
+        <!-- Post Content -->
+        <div class="mt-4 mb-4">
+            <p>Like many other retail companies, Amazon needs to know what is in their stock and where their stock is located in their enormous warehouses. Way before Amazon, stores and warehouses usually would close doors a couple of days per year to check what is inside the warehouse. Checking if every item is located where it is supposed to be located, checking if it is in good shape, counting everything by hand and re-open the business until the next inventory check, usually one year after.</p>
+            <p>This is a very deterministic way of building an inventory, however very expensive in terms of money, human effort and time, given that businesses would close doors and stop operations just to build inventory and a large resource of human labor would be allocated to count every single item stored in the warehouse. As a benefit, this process has the virtue of contemplate all the existing items, which means the inventory is a perfect picture of what is actually in the warehouse. As a disadvantage, business would rely in this information until the next inventory is made.</p>
+            <p>In a global company like Amazon that operates 24/7 shipping items literally to the entire world, this approach of building inventory is not an option. The volume of orders is not compatible with a closed warehouse to make an inventory. Also, the number of items stored is very large to be manually counted. On top of that, there is a constant flow of items arriving and departing from the warehouses which does not allow to crystallize the state of the warehouse.</p>
+            <p>Usually, items arrive form the producers to be stored at the Amazon warehouses in a shipment that may contain a diversity of products from books to mechanical parts. Then a warehouse operator collects item by item, identifies it and place it in the correct shelf where it stays until somebody orders the item. This process has some margin for error. Misidentification is a common mistake - the warehouse operator may have a pair of blue shoes in its hands but identifies it as a pair of red shoes by mistake. Or the operator stores the item on the wrong shelf. Ultimately, these mistakes would lead to deliver the wrong items to Amazon's customers.</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>What Amazon does to mitigate this is by constantly analyze a random sample of their warehouses. Each warehouse has a team of auditors that are continuously sampling random portions of the inventory. A software is used to randomize the sample and direct this team to the right shelf. The auditors then check what is in the shelf and if it matches with what the software believes it's in there. The result is a simple binary response from the auditor to what the software indicates that is present on a given shelf with a yes or no value. This process is done continuously and covers all the kinds of storage, from small shelfs to entire pallets, and all kinds of items existing in the warehouse.</p>
+                    <p>Amazon insures that the samples' size and frequency of sampling are big enough to create statistical significance and represent a realistic view of the actual state of the warehouse. The calculation of the sample sizes varies from warehouse to warehouse, depending on the dynamic of incoming and outgoing items and the size of the warehouse.</p>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <img class="img-fluid rounded text-center" src="../assets/img/blog/amazon_2.jpg" alt="">
+                </div>
+            </div>
+            <p>With this method, Amazon makes sure within a reasonable margin of error, that each item of the stock of each warehouse is where it is supposed to be, without having to close operations to verify that. And at the same time produces a continuously updated picture of the inventory avoiding to wait large amounts of time until a new inventory is produced.</p>
+            <p>In comparison with the classic way of doing inventories, what Amazon shows here is the difference between having a study of the entire population in the classic inventory approach, against a continuous sampling of small portions of the population and how that benefits the retail business and their customers, especially the mitigation of delivering wrong items.</p>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Tiago Silva - <script>document.write(new Date().getFullYear())</script></p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../assets/js/jquery-min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
