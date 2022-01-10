@@ -1,80 +1,80 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 	<head>
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/js/sb-admin-2.min.js" integrity="sha512-+QnjQxxaOpoJ+AAeNgvVatHiUWEDbvHja9l46BHhmzvP0blLTXC4LsvwDVeNhGgqqGQYBQLFhdKFyjzPX6HGmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/css/sb-admin-2.min.css" integrity="sha512-Mk4n0eeNdGiUHlWvZRybiowkcu+Fo2t4XwsJyyDghASMeFGH6yUXcdDI3CKq12an5J8fq4EFzRVRdbjerO3RmQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap-reboot.min.css" integrity="sha512-stCMej6DXfErBwD8bQrJsG2dFPHNW9y8cmccQhW0o+GeSxKzjABmIVdwOzQ5Vlw4HYoEwrECGDRQs8xF0f9ssg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		
 	</head>
-	<body class="mx-5 my-2 p-2">
+	<body class="mx-1 text-center">
 		<span><h1>Wine Picker</h1><p class="font-weight-light">by Le Wine Bug</p></span>
-		<container>
+		
 			<div class="card p-2">
-				<div class="form-group row px-2">
-					<div class="btn-group btn-group-lg" role="group" id="btn-group-meal-type">
+				<div class="form-group pt-5">
+					<div class="btn-group btn-group-md" role="group" id="btn-group-meal-type">
 						<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" value="main" checked>
-						<label class="btn btn-outline-success" for="btnradio1">Almoço / Jantar</label>
+						<label class="btn btn-outline-primary" for="btnradio1">Prato Principal</label>
 					
 						<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" value="tapas">
-						<label class="btn btn-outline-success" for="btnradio2">Entradas e Petiscos</label>
+						<label class="btn btn-outline-primary" for="btnradio2">Entradas e Petiscos</label>
 					
 						<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" value="desert">
-						<label class="btn btn-outline-success" for="btnradio3">Sobremesas</label>
+						<label class="btn btn-outline-primary" for="btnradio3">Sobremesa</label>
 					</div>
 				</div>
 				
-				<div class="form-group row px-2">
-					<select id="main_select" name="main_select" class="form-select form-select-lg">
+				<div class="form-group px-5 py-5">
+					<select id="main_select" name="main_select" class="form-select">
 						<option value="meat">Carnes vermelhas</option>
 						<option value="bird">Aves</option>
 						<option value="fish">Peixe</option>
 						<option value="veg">Vegetariano</option>
 						<option value="spicy">Picante</option>
 					</select>
-					<select id="tapas_select" name="tapas_select" class="form-select form-select-lg">
+					<select id="tapas_select" name="tapas_select" class="form-select">
 						<option value="seafood">Marisco</option>
 						<option value="cheese">Queijo</option>
 						<option value="delicatessen">Enchidos</option>
 					</select>
-					<select id="desert_select" name="desert_select" class="form-select form-select-lg">
+					<select id="desert_select" name="desert_select" class="form-select">
 						<option value="cake">Bolos</option>
 						<option value="chocolate">Chocolate</option>n>
 					</select>
 				</div>
 
-				<div class="form-group row px-2">
-					<div class="btn-group btn-group-lg" role="group" id="btn-group-budget">
+				<div class="form-group px-2">
+					<div class="btn-group btn-group-md" role="group" id="btn-group-budget">
 						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio1" autocomplete="off" value="5" checked>
-						<label class="btn btn-outline-primary" for="budgetradio1">Até 5 €</label>
+						<label class="btn btn-outline-primary" for="budgetradio1">Até 5€</label>
 					
 						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio2" autocomplete="off" value="10">
-						<label class="btn btn-outline-primary" for="budgetradio2">Até 10 €</label>
+						<label class="btn btn-outline-primary" for="budgetradio2">Até 10€</label>
 					
 						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio3" autocomplete="off" value="20">
-						<label class="btn btn-outline-primary" for="budgetradio3">Até 20 €</label>
+						<label class="btn btn-outline-primary" for="budgetradio3">Até 20€</label>
 
 						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio4" autocomplete="off" value="21">
-						<label class="btn btn-outline-primary" for="budgetradio4">Mais de  20 €</label>
+						<label class="btn btn-outline-primary" for="budgetradio4">Mais de 20€</label>
 					</div>
 				</div>
 
 					
-				<div class="form-group row">
+				<div class="form-group py-5">
 					<div class="text-center">
-						<button id="submit" class="btn btn-lg btn-primary">Recomendar</button>
+						<button id="submit" class="btn btn-lg btn-success">Recomendar</button>
 					</div>
 				</div>
 				
-				<div class="form-group row px-2" id="suggestion">
-					<img style="max-height: 10rem; max-height: 10rem;width: 100%; height: 100%; object-fit: contain;" id="image" src="">
-					<h5 id="suggestion_name"></h5>
-					<p id="suggestion_range"></p>
+				<div class="form-group px-2" id="suggestion">
+				</div>
+				
+				<div class="form-group px-2" id="no_suggestion">
+					<h5>Sem sugestões</h5>
 				</div>	
 
 			</div>
-		</container>
+		
 	</body>
 	<script>
 		var wines = [
@@ -88,6 +88,8 @@
 			$('#tapas_select').hide();
 			$('#desert_select').hide();
 			$('#suggestion').hide();
+			$('#no_suggestion').hide();
+			$('#more_suggestions').hide();
 		});
 
 		$('#btn-group-meal-type').on("change", function() {
@@ -130,21 +132,27 @@
   			return (w.max <= budget && w.type.includes(subtype));
 			});
 
-			if(suggested.length > 0) {
-				$('#image').attr("src", suggested[0].url);
-				$('#image').show();
-				$('#suggestion_name').text(suggested[0].name);
-				$('#suggestion_range').text('Entre ' + suggested[0].min + '€ e ' + suggested[0].max + '€.');	
+			if(suggested.length == 0) {
+				$('#no_suggestion').show();
+				$('#suggestion').hide();
+				$('#more_suggestions').hide();
 			}
-			else {
-				$('#image').attr("src", '');
-				$('#image').hide();
-				$('#suggestion_name').text('Sem sugestões');
-				$('#suggestion_range').text('');
-			}
-			
-			$('#suggestion').show();
-			console.log(suggested);
+			else{
+				$('#no_suggestion').hide();
+				$('#suggestion').empty();
+				suggested.forEach(function(suggestion){
+					$('#suggestion').append(`
+						<div class="form-group px-2">
+						<img style="max-height: 10rem;width: 100%; height: 100%; object-fit: contain;" id="image" src='` + suggestion.url+ `''>
+						<h5>` + suggestion.name + `</h5>
+						<p>Entre ` + suggestion.min + `€ e ` + suggestion.max + `€. </p>
+						</div>`)
+				});
+				$('#suggestion').show();
+				}
+
+
+
 		});
 
 
