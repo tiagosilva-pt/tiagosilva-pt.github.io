@@ -148,9 +148,7 @@
 							<img src="`+ topSuggestion.img +`" style="max-height:300px; max-width:100%" />
 						</div>
 						<div>
-							<button type="button" class="btn btn-block btn-success my-3" onclick="window.location='` + topSuggestion.link + `', '_blank'">
-								Prova Le Wine Bug
-							</button>
+							<a class="btn btn-primary my-3 mt-auto" target="_parent" href="` + topSuggestion.link + `" role="button">Prova Le Wine Bug</a>
 						</div>
 					</div>	
 				`);
@@ -166,9 +164,7 @@
 								<img src="`+ el.img +`" style="max-height:150px; max-width:33%" />
 								<div class="d-flex w-100 flex-column align-items-stretch mb-2">
 									<h5 class="mb-3 ml-2">`+ el.name +`</h5>
-									<button type="button" class="btn btn-block btn-success mt-auto" onclick="window.location='` + el.link + `', '_blank'">
-										Prova Le Wine Bug
-									</button>
+									<a class="btn btn-primary my-3 mt-auto" target="_parent" href="` + el.link + `" role="button">Prova Le Wine Bug</a>
 								</div>
 							</div>
 						</div>
