@@ -12,9 +12,10 @@
 		<title>Wine Picker</title>
 	</head>
 	<body>
-		<div class="flex-fill p-0 m-1">
-				<h4 class="mt-2">Prato</h4>
-				<input type="text" list="selectDishList" class="form-control form-control-lg">
+		<div class="flex-fill p-0 m-0">
+			<div style="background-color:whitesmoke" class="p-2 m-1">
+				<h6 class="mt-2">Prato</h6>
+				<input type="text" list="selectDishList" class="form-control">
 				<datalist id="selectDishList">
 					<select class="form-select">
 						<option data-value='soup' value='Açorda'>
@@ -79,19 +80,20 @@
 						<option data-value='red_meat' value='Vitela Assada'>
 					</select>
 				</datalist>	
-				<h4 class="mt-4">Orçamento</h4>
+				<h6 class="mt-4">Orçamento</h6>
 				<input id="budget" type="range" class="form-range" min="0" max="30" step="1" onInput="$('#rangeval').html($(this).val() + '€')">
 				<span id="rangeval">15 €</span>
 
 				<div class="d-grid gap-2">
-					<button type="button" class="btn btn-primary btn-lg mt-4" onclick="getWine()">Procurar</button>
+					<button type="button" class="btn btn-primary mt-4" onclick="getWine()">Procurar</button>
 				</div>
+			</div>
 			
 
-			<div class="container-fluid mt-5 px-0" id="recommendedContainer">
+			<div class="container-fluid mt-3 p-1" id="recommendedContainer">
 			</div>
 
-			<div class="container-fluid mt-5 px-0" id="resultsContainer">
+			<div class="container-fluid mt-3 p-1" id="resultsContainer">
 			</div>
 			
 		</div>
@@ -127,7 +129,7 @@
 				$("#recommendedContainer").append(`
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h5>Sem recomendações :(</h5> 
+							<h6>Sem recomendações :(</h6> 
 						</div>
 					</div>	
 				`);
@@ -137,28 +139,26 @@
 			{
 				const topSuggestion = suggested[0];
 				$("#recommendedContainer").append(`
-
-				<div class="card text-center col align-self-center col-12">
-					<div class="card-header">
-						<h4>Recomendado</h4>
-					</div>
-					<div class="card-body">
-						<h5 class="card-title mb-3">`+ topSuggestion.name +`</h5>
-						<img src="`+ topSuggestion.img +`" style="max-height:300px; max-width:100%" />
-					</div>
-					<div>
-						<button type="button" class="btn btn-block btn-success my-3" onclick="window.location='` + topSuggestion.link + `', '_blank'">
-							Prova Le Wine Bug
-						</button>
-					</div>
-				</div>	
+					<div class="card text-center col align-self-center col-12">
+						<div class="card-header">
+							<h5 style="text-align: left">Recomendado</h5>
+						</div>
+						<div class="card-body">
+							<h6 class="card-title mb-3">`+ topSuggestion.name +`</h6>
+							<img src="`+ topSuggestion.img +`" style="max-height:300px; max-width:100%" />
+						</div>
+						<div>
+							<button type="button" class="btn btn-block btn-success my-3" onclick="window.location='` + topSuggestion.link + `', '_blank'">
+								Prova Le Wine Bug
+							</button>
+						</div>
+					</div>	
 				`);
 			}
 
 			if(suggested.length > 1)
 			{
-				$("#resultsContainer").append(`<h4 class="mt-5 mb-3">Outras sugestões</h4><div class="list-group">`);
-
+				$("#resultsContainer").append(`<h5 class="mt-3 mb-3">Outras sugestões</h5><div class="list-group">`);
 				suggested.slice(1).forEach(el => {
 					$("#resultsContainer").append(`
 						<div class="list-group-item flex-column align-items-start">
