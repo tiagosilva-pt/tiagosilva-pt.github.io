@@ -1,161 +1,184 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
 	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/flatly/bootstrap.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap-reboot.min.css" integrity="sha512-stCMej6DXfErBwD8bQrJsG2dFPHNW9y8cmccQhW0o+GeSxKzjABmIVdwOzQ5Vlw4HYoEwrECGDRQs8xF0f9ssg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		
+		<title>Wine Picker</title>
 	</head>
-	<body class="mx-1 text-center">
-		<span><h1>Wine Picker</h1><p class="font-weight-light">by Le Wine Bug</p></span>
-		
-			<div class="card p-2">
-				<div class="form-group pt-5">
-					<div class="btn-group btn-group-md" role="group" id="btn-group-meal-type">
-						<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" value="main" checked>
-						<label class="btn btn-outline-primary" for="btnradio1">Prato Principal</label>
-					
-						<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" value="tapas">
-						<label class="btn btn-outline-primary" for="btnradio2">Entradas e Petiscos</label>
-					
-						<input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" value="desert">
-						<label class="btn btn-outline-primary" for="btnradio3">Sobremesa</label>
-					</div>
-				</div>
-				
-				<div class="form-group px-5 py-5">
-					<select id="main_select" name="main_select" class="form-select">
-						<option value="meat">Carnes vermelhas</option>
-						<option value="bird">Aves</option>
-						<option value="fish">Peixe</option>
-						<option value="veg">Vegetariano</option>
-						<option value="spicy">Picante</option>
+	<body>
+		<div class="flex-fill p-2 m-5">
+			<h1>Wine Picker</h1>
+			<h4>by Le Wine Bug</h4>
+			
+				<h4 class="mt-5">Prato</h4>
+				<input type="text" list="selectDishList" class="form-control form-control-lg">
+				<datalist id="selectDishList">
+					<select class="form-select">
+						<option data-value='soup' value='Açorda'>
+						<option data-value='red_meat' value='Alcatra'>
+						<option data-value='deli' value='Alheira'>
+						<option data-value='seafood' value='Ameijoas'>
+						<option data-value='red_meat' value='Anho'>
+						<option data-value='acid' value='Arroz de cabidela'>
+						<option data-value='grease_fish' value='Bacalhau à Minhota'>
+						<option data-value='fish' value='Bacalhau Cozido'>
+						<option data-value='desert' value='Bolo'>
+						<option data-value='red_meat' value='Butelo'>
+						<option data-value='red_meat' value='Cabrito assado'>
+						<option data-value='grease_fish' value='Caldeirada'>
+						<option data-value='seafood' value='Camarão ao Alho'>
+						<option data-value='soup' value='Canja'>
+						<option data-value='spicy' value='Caril'>
+						<option data-value='red_meat' value='Chanfana'>
+						<option data-value='desert' value='Chocolate'>
+						<option data-value='deli' value='Chouriça'>
+						<option data-value='deli' value='Chouriço'>
+						<option data-value='red_meat' value='Cozido à Portuguesa'>
+						<option data-value='red_meat' value='Ensopado'>
+						<option data-value='deli' value='Farinheira'>
+						<option data-value='red_meat' value='Feijoada'>
+						<option data-value='spicy' value='Francesinha'>
+						<option data-value='white_meat' value='Frango Churrasco'>
+						<option data-value='white_meat' value='Galo Assado'>
+						<option data-value='soup' value='Gaspacho'>
+						<option data-value='red_meat' value='Javali'>
+						<option data-value='grease_fish' value='Lampreia'>
+						<option data-value='pasta' value='Lasanha'>
+						<option data-value='red_meat' value='Leitão'>
+						<option data-value='deli' value='Linguiça'>
+						<option data-value='seafood' value='Marisco'>
+						<option data-value='red_meat' value='Migas à Alentejana'>
+						<option data-value='vegetable' value='Migas de Espargos'>
+						<option data-value='deli' value='Morcela'>
+						<option data-value='seafood' value='Ostras'>
+						<option data-value='deli' value='Paio'>
+						<option data-value='fish' value='Pataniscas Bacalhau'>
+						<option data-value='grease_fish' value='Peixe Assado'>
+						<option data-value='fish' value='Peixe Grelhado'>
+						<option data-value='pasta' value='Pizza'>
+						<option data-value='red_meat' value='Posta de Vitela'>
+						<option data-value='deli' value='Presunto'>
+						<option data-value='cheese' value='Queijo Amanteigado'>
+						<option data-value='cheese' value='Queijo Curado'>
+						<option data-value='acid' value='Rojões'>
+						<option data-value='desert' value='Salada de Frutas'>
+						<option data-value='seafood' value='Salada de Marisco'>
+						<option data-value='veggie' value='Salada de Vegetais'>
+						<option data-value='deli' value='Salpicão'>
+						<option data-value='seafood' value='Sapateira'>
+						<option data-value='acid' value='Sarrabulho'>
+						<option data-value='soup' value='Sopa de Cação'>
+						<option data-value='pasta' value='Spagheti Bolonhesa'>
+						<option data-value='fish' value='Sushi'>
+						<option data-value='desert' value='Tarte'>
+						<option data-value='red_meat' value='Tripas à Moda do Porto'>
+						<option data-value='veggie' value='Vegetais'>
+						<option data-value='red_meat' value='Vitela Assada'>
 					</select>
-					<select id="tapas_select" name="tapas_select" class="form-select">
-						<option value="seafood">Marisco</option>
-						<option value="cheese">Queijo</option>
-						<option value="delicatessen">Enchidos</option>
-					</select>
-					<select id="desert_select" name="desert_select" class="form-select">
-						<option value="cake">Bolos</option>
-						<option value="chocolate">Chocolate</option>n>
-					</select>
-				</div>
+				</datalist>	
+				<h4 class="mt-4">Orçamento</h4>
+				<input id="budget" type="range" class="form-range" min="0" max="30" step="1" onInput="$('#rangeval').html($(this).val() + '€')">
+				<span id="rangeval">15 €</span>
 
-				<div class="form-group px-2">
-					<div class="btn-group btn-group-md" role="group" id="btn-group-budget">
-						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio1" autocomplete="off" value="5" checked>
-						<label class="btn btn-outline-primary" for="budgetradio1">Até 5€</label>
-					
-						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio2" autocomplete="off" value="10">
-						<label class="btn btn-outline-primary" for="budgetradio2">Até 10€</label>
-					
-						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio3" autocomplete="off" value="20">
-						<label class="btn btn-outline-primary" for="budgetradio3">Até 20€</label>
-
-						<input type="radio" class="btn-check" name="budgetradio" id="budgetradio4" autocomplete="off" value="21">
-						<label class="btn btn-outline-primary" for="budgetradio4">Mais de 20€</label>
-					</div>
+				<div class="d-grid gap-2">
+					<button type="button" class="btn btn-primary btn-lg mt-4" onclick="getWine()">Procurar</button>
 				</div>
+			
 
-					
-				<div class="form-group py-5">
-					<div class="text-center">
-						<button id="submit" class="btn btn-lg btn-success">Recomendar</button>
-					</div>
-				</div>
-				
-				<div class="form-group px-2" id="suggestion">
-				</div>
-				
-				<div class="form-group px-2" id="no_suggestion">
-					<h5>Sem sugestões</h5>
-				</div>	
-
+			<div class="container-fluid mt-5 px-0" id="recommendedContainer">
 			</div>
-		
+
+			<div class="container-fluid mt-5 px-0" id="resultsContainer">
+			</div>
+			
+		</div>
 	</body>
 	<script>
-		var wines = [
-			{name: 'Papa Figos', type: ['meat', 'fish', 'cheese'], min: 5, max: 9, url: 'https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw6e969c6d/images/col/495/4952282-frente.jpg?sw=2000&sh=2000'},
-			{name: 'Aveleda', type: ['fish', 'seafood'], min: 3, max: 5, url: 'https://www.vinha.pt/wp-content/uploads/2015/05/100582.jpg'},
-			{name: 'Casal Garcia', type: ['seafood', 'bird', 'veg'], min: 3, max: 6, url:'https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw6679d1d8/images/col/205/2050292-frente.jpg?sw=2000&sh=2000'},
-			{name: 'Porto Ferreira Ruby', type: ['cake', 'chocolate'], min: 5, max: 10, url: 'https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw62206f3c/images/col/205/2050381-frente-caixa.jpg?sw=2000&sh=2000'},
+		let db = [
+			{'name': 'Terras de Lava 2019 - Branco - Pico, Açores', 'price': 12, 'dish': ['fish', 'seafood'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEh8OuW7cQJTo23dhcBwN8b1WimIZmtAvYZbY12__YZ60F1pSm-AiJA-0Zu5OYuoRMU17xkavgRtGmdM_WqedSYY8YFAt0xXFFjO_1_f9jLhpCc17GrMcROsc5RZCptPPVavsCJByatoJm42nyPI4SaGPvJrcZnRvtHKSKmlbjKShZBy_cX7j8iLjlSw=w400-h400', 'link': 'https://www.lewinebug.com/2021/02/terras-de-lava-2019-branco-pico-acores.html'},
+			{'name': '370 Léguas - Douro - Tinto - 2019', 'price': 3, 'dish': ['white_meat', 'grease_fish'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEif4I9RmN6JkUex-c0Py6nGaHQMsJGReqqJeLsKws7ontIUuN6VcPhdRX-xCeQoY3_ThXj0dxIINznuvwXDIx6A1MQsIoB3PihgLqOcCAjpnJO5NrF1aw4C-v7_3C2svKCkZdqEjCpkDDFupG3n94eCtVJFkM7X7wduQ8dA1EPDT5E6MrnYDmkk4Fi0=s1080', 'link': 'https://www.lewinebug.com/2020/02/370-leguas-douro-tinto-2019.html'},
+			{'name': 'Compromisso Colheita Seleccionada - Branco - 2019 - Loureiro - Vinhos Verdes', 'price': 3, 'dish': ['white_meat', 'fish', 'spicy'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEi73cs2srtpeKz6z-diGlyUqm2KMRx82guHRZj64Ae0Hc-cbwtU063dVE4i0YNWHA8Id2Zr1ADmcLT1KTzjasKpRht9EJ36ywaQ5900etZYv61Us0Bvj4vgbBwMfbAws0JUOUAJ19UqdURKSSNZ1_uq3h7vJuAOT6jMppW0Zzj8jU_4B-KuH47-TDBK=w400-h400', 'link': 'https://www.lewinebug.com/2021/02/compromisso-colheita-seleccionada.html'},
+			{'name': 'Quinta da Bacalhôa Cabernet Sauvignon - 2016 - Setúbal', 'price': 13, 'dish': ['red_meat', 'acid', 'pasta', 'cheese'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEg11vAsPPxnRbps79oyA8sAPOxJzOZ3WtOdPQOX1XU53YZpxu4F7nORf7JPMoh02P627rXmc4m7e8ya3wuFfwS9vCvw_eLWasmpUlAsdEXgFLE2swjb_5XP4qEkNnO-rNEju8IaR9YV0n5PuKD3c-0sP3CNqK9XrRHV1npIDfL8vpY4jL0Bi1-Fi0cg=w400-h400', 'link': 'https://www.lewinebug.com/2021/02/quinta-da-bacalhoa-cabernet-sauvignon.html'},
+			{'name': 'Gonzalez Byass - Nectar - Jerez, Espanha', 'price': 9, 'dish': ['desert'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEhd-I5Sx1lK65-nuYqRdmzU0UEBJ_cAuK25jKb8w6m7TC0RDxB7AuRmUx1H-TnK5ARxy2lZvM41THk_hVxK8dwnXIOhbP11EyZqAO976dQRWHjXZeCUi2fRaflxUaD2WhIYmq-WZlMLLxJFTyj5W7zhx0Xgt28pVHaUYL7DJI-LoqkflG9oag3NfYZT=w400-h400', 'link': 'https://www.lewinebug.com/2022/02/gonzalez-byass-nectar-jerez-espanha.html'},
+			{'name': 'Busto - Tinto - 2016 - Douro', 'price': 3, 'dish': ['white_meat', 'grease_fish'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEjLidoqJdKGKF7V_MRwlenHKLzH7ZXXgZ97iW-6Zw4y2nGzIEV8AqTxEt_IxQkVa7YYkJYejYCMJcG3e0OPuyHlQZ6Nn8wpsEWQHxNTNGYsp7emwJzyWTl287K_A5qO7pdP1I89nj0LMfr6E8pjJw4e97dVwn1rLYi0iiYoVFX83_JRpjI-CrdTaZFA=w400-h379', 'link': 'https://www.lewinebug.com/2022/01/busto-tinto-2016-douro.html'},
+			{'name': 'Pomares - Tinto - 2019 - Douro', 'price': 7, 'dish': ['red_meat', 'acid', 'pasta', 'cheese'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEgdleiYZpfmPSmOumZ_fQro7R_NYPRs5J94b67dOEpglhha0TKEeGiQHUd72tW8KBL5kxaR05p2NjarzH_J2p16v1k1RqU5480hG1kiBaOmL7EWCXwCQuaPpVkt_XdakuVZe7mWHaO2h1EHGdfUpg7PLxV7UkA4jEyXuCWUhriAmDyodeK7goUlntc3=s4219', 'link': 'https://www.lewinebug.com/2022/01/pomares-tinto-2019-douro.html'},
+			{'name': 'Callabriga - Tinto - 2019 - Douro', 'price': 13, 'dish': ['red_meat', 'acid', 'pasta', 'cheese'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEjLv8uYXgYn4bc_b9_oVrR1NtNTS5UEUpD3nLG6ammKeeC3Jdt5Hv6H4-Q4vJiWLUl52A2AV_Iv1NLqr_ol6Ji-bAnS2VMUrQmFBw3OCVrq7LEC6rSxjoYKIj4dapvYgBfcm-bPMamLUvYGxQr5BzybJaaNl6xGvdFrMYej1sG7DsqDaklQx5N5y1Mk=w400-h380', 'link': 'https://www.lewinebug.com/2022/01/callabriga-tinto-2019-douro.html'},
+			{'name': 'Alambre - Moscatel Fortificado - Setúbal', 'price': 5, 'dish': ['desert', 'cheese'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEiwUShEtpvjoHlhXyIfdV-DjilIvyKmsbUdPH4q6mZwkNqPFXz4MCjQn7MZwrryn6sFOO8vzCcHnCkkfPNbavcSLVOBFsa1FZ1T8dm1Zc-x1az33KFG81_AKt22nZflAiFtIkQMYBJwjERkOvg3WJ8W5_FMx4mxMrCk01eoVpmpyYX-JRecbW76isuA=w400-h378', 'link': 'https://www.lewinebug.com/2022/01/alambre-moscatel-fortificado-setubal.html'},
+			{'name': 'Tojeira Reserva - Branco - 2017 - Vinho Verde', 'price': 12, 'dish': ['fish', 'seafood', 'deli', 'cheese', 'white_meat'], 'img': 'https://lh3.googleusercontent.com/-4goXFU_cutg/YdsIaA-tdjI/AAAAAAAADoI/qFfUB9Hj_TwOkSftgyH7oxZdTIzHFEIRQCNcBGAsYHQ/271498412_777893813605129_4218179848372695260_n.jpeg', 'link': 'https://www.lewinebug.com/2022/01/tojeira-reserva-branco-2017-vinho-verde.html'},
+			{'name': 'Colossal Touriga Nacional - Tinto - 2019 - Lisboa', 'price': 4, 'dish': ['red_meat', 'acid', 'pasta', 'cheese'], 'img': 'https://blogger.googleusercontent.com/img/a/AVvXsEgCfAfFrlzmvbxCCvfS2nnECuPpkQsj0zDs-CYeIQL03oqAiRMTm6MTBJN33mHoKwdrgLVwXhTO2_mY-YK3G33W2DAnSTP9RnfxLNOVVbWbtTPE4X_oc9ZJ-5UUpfKbYhRO7H3Z7CXv1C1WcQxS60n9BjekWKJMA17bVR_vjLdjdAvkdQQr1YYjSL2H=w400-h379', 'link': 'https://www.lewinebug.com/2022/01/colossal-touriga-nacional-tinto-2019.html'},
 		];
 
-		$(function() {
-			$('#tapas_select').hide();
-			$('#desert_select').hide();
-			$('#suggestion').hide();
-			$('#no_suggestion').hide();
-			$('#more_suggestions').hide();
-		});
+		function getWine(){
+			const dish = $('#selectDishList [value="' + $('input').val() + '"]').data('value');
+			const budget = $('#budget').val();
 
-		$('#btn-group-meal-type').on("change", function() {
-			var type = $('input[name="btnradio"]:checked').val();
-			$('#main_select').hide();
-			$('#tapas_select').hide();
-			$('#desert_select').hide();
-			switch(type) {
-				case 'main':
-					$('#main_select').show();
-					break;
-				case 'tapas':
-					$('#tapas_select').show();
-					break;	
-				case 'desert':
-					$('#desert_select').show();
-					break;		
+			const suggested = db.filter(function(w) {
+  			return (w.price <= budget && w.dish.includes(dish));
+			}).sort((a, b) => parseFloat(b.price) - parseFloat(a.price));;
+
+			$("#recommendedContainer").html("");
+			$("#resultsContainer").html("");
+
+			if(suggested.length == 0) 
+			{
+				$("#recommendedContainer").append(`
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h5>Sem recomendações :(</h5> 
+						</div>
+					</div>	
+				`);
 			}
-		});
 
-		$('#submit').on("click", function() {
-			var type = $('input[name="btnradio"]:checked').val();
-			var subtype = null;
-			switch(type) {
-				case 'main':
-					subtype = $('#main_select option:selected').val();
-					break;
-				case 'tapas':
-					subtype = $('#tapas_select option:selected').val();
-					break;	
-				case 'desert':
-					subtype = $('#desert_select option:selected').val();
-					break;		
+			if(suggested.length > 0)
+			{
+				const topSuggestion = suggested[0];
+				$("#recommendedContainer").append(`
+
+				<div class="card text-center col align-self-center col-12">
+					<div class="card-header">
+						<h4>Recomendado</h4>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title mb-3">`+ topSuggestion.name +`</h5>
+						<img src="`+ topSuggestion.img +`" style="max-height:300px; max-width:100%" />
+					</div>
+					<div>
+						<button type="button" class="btn btn-block btn-success my-3" onclick="window.location='` + topSuggestion.link + `', '_blank'">
+							Prova Le Wine Bug
+						</button>
+					</div>
+				</div>	
+				`);
 			}
-			var budget = $('input[name="budgetradio"]:checked').val();
 
-			console.log(type, subtype, budget);
+			if(suggested.length > 1)
+			{
+				$("#resultsContainer").append(`<h4 class="mt-5 mb-3">Outras sugestões</h4><div class="list-group">`);
 
-			const suggested = wines.filter(function(w) {
-  			return (w.max <= budget && w.type.includes(subtype));
-			});
-
-			if(suggested.length == 0) {
-				$('#no_suggestion').show();
-				$('#suggestion').hide();
-				$('#more_suggestions').hide();
-			}
-			else{
-				$('#no_suggestion').hide();
-				$('#suggestion').empty();
-				suggested.forEach(function(suggestion){
-					$('#suggestion').append(`
-						<div class="form-group px-2">
-						<img style="max-height: 10rem;width: 100%; height: 100%; object-fit: contain;" id="image" src='` + suggestion.url+ `''>
-						<h5>` + suggestion.name + `</h5>
-						<p>Entre ` + suggestion.min + `€ e ` + suggestion.max + `€. </p>
-						<p>Comprar aqui! (brevemente)</p>
-						</div>`)
+				suggested.slice(1).forEach(el => {
+					$("#resultsContainer").append(`
+						<div class="list-group-item flex-column align-items-start">
+							<div class="d-flex w-100 justify-content-start mb-2">
+								<img src="`+ el.img +`" style="max-height:150px; max-width:33%" />
+								<div class="d-flex w-100 flex-column align-items-stretch mb-2">
+									<h5 class="mb-3 ml-2">`+ el.name +`</h5>
+									<button type="button" class="btn btn-block btn-success mt-auto" onclick="window.location='` + el.link + `', '_blank'">
+										Prova Le Wine Bug
+									</button>
+								</div>
+							</div>
+						</div>
+					`);
 				});
-				$('#suggestion').show();
-				}
-
-
-
-		});
-
-
+				$("#resultsContainer").append(`</div>`);
+			}
+		}
 	</script>
 </html>
