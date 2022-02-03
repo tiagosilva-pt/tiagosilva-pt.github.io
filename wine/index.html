@@ -14,75 +14,83 @@
 	<body>
 		<div class="flex-fill p-0 m-0">
 			<div style="background-color:whitesmoke" class="p-2 m-1">
-				<h6 class="mt-2">Prato</h6>
-				<input type="text" list="selectDishList" class="form-control">
-				<datalist id="selectDishList">
-					<select class="form-select">
-						<option data-value='soup' value='Açorda'>
-						<option data-value='red_meat' value='Alcatra'>
-						<option data-value='deli' value='Alheira'>
-						<option data-value='seafood' value='Ameijoas'>
-						<option data-value='red_meat' value='Anho'>
-						<option data-value='acid' value='Arroz de cabidela'>
-						<option data-value='grease_fish' value='Bacalhau à Minhota'>
-						<option data-value='fish' value='Bacalhau Cozido'>
-						<option data-value='desert' value='Bolo'>
-						<option data-value='red_meat' value='Butelo'>
-						<option data-value='red_meat' value='Cabrito assado'>
-						<option data-value='grease_fish' value='Caldeirada'>
-						<option data-value='seafood' value='Camarão ao Alho'>
-						<option data-value='soup' value='Canja'>
-						<option data-value='spicy' value='Caril'>
-						<option data-value='red_meat' value='Chanfana'>
-						<option data-value='desert' value='Chocolate'>
-						<option data-value='deli' value='Chouriça'>
-						<option data-value='deli' value='Chouriço'>
-						<option data-value='red_meat' value='Cozido à Portuguesa'>
-						<option data-value='red_meat' value='Ensopado'>
-						<option data-value='deli' value='Farinheira'>
-						<option data-value='red_meat' value='Feijoada'>
-						<option data-value='spicy' value='Francesinha'>
-						<option data-value='white_meat' value='Frango Churrasco'>
-						<option data-value='white_meat' value='Galo Assado'>
-						<option data-value='soup' value='Gaspacho'>
-						<option data-value='red_meat' value='Javali'>
-						<option data-value='grease_fish' value='Lampreia'>
-						<option data-value='pasta' value='Lasanha'>
-						<option data-value='red_meat' value='Leitão'>
-						<option data-value='deli' value='Linguiça'>
-						<option data-value='seafood' value='Marisco'>
-						<option data-value='red_meat' value='Migas à Alentejana'>
-						<option data-value='vegetable' value='Migas de Espargos'>
-						<option data-value='deli' value='Morcela'>
-						<option data-value='seafood' value='Ostras'>
-						<option data-value='deli' value='Paio'>
-						<option data-value='fish' value='Pataniscas Bacalhau'>
-						<option data-value='grease_fish' value='Peixe Assado'>
-						<option data-value='fish' value='Peixe Grelhado'>
-						<option data-value='pasta' value='Pizza'>
-						<option data-value='red_meat' value='Posta de Vitela'>
-						<option data-value='deli' value='Presunto'>
-						<option data-value='cheese' value='Queijo Amanteigado'>
-						<option data-value='cheese' value='Queijo Curado'>
-						<option data-value='acid' value='Rojões'>
-						<option data-value='desert' value='Salada de Frutas'>
-						<option data-value='seafood' value='Salada de Marisco'>
-						<option data-value='veggie' value='Salada de Vegetais'>
-						<option data-value='deli' value='Salpicão'>
-						<option data-value='seafood' value='Sapateira'>
-						<option data-value='acid' value='Sarrabulho'>
-						<option data-value='soup' value='Sopa de Cação'>
-						<option data-value='pasta' value='Spagheti Bolonhesa'>
-						<option data-value='fish' value='Sushi'>
-						<option data-value='desert' value='Tarte'>
-						<option data-value='red_meat' value='Tripas à Moda do Porto'>
-						<option data-value='veggie' value='Vegetais'>
-						<option data-value='red_meat' value='Vitela Assada'>
-					</select>
-				</datalist>	
-				<h6 class="mt-4">Orçamento</h6>
-				<input id="budget" type="range" class="form-range" min="0" max="30" step="1" onInput="$('#rangeval').html($(this).val() + '€')">
-				<span id="rangeval">15 €</span>
+				<div class="row">
+					<div class="col-6">
+						<h6 class="mt-2">Prato</h6>
+						<input type="text" list="selectDishList" class="form-control">
+						<datalist id="selectDishList">
+							<select class="form-select">
+								<option data-value='soup' value='Açorda'>
+								<option data-value='red_meat' value='Alcatra'>
+								<option data-value='deli' value='Alheira'>
+								<option data-value='seafood' value='Ameijoas'>
+								<option data-value='red_meat' value='Anho'>
+								<option data-value='acid' value='Arroz de cabidela'>
+								<option data-value='grease_fish' value='Bacalhau à Minhota'>
+								<option data-value='fish' value='Bacalhau Cozido'>
+								<option data-value='desert' value='Bolo'>
+								<option data-value='red_meat' value='Butelo'>
+								<option data-value='red_meat' value='Cabrito assado'>
+								<option data-value='grease_fish' value='Caldeirada'>
+								<option data-value='seafood' value='Camarão ao Alho'>
+								<option data-value='soup' value='Canja'>
+								<option data-value='spicy' value='Caril'>
+								<option data-value='red_meat' value='Chanfana'>
+								<option data-value='desert' value='Chocolate'>
+								<option data-value='deli' value='Chouriça'>
+								<option data-value='deli' value='Chouriço'>
+								<option data-value='red_meat' value='Cozido à Portuguesa'>
+								<option data-value='red_meat' value='Ensopado'>
+								<option data-value='deli' value='Farinheira'>
+								<option data-value='red_meat' value='Feijoada'>
+								<option data-value='spicy' value='Francesinha'>
+								<option data-value='white_meat' value='Frango Churrasco'>
+								<option data-value='white_meat' value='Galo Assado'>
+								<option data-value='soup' value='Gaspacho'>
+								<option data-value='red_meat' value='Javali'>
+								<option data-value='grease_fish' value='Lampreia'>
+								<option data-value='pasta' value='Lasanha'>
+								<option data-value='red_meat' value='Leitão'>
+								<option data-value='deli' value='Linguiça'>
+								<option data-value='seafood' value='Marisco'>
+								<option data-value='red_meat' value='Migas à Alentejana'>
+								<option data-value='vegetable' value='Migas de Espargos'>
+								<option data-value='deli' value='Morcela'>
+								<option data-value='seafood' value='Ostras'>
+								<option data-value='deli' value='Paio'>
+								<option data-value='fish' value='Pataniscas Bacalhau'>
+								<option data-value='grease_fish' value='Peixe Assado'>
+								<option data-value='fish' value='Peixe Grelhado'>
+								<option data-value='pasta' value='Pizza'>
+								<option data-value='red_meat' value='Posta de Vitela'>
+								<option data-value='deli' value='Presunto'>
+								<option data-value='cheese' value='Queijo Amanteigado'>
+								<option data-value='cheese' value='Queijo Curado'>
+								<option data-value='acid' value='Rojões'>
+								<option data-value='desert' value='Salada de Frutas'>
+								<option data-value='seafood' value='Salada de Marisco'>
+								<option data-value='veggie' value='Salada de Vegetais'>
+								<option data-value='deli' value='Salpicão'>
+								<option data-value='seafood' value='Sapateira'>
+								<option data-value='acid' value='Sarrabulho'>
+								<option data-value='soup' value='Sopa de Cação'>
+								<option data-value='pasta' value='Spagheti Bolonhesa'>
+								<option data-value='fish' value='Sushi'>
+								<option data-value='desert' value='Tarte'>
+								<option data-value='red_meat' value='Tripas à Moda do Porto'>
+								<option data-value='veggie' value='Vegetais'>
+								<option data-value='red_meat' value='Vitela Assada'>
+							</select>
+						</datalist>	
+					</div>
+
+					<div class="col-6">
+						<h6 class="mt-2">Orçamento</h6>
+						<input id="budget" type="range" class="form-range" min="0" max="30" step="1" onInput="$('#rangeval').html($(this).val() + '€')">
+						<span id="rangeval">15 €</span>
+					</div>
+				</div>
+			
 
 				<div class="d-grid gap-2">
 					<button type="button" class="btn btn-primary mt-4" onclick="getWine()">Procurar</button>
@@ -114,8 +122,9 @@
 		];
 
 		function getWine(){
-			const dish = $('#selectDishList [value="' + $('input').val() + '"]').data('value');
-			const budget = $('#budget').val();
+			var dish = $('#selectDishList [value="' + $('input').val() + '"]').data('value');
+			var budget = $('#budget').val();
+			budget = budget == 30 ? 99999 : budget;
 
 			const suggested = db.filter(function(w) {
   			return (w.price <= budget && w.dish.includes(dish));
