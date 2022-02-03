@@ -134,7 +134,7 @@
 
 			const suggested = db.filter(function(w) {
   			return (w.price <= budget && w.dish.includes(dish));
-			}).sort((a, b) => parseFloat(b.price) - parseFloat(a.price));;
+			}).sort((a, b) => parseFloat(b.price) - parseFloat(a.price)).slice(0,6);
 
 			$("#recommendedContainer").html("");
 			$("#resultsContainer").html("");
