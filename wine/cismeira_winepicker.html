@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+		
+		<title>Cismeira Wine Picker</title>
+	</head>
+	<body style="max-width: 500px; margin: auto;">
+		<div class="flex-fill p-0 m-0">
+			<div style="background-color:whitesmoke" class="p-2 m-1">
+				<div class="row">
+					<div class="col-12">
+						<h2 style="text-align:center">Cismeira Wine Picker</h2>
+						<h6 class="mt-2">Prato</h6>
+						<input type="text" list="selectDishList" class="form-control">
+						<datalist id="selectDishList">
+							<select class="form-select">
+								<option data-value='3' value='Alcatra'>
+								<option data-value='3' value='Alheira'>
+								<option data-value='1' value='Ameijoas'>
+								<option data-value='3' value='Anho'>
+								<option data-value='1' value='Arroz de cabidela'>
+								<option data-value='2' value='Bacalhau à Minhota'>
+								<option data-value='2' value='Bacalhau Cozido'>
+								<option data-value='3' value='Bolo'>
+								<option data-value='3' value='Butelo'>
+								<option data-value='3' value='Cabrito assado'>
+								<option data-value='2' value='Caldeirada'>
+								<option data-value='1' value='Camarão ao Alho'>
+								<option data-value='1' value='Caril'>
+								<option data-value='3' value='Chanfana'>
+								<option data-value='3' value='Chocolate'>
+								<option data-value='3' value='Chouriça'>
+								<option data-value='3' value='Chouriço'>
+								<option data-value='3' value='Cozido à Portuguesa'>
+								<option data-value='3' value='Ensopado'>
+								<option data-value='3' value='Farinheira'>
+								<option data-value='3' value='Feijoada'>
+								<option data-value='1' value='Francesinha'>
+								<option data-value='3' value='Frango Churrasco'>
+								<option data-value='3' value='Galo Assado'>
+								<option data-value='3' value='Javali'>
+								<option data-value='2' value='Lampreia'>
+								<option data-value='1' value='Lasanha'>
+								<option data-value='3' value='Leitão'>
+								<option data-value='3' value='Linguiça'>
+								<option data-value='1' value='Marisco'>
+								<option data-value='3' value='Migas à Alentejana'>
+								<option data-value='1' value='Migas de Espargos'>
+								<option data-value='3' value='Morcela'>
+								<option data-value='1' value='Ostras'>
+								<option data-value='3' value='Paio'>
+								<option data-value='2' value='Pataniscas Bacalhau'>
+								<option data-value='2' value='Peixe Assado'>
+								<option data-value='1' value='Peixe Grelhado'>
+								<option data-value='1' value='Pizza'>
+								<option data-value='3' value='Posta de Vitela'>
+								<option data-value='3' value='Presunto'>
+								<option data-value='3' value='Queijo Amanteigado'>
+								<option data-value='3' value='Queijo Curado'>
+								<option data-value='3' value='Rojões'>
+								<option data-value='3' value='Salada de Frutas'>
+								<option data-value='1' value='Salada de Marisco'>
+								<option data-value='1' value='Salada de Vegetais'>
+								<option data-value='3' value='Salpicão'>
+								<option data-value='1' value='Sapateira'>
+								<option data-value='3' value='Sarrabulho'>
+								<option data-value='1' value='Spaghetti'>
+								<option data-value='1' value='Sushi'>
+								<option data-value='3' value='Tarte'>
+								<option data-value='3' value='Tripas à Moda do Porto'>
+								<option data-value='1' value='Vegetais'>
+								<option data-value='3' value='Vitela Assada'>
+							</select>
+						</datalist>	
+					</div>
+				</div>
+			
+
+				<div class="d-grid gap-2">
+					<button type="button" class="btn btn-primary mt-4" onclick="getWine()">Procurar</button>
+				</div>
+			</div>
+			
+
+			<div class="container-fluid mt-3 p-1" id="recommendedContainer">
+			</div>
+			
+		</div>
+	</body>
+	<script>
+		let db = [
+			{'id': '1', 'name': 'Cismeira Colheita - Branco', 'img': 'https://cismeira.com/public//storage/wines/May2021/rDEbZA7XDcWTRe6IwAhQ.png', 'link': 'https://cismeira.com/pt/wines/colheita-branco', 'store': 'https://cismeira.com/pt/shop/colheita-branco'},
+			{'id': '2', 'name': 'Cismeira Reserva - Branco', 'img': 'https://cismeira.com/public//storage/wines/May2021/zBskomqxARwntZ82Fcz3.png', 'link': 'https://cismeira.com/pt/wines/reserva-branco', 'store': 'https://cismeira.com/pt/shop/reserva-branco'},
+			{'id': '3', 'name': 'Scarpa da Cismeira - Tinto', 'img': 'https://cismeira.com/public//storage/wines/May2021/f1Vbz8qDUjwSCPeVM4lX.png', 'link': 'https://cismeira.com/pt/wines/reserva-tinto', 'store': 'https://cismeira.com/pt/shop/reserva-tinto'},
+		];
+
+		function getWine(){
+			var dish = $('#selectDishList [value="' + $('input').val() + '"]').data('value');
+
+			const suggested = db.filter(function(w) {
+  				return (w.id == dish);
+			})
+
+			$("#recommendedContainer").html("");
+			$("#resultsContainer").html("");
+
+			if(suggested.length == 0) 
+			{
+				$("#recommendedContainer").append(`
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h6>Sem recomendações :(</h6> 
+						</div>
+					</div>	
+				`);
+			}
+
+			if(suggested.length > 0)
+			{
+				const topSuggestion = suggested[0];
+				$("#recommendedContainer").append(`
+					<h6 style="text-align: left">Recomendado</h6>
+					<div class="card text-center col align-self-center col-12">	
+						<div class="card-body">
+							<h5 class="card-title mb-3">`+ topSuggestion.name +`</h5>
+							<img src="`+ topSuggestion.img +`" style="max-height:300px; max-width:100%" />
+						</div>
+						<div class="row">
+							<div class="col-6" style="text-align:right">
+								<a class="btn btn-primary my-3 mt-auto" target="_parent" href="` + topSuggestion.link + `" role="button">Detalhes</a>
+							</div>
+							<div class="col-6" style="text-align:left">
+								<a class="btn btn-primary my-3 mt-auto" target="_parent" href="` + topSuggestion.store + `" role="button">Comprar online</a>
+							</div>
+						</div>
+					</div>	
+				`);
+			}
+		}
+	</script>
+</html>
