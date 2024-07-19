@@ -35,5 +35,9 @@ body {
 .story {
     max-width: 90%;
     text-align: justify;
-    margin: 0% 20%;
+    margin: 0% 5%;
+}
+
+.title {
+    margin-top: 10px;
 }
