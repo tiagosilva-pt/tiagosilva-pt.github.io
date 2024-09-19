@@ -58,6 +58,8 @@ body {
     font-size: 1.8rem;
 }
 
+/* Aux styles */
+
 .mt-5 {
     margin-top: 5px; 
 }
@@ -67,5 +69,5 @@ body {
 }
 
 .ff-monospace {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
 }
