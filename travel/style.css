@@ -38,6 +38,30 @@ body {
     margin: 0% 5%;
 }
 
-.title {
-    margin-top: 10px;
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.header-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 7vh;
+    margin-right: 1vh;
+}
+
+.header-title {
+    margin-top: 20px; 
+    font-size: 1.8rem;
+}
+
+.mt-5 {
+    margin-top: 5px; 
+}
+
+.mt-10 {
+    margin-top: 10px; 
 }
