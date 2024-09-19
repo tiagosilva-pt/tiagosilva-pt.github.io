@@ -65,3 +65,7 @@ body {
 .mt-10 {
     margin-top: 10px; 
 }
+
+.ff-monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
