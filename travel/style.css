@@ -58,6 +58,30 @@ body {
     font-size: 1.8rem;
 }
 
+.index-photo {
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.index-photo-container {
+    width: 100%;
+}
+
+.index-photo-element-left {
+    float: left; 
+    width: 45%; 
+    text-align: right;
+    margin: 1%;
+}
+
+.index-photo-element-right {
+    float: right; 
+    width: 45%; 
+    text-align: left;
+    margin: 1%;
+}
+
 /* Aux styles */
 
 .mt-5 {
