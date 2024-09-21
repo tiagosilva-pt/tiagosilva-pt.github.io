@@ -65,28 +65,25 @@ body {
 }
 
 .index-photo-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
 }
 
-.index-photo-element-left {
-    float: left; 
-    width: 45%; 
-    text-align: right;
-    margin-left: 2vw;
-    margin-top: 2vh;
-}
-
-.index-photo-element-right {
-    float: right; 
-    width: 45%; 
-    text-align: left;
-    margin-right: 2vw;
-    margin-top: 2vh;
+.index-photo-element {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 
 /* Aux styles */
 .ff-monospace {
     font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+}
+
+.mb-5 {
+    margin-bottom: 5px; 
 }
 
 .mt-5 {
@@ -97,6 +94,6 @@ body {
     margin-top: 10px; 
 }
 
-.tac {
+.ta-c {
     text-align: center;
 }
