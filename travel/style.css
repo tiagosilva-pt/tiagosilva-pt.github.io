@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #ececec;;
+    background-color: #ffffff;
     color: #292929;
     font-family: Arial, Helvetica, sans-serif;
     display: table-cell;
@@ -65,9 +65,11 @@ body {
 }
 
 .index-photo-container {
+    background-color: #ececec;
     display: grid;
     grid-template-columns: 50vw auto;
     width: 100%;
+    padding-top: 10px;
 }
 
 .index-photo-element {
