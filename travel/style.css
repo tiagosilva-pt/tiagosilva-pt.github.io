@@ -59,8 +59,8 @@ body {
 }
 
 .index-photo {
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 30vw;
     object-fit: cover;
 }
 
@@ -72,17 +72,22 @@ body {
     float: left; 
     width: 45%; 
     text-align: right;
-    margin: 1%;
+    margin-left: 2vw;
+    margin-top: 2vh;
 }
 
 .index-photo-element-right {
     float: right; 
     width: 45%; 
     text-align: left;
-    margin: 1%;
+    margin-right: 2vw;
+    margin-top: 2vh;
 }
 
 /* Aux styles */
+.ff-monospace {
+    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+}
 
 .mt-5 {
     margin-top: 5px; 
@@ -92,6 +97,6 @@ body {
     margin-top: 10px; 
 }
 
-.ff-monospace {
-    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+.tac {
+    text-align: center;
 }
