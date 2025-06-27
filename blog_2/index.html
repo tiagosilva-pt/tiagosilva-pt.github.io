@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiago Silva</title>
+    <style>
+        :root {
+            --primary: #333;
+            --accent: #0077cc;
+            --background: #f9f9f9;
+            --font: 'Segoe UI', sans-serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: var(--font);
+            background: var(--background);
+            color: var(--primary);
+            padding-top: 60px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        nav {
+            margin-right: 30px;
+        }
+
+        nav select {
+            padding: 5px;
+            font-size: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+            box-sizing: border-box;
+        }
+
+        article {
+            margin-bottom: 60px;
+        }
+
+        article img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            display: block;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 40px 0;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .article-title {
+            font-size: 1.6rem;
+            color: var(--accent);
+            margin-bottom: 5px;
+        }
+
+        .article-date {
+            font-size: 0.9rem;
+            color: gray;
+            margin-bottom: 15px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            .article-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tiago Silva</h1>
+        <h6>Mostly IT, sometimes really interesting stuff.</h6>
+        <nav>
+            <select id="articleMenu">
+                <option disabled selected>Articles</option>
+            </select>
+        </nav>
+    </header>
+
+    <main id="articles">
+        <article id="article-4">
+            <h2 class="article-title">Observability vs Monitoring</h2>
+            <div class="article-date">26/06/2025</div>
+            <img src="img/observability.webp" loading="lazy" />
+            <p>There’s a lot of talk about observability these days, and it’s easy to confuse it with monitoring. But
+                the difference really matters — especially as systems get more complex.</p>
+            <p>Monitoring is about tracking known things. You define metrics and thresholds, set up alerts, and wait to
+                be told when something breaks. It’s reactive. You already know the kinds of problems you’re looking for,
+                and you build tools to catch them.</p>
+            <p>Observability, on the other hand, is about answering questions you didn’t know you’d need to ask. It’s
+                about understanding how your systems behave, diagnosing the unexpected, and making smarter decisions
+                based on real data — not assumptions. It’s a proactive and exploratory approach to understand the
+                internal state of a system by examining its external outputs.</p>
+            <p>In practice, observability is about putting the right structures in place to see and understand what your
+                systems are doing — all the time, not just when things go wrong. You start by identifying which metrics
+                actually matter for your business and your users — like response times, error rates, or system
+                throughput. Then, you instrument your code to capture useful logs, traces, and metrics. Tools like
+                OpenTelemetry can help make that process more consistent.</p>
+            <p>From there, you build dashboards that highlight what’s important and set alerts that trigger on real
+                issues, not noise. Popular tools like Prometheus, Grafana, and the ELK stack make this possible, and
+                platforms like Datadog or New Relic can bring everything into one place.</p>
+            <p>But tools alone aren’t enough. Observability has to be part of how the team works. That means using data
+                in retros, reviewing patterns after incidents, and making decisions based on what’s actually happening
+                in your systems — not just what you hope is happening.</p>
+            <p>When observability is done right, your team detects and solves problems faster, your systems run more
+                reliably, and decisions get made with more confidence. You spend less time guessing and more time
+                improving. And instead of reacting to issues, you start anticipating them — and building better systems
+                because of it.</p>
+            <p>Observability isn’t about collecting more data or spinning up endless dashboards. It’s about clarity.
+                It’s about helping your team ask better questions, spot issues early, and stay aligned with what really
+                matters — both technically and to the business.</p>
+        </article>
+        <hr />
+        <article id="article-3">
+            <h2 class="article-title">Technical Debt</h2>
+            <div class="article-date">23/6/2025</div>
+            <img src="img/technical-debt.png" loading="lazy" />
+            <p>Technical debt is inevitable, but manageable. When left unchecked, it doesn’t just affect your codebase,
+                it affects your people, delivery, and business.</p>
+
+            <p>Technical debt gradually erodes team productivity and slows down development cycles, making it harder to
+                ship features or iterate quickly. As the codebase grows, the likelihood of bugs and defects
+                increases—undermining product quality and user trust. Delivery timelines stretch, and the time-to-market
+                for new features suffers.</p>
+
+            <p>Beyond the technical realm, debt can lead to stakeholder frustration, especially when delays or
+                instability affect customer experience. It raises maintenance costs and diverts resources from
+                innovation, reducing your ability to adopt new technologies or scale effectively. Over time, this
+                misalignment between business goals and technical reality introduces risk—whether through security
+                vulnerabilities, platform limitations, or strategic inflexibility.</p>
+
+            <p>Addressing technical debt proactively is essential to maintain agility, reduce operational drag, and keep
+                the focus on building value.</p>
+
+            <p>There are different types of Technical Debt:</p>
+            <p>- Dependencies: Outdated or hard-to-maintain tools/libraries.</p>
+            <p>- Patterns: Poor design choices that cause recurring issues.</p>
+            <p>- Redundancies: Duplicated logic or fragmented systems.</p>
+            <p>- Abstract Elements: Unclear goals or shifting requirements.</p>
+            <p>- Legacy Templates: Inefficient scaffolding holding teams back.</p>
+            <p>- Concept Debt: Building unused or unnecessary features.</p>
+            <p></p>
+            <p>And different strategies to tackle and prevent it:</p>
+            <p>- Automate and update dependencies.</p>
+            <p>- Prioritize refactoring and enforce design reviews.</p>
+            <p>- Audit and consolidate duplicated components.</p>
+            <p>- Align abstract ideas with concrete business value.</p>
+            <p>- Modernize outdated templates and practices.</p>
+            <p>- Validate feature ideas early—only build what matters.</p>
+            <p>- Use agile workflows to identify issues early.</p>
+            <p>- Invest in code quality (reviews, pair programming, static analysis).</p>
+            <p>- Keep teams trained and current.</p>
+            <p>- Foster cross-team alignment.</p>
+            <p>- Design for change—anticipate growth.</p>
+            <p>- Schedule time to refactor and clean up.</p>
+            <p></p>
+            <p>Technical debt isn’t just a tech issue. It’s a business issue. Managing it well is a competitive
+                advantage.</p>
+        </article>
+        <hr />
+        <article id="article-2">
+            <h2 class="article-title">Lessons from Working with LLMs</h2>
+            <div class="article-date">20/2/2025</div>
+            <img src="img/llm.webp" loading="lazy" />
+            <p>I’ve been actively exploring large language models (LLMs) and chatbots, particularly since the release of
+                DeepSeek. Working with them both in the cloud and locally, I’ve applied them to various scenarios—from
+                software development and finance to mentoring, data analysis, and even travel planning.</p>
+            <p>Recently, I was analyzing a very large dataset and ran into a roadblock: the file size was simply too
+                large for the LLM to process effectively. I tried several approaches—cleaning, transforming,
+                compressing, and even splitting the data into smaller chunks. In essence, I was adapting my problem to
+                fit the tool.</p>
+
+            <p>Then, in one of my iterations, something unexpected happened. The LLM itself suggested that perhaps I was
+                using the wrong tool for the job. And it was right. I was so focused on making the problem work within
+                the constraints of an LLM that I overlooked more suitable solutions.</p>
+
+            <p>It was a classic case of “when all you have is a hammer, everything looks like a nail.” This experience
+                was a great reminder that while LLMs are incredibly powerful, they are not a one-size-fits-all solution.
+                Choosing the right tool for the task is just as important as understanding the problem itself.</p>
+        </article>
+        <hr />
+        <article id="article-1">
+            <h2 class="article-title">Conway’s Law</h2>
+            <div class="article-date">28/1/2025</div>
+            <img src="img/conways-law.jpg" loading="lazy" />
+            <p>"Any organization that designs a system will produce a design whose structure is a copy of the
+                organization's communication structure."</p>
+            <p>This principle is more than just an observation; it’s a strategic insight. The way teams are structured
+                and communicate within an organization profoundly impacts the systems, products, and services they
+                deliver.</p>
+            <p>Team organization is an ongoing process that must evolve with the business. Revisiting and refining team
+                topologies is essential to maintaining alignment and achieving success.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p id="copyright"></p>
+    </footer>
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Dropdown maker
+        const articles = document.querySelectorAll("article");
+        const menu = document.getElementById("articleMenu");
+
+        articles.forEach(article => {
+            const title = article.querySelector(".article-title").innerText;
+            const option = document.createElement("option");
+            option.value = `#${article.id}`;
+            option.textContent = title;
+            menu.appendChild(option);
+        });
+
+        menu.addEventListener("change", () => {
+            const targetId = menu.value;
+            const targetElement = document.querySelector(targetId);
+            const headerHeight = document.querySelector("header").offsetHeight;
+
+            if (targetElement) {
+                const offsetTop = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: "smooth"
+                });
+            }
+        });
+
+        // Scroll to top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Copyright
+        document.getElementById("copyright").textContent = `© ${new Date().getFullYear()} Tiago Silva`;
+    </script>
+</body>
+
+</html>
