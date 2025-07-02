@@ -139,6 +139,41 @@
     </header>
 
     <main id="articles">
+        <article id="article-5">
+            <h2 class="article-title">Communication breakdown</h2>
+            <div class="article-date">02/07/2025</div>
+            <img src="img/communication.jpg" loading="lazy" />
+            <p>When major systems go down, we often point to a misconfigured script, a faulty deployment, or a routing
+                error. But if we look more closely, the real culprit is often much more fundamental: a breakdown in
+                communication.</p>
+            <p>In the past few years, we’ve seen this pattern play out in high-profile outages at Atlassian, Facebook,
+                and Slack — companies known for engineering excellence. Despite having top-tier infrastructure, each of
+                these organizations faced cascading failures made worse by internal misunderstandings, unclear
+                responsibilities, or missing escalation paths.</p>
+            <p>In April 2022, Atlassian experienced a severe outage that affected over 400 customer sites — some for
+                nearly two weeks. The root cause wasn’t a novel technical failure, but a routine deletion script that
+                was misunderstood. The parameters were wrongly set, and different teams had differing assumptions about
+                the scope and safety of the operation. Without a clear handover or validation process, live customer
+                environments were accidentally taken down. The recovery effort was slow, not due to lack of expertise,
+                but because the communication channels and documentation weren’t aligned to handle such a situation
+                swiftly.</p>
+            <p>In October 2021, Facebook went dark globally for six hours. The trigger was a change to network routing
+                configurations, but the real issue was the lack of internal alignment on failure scenarios. The update
+                removed Facebook’s services — including internal tools — from the internet. With critical systems
+                offline, teams couldn’t communicate, access internal dashboards, or even enter the data centers. A
+                single misjudged assumption about rollback procedures and internal tool independence turned a manageable
+                change into a complete operational paralysis.</p>
+            <p>Slack’s January 2021 outage followed a similar theme. A misconfiguration in internal traffic routing
+                triggered widespread degradation just as the world was returning from the holidays. During the incident,
+                different engineering teams held conflicting mental models of what was failing. This misalignment led to
+                duplicated effort, delayed diagnosis, and inconsistent messaging to customers. The systems were complex
+                — but the real challenge was creating a shared understanding fast enough to respond effectively.</p>
+            <p>These incidents show us that technical excellence alone isn’t enough. In complex, fast-moving
+                environments, the quality of internal communication — before, during, and after an incident — is what
+                determines resilience. Systems fail. What matters is how we talk to each other when they do.
+            </p>
+            <p>Communication is infrastructure.</p>
+        </article>
         <article id="article-4">
             <h2 class="article-title">Observability vs Monitoring</h2>
             <div class="article-date">26/06/2025</div>
