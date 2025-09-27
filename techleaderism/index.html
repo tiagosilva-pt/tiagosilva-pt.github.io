@@ -31,7 +31,7 @@
             top: 0;
             width: 100%;
             background: white;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
             z-index: 1000;
             display: flex;
             justify-content: space-between;
@@ -147,7 +147,9 @@
 <body>
 
     <header>
-        <h1>Tech Leaderism</h1>
+        <a href="index.html" style="text-decoration: none; color: #333;">
+            <h1>Tech Leaderism</h1>
+        </a>
         <nav>
             <select id="articleMenu">
                 <option disabled selected>Articles</option>
@@ -156,11 +158,21 @@
     </header>
 
     <main id="articles">
+        <article id="article-20">
+            <h2 class="article-title">Lean and AI</h2>
+            <div class="article-date">27/09/2025</div>
+            <img src="img/lean-in-ai.jpg" loading="lazy" />
+            <p>Implementing AI effectively goes beyond deploying sophisticated models, it's about learning swiftly and delivering measurable value. Lean experimentation provides a structured approach to achieve this.</p>
+            <p>A notable example is Johnson & Johnson, which recently recalibrated its generative AI strategy. Initially, the company supported nearly 900 AI use cases across various functions. However, upon evaluation, they discovered that just 10–15% of these initiatives accounted for 80% of the value. This insight led to a strategic shift towards high-impact areas such as drug discovery, supply chain optimization, and internal support tools like the "Rep Copilot", an AI-driven assistant aiding sales representatives in engaging healthcare professionals.</p>
+            <p>The company has shifted its generative AI strategy from broad experimentation to a focused approach, prioritizing only the highest-value use cases while cutting projects that are redundant, ineffective, or better served by other technologies.</p>
+            <p>This shift highlights a critical lesson: experimentation alone is not enough. Success comes from focusing on initiatives that generate real impact, learning rapidly from each iteration, and strategically applying AI where it can truly transform outcomes. It's a pragmatic approach that balances innovation with measurable value.</p>
+            <p>Source: <a href="https://www.wsj.com/articles/johnson-johnson-pivots-its-ai-strategy-a9d0631f">Johnson & Johnson Pivots Its AI Strategy</a></p>
+        </article>    
         <article id="article-19">
             <h2 class="article-title">AI Code Agents: Divide and Conquer</h2>
             <div class="article-date">17/09/2025</div>
             <img src="img/divide-and-conquer.jpg" loading="lazy" />
-            <p>Code agents such as Cursor or Claude Code tend to produce more reliable results when working on small, well-defined tasks rather than large, open-ended projects. A request like “build a function that uploads an image to S3” is specific, measurable, and can be executed within the model’s reasoning window. In contrast, a request such as “build an Instagram clone” is too broad, underspecified, and quickly exceeds the agent’s ability to maintain coherence.</p>
+            <p>Code agents such as Cursor or Claude Code tend to produce more reliable results when working on small, well-defined tasks rather than large, open-ended projects. A request like “build a function that uploads an image to S3” is specific, measurable, and can be executed within the model's reasoning window. In contrast, a request such as “build an Instagram clone” is too broad, underspecified, and quickly exceeds the agent's ability to maintain coherence.</p>
             <p>The difference lies in scope and ambiguity. Large requests bundle together dozens of design decisions, architectural choices, and interdependent features. They create opportunities for error to propagate and for the model to contradict earlier assumptions. Smaller tasks reduce complexity, minimize dependencies, and offer a clear standard for success.</p>
             <p>This mirrors established software development practices. Complex systems are not built in a single step but decomposed into smaller units of work, each with its own acceptance criteria. Code agents follow the same principle: they thrive on precision and iteration.</p>
             <p>The practical takeaway is to approach code agents the way you would structure a development backlog. Break down big ideas into discrete, testable tasks. The narrower the scope, the more effective and dependable the output.</p>
