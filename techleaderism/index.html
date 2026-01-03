@@ -25,6 +25,15 @@
     </header>
 
     <main id="articles">
+        <article id="article-39">
+            <h2 class="article-title">Everything as Code</h2>
+            <div class="article-date">03/01/2026</div>
+            <img src="img/everything_as_code.jpg" loading="lazy" />
+            <p>I recently analyzed Kasava's strategy of managing their entire organization, including backend services, frontend applications, legal documentation and investor materials, within a single repository. This approach extends the traditional monorepo into what I would call a "context monorepo." By co-locating marketing configurations with actual business logic, they enable their AI agents to cross-reference pricing claims on a public website against the enforcement code in the backend, ensuring zero synchronization drift.</p>
+            <p>From a technical standpoint, the implementation prioritizes pragmatic isolation over standard monorepo tooling. This philosophy extends to their documentation strategy with the inclusion of CLAUDE.md files. This signals a subtle but significant shift where repository architecture is optimized not just for human maintainers but to serve as an effective context window for AI agents.</p>
+            <p>While this architecture assumes a high-trust environment that may be difficult to maintain at enterprise scale, it exposes a flaw in how we currently separate concerns. We often sequester documentation and specifications in silos like Confluence or Notion, effectively blinding our AI tools. Kasava's model suggests that maximizing AI leverage requires breaking down the barriers between code and content, even if it means rethinking standard permission boundaries.</p>
+            <p>Read the full engineering deep dive <a href="https://www.kasava.dev/blog/everything-as-code-monorepo">here</a>.</p>
+        </article>
         <article id="article-38">
             <h2 class="article-title">Software Carbon Intensity (SCI)</h2>
             <div class="article-date">02/01/2026</div>
