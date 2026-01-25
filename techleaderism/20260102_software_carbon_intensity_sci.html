@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Carbon Intensity (SCI)</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #333;">
+            <h1>Tech Leaderism</h1>
+        </a>
+    </header>
+
+    <main id="articles">
+        <article>
+            <article id="article-38">
+<h2 class="article-title">Software Carbon Intensity (SCI)</h2>
+<div class="article-date">02/01/2026</div>
+<img loading="lazy" src="img/carbon.jpg"/>
+<p>Measuring the carbon impact of software requires moving from abstract estimates to precise metrics. The Software Carbon Intensity (SCI) specification provides a methodology to calculate this as a rate, which is essential for understanding the environmental cost of specific technical actions, such as an API call or a user session.</p>
+<p>To implement this calculation, it is necessary to define the specific units involved in the formula:</p>
+<p><strong>SCI = ((E × I) + M) / R</strong></p>
+<p>The components are defined as follows:</p>
+<ul>
+<li><strong>Energy (E):</strong> Measured in <strong>Kilowatt-hours (kWh)</strong>. This represents the total electricity consumed by the underlying infrastructure (servers, storage, and networking) during the period being measured.</li>
+<li><strong>Location-based Carbon Intensity (I):</strong> Measured in <strong>grams of CO2 equivalent per Kilowatt-hour (gCO2e/kWh)</strong>. This figure reflects the carbon emissions of the local energy grid at the time the energy was consumed.</li>
+<li><strong>Embodied Carbon (M):</strong> Measured in <strong>grams of CO2 equivalent (gCO2e)</strong>. This accounts for the emissions generated during the manufacturing, transport, and disposal of the hardware. This value is typically amortized over the hardware's lifespan and allocated to the software based on its resource share.</li>
+<li><strong>Functional Unit (R):</strong> This is the <strong>Unit of Scale</strong>. To reach a meaningful rate, you divide the total emissions by a functional unit relevant to your business, such as <strong>per API call</strong>, <strong>per user</strong>, or <strong>per transaction</strong>.</li>
+</ul>
+<p>The resulting <strong>SCI Score</strong> is expressed as <strong>gCO2e per Functional Unit</strong>.</p>
+<p>By standardizing these units, IT professionals can establish a baseline for their systems. This allows for a granular view of how architectural changes, such as optimizing a database query or migrating to a more efficient instance type, directly reduce the carbon emitted per unit of work.</p>
+<p>The full technical details are available via the Green Software Foundation: <a href="https://sci.greensoftware.foundation/">https://sci.greensoftware.foundation/</a></p>
+</article>
+
+        </article>
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h3>More Posts</h3>
+            <ul>
+                
+                <li>
+                    <a href="20260113_shadow_ai.html">
+                        <img src="img/shadow-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Shadow AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260112_junior_devs_and_ai.html">
+                        <img src="img/junior-devs-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Junior Devs and AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260110_ai_and_the_cognitive_load.html">
+                        <img src="img/ai-cognitive-load.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        AI and the Cognitive Load
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260103_everything_as_code.html">
+                        <img src="img/everything_as_code.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Everything as Code
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">RSS Feed</a></p>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

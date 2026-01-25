@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case study: How Zoom Scaled 30x in 90 Days</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #333;">
+            <h1>Tech Leaderism</h1>
+        </a>
+    </header>
+
+    <main id="articles">
+        <article>
+            <article id="article-35">
+<h2 class="article-title">Case study: How Zoom Scaled 30x in 90 Days</h2>
+<div class="article-date">22/12/2025</div>
+<img loading="lazy" src="img/zoom.jpg"/>
+<p>In December 2019, Zoom had 10 million daily meeting participants. By April 2020? 300 million. That's not growth. That's a controlled explosion.</p>
+<p>During the COVID-19 pandemic, Zoom went from a business tool to global infrastructure overnight. Schools, hospitals, governments, families, everyone needed video conferencing simultaneously.</p>
+<p>Built on AWS cloud architecture that could scale dynamically, Zoom expanded their security monitoring infrastructure from a handful of servers to over 250 indexers and 200,000 forwarders at peak. They added 15+ data centers in months to handle regional demand and implemented end-to-end encryption across the platform.</p>
+<p>Security data logs grew from gigabytes per day to hundreds of terabytes per day. Zoom used Amazon EMR with Apache Hudi to ingest 150 million Kafka messages in under 5 minutes.</p>
+<p>When security issues emerged, CEO Eric Yuan made a decision that many executives wouldn't: he paused all feature development for 90 days to focus exclusively on security. He hired new security executives, published a 90-day security plan with weekly updates, embedded security reviews in every phase of development (design, build, test) and took personal accountability.</p>
+<p>Most companies prepare for 2x growth. Maybe 5x if they're ambitious. Zoom had to handle 30x while simultaneously fixing security issues under global scrutiny.</p>
+<p>They succeeded because their cloud-native architecture allowed elastic scaling, cross-functional teams could make rapid decisions without bureaucratic approval chains, leadership prioritized trust over short-term feature velocity and they were transparent about challenges rather than hiding them.</p>
+<p>The next crisis probably won't look like a pandemic, but it will require infrastructure that can scale orders of magnitude, not incrementally. It will require culture where teams can make rapid decisions. It will require leadership willing to pause revenue-generating work to fix fundamental issues. And it will require transparency that builds trust when things break.</p>
+</article>
+
+        </article>
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h3>More Posts</h3>
+            <ul>
+                
+                <li>
+                    <a href="20260113_shadow_ai.html">
+                        <img src="img/shadow-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Shadow AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260112_junior_devs_and_ai.html">
+                        <img src="img/junior-devs-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Junior Devs and AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260110_ai_and_the_cognitive_load.html">
+                        <img src="img/ai-cognitive-load.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        AI and the Cognitive Load
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260103_everything_as_code.html">
+                        <img src="img/everything_as_code.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Everything as Code
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">RSS Feed</a></p>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

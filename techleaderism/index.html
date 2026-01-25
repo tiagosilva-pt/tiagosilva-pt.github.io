@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech Leaderism</title>
+    <title>Tech Leaderism - Home</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -14,701 +14,243 @@
         <a href="index.html" style="text-decoration: none; color: #333;">
             <h1>Tech Leaderism</h1>
         </a>
-        <nav>
-            <select id="articleMenu">
-                <option disabled selected>Links</option>
-                <option value="home">/home</option>
-                <option value="about">/about</option>
-                <option disabled>Articles</option>
-            </select>
-        </nav>
     </header>
 
     <main id="articles">
+        <!-- Latest Post -->
         <article id="article-43">
-            <h2 class="article-title">Hero</h2>
-            <div class="article-date">22/01/2026</div>
-            <img src="img/hero.jpg" loading="lazy" />
-            <p>Every engineering organization has a “hero”. This is the person who understands the undocumented legacy code, who jumps on a call at 3 AM to restart a frozen service and the one we intuitively turn to when production is on fire. We typically reward this behavior with praise, bonuses and status. While the individual’s dedication is admirable the reliance on them is a strategic mistake.</p>
-            <p>In a resilient system the presence of a hero is not an asset, it is an architectural bug. It indicates a single point of failure that happens to be human. If a deployment succeeds only because a specific individual manually intervened, that process is broken. If an outage is resolved only because one person "just knew" where to look, the observability stack is insufficient.</p>
-            <p>Relying on heroism is unfair to the individual, who inevitably faces burnout, and it is dangerous for the business. It masks the true fragility of the system. Key person dependency creates an unacceptable level of operational risk and the institutional knowledge remains locked in a single mind rather than codified in the platform.</p>
-            <p>True seniority is shown by making oneself redundant through documentation, automation and mentorship. We must stop glorifying the firefighters and start celebrating the fire prevention. A boring, uneventful release is the ultimate sign of a mature engineering culture.</p>
-        </article>
-        <article id="article-42">
-            <h2 class="article-title">Shadow AI</h2>
-            <div class="article-date">13/01/2026</div>
-            <img src="img/shadow-ai.jpg" loading="lazy" />
-            <p>Shadow AI is the usage of not approved artificial intelligence tools or processes within a corporate environment. It occurs whenever an employee, seeking efficiency, bypasses official procurement channels to utilize public generative models for code generation, data analysis, or content creation. It is the invisible usage of authorized data on unauthorized infrastructure. This phenomenon is the direct descendant of Shadow IT and Shadow APIs.</p>
-            <p>In the era of Shadow IT, the friction of provisioning servers led engineers to spin up rogue AWS instances on personal credit cards. Later, Shadow APIs emerged when developers exposed undocumented endpoints to bypass API gateways. In both instances, the behavior was a rational response to organizational friction. The workforce treated security protocols not as safeguards, but as obstacles to velocity.</p>
-            <p>However, Shadow AI represents a fundamental shift in risk profile. While Shadow IT primarily introduced infrastructure complexity and financial opacity, Shadow AI introduces immediate data exfiltration.</p>
-            <p>When a developer pastes proprietary code into a public Large Language Model, that intellectual property is effectively published to a third party. When a dataset is uploaded for analysis, customer privacy is breached the moment the prompt is executed. The risk is no longer just about unmanaged servers; it is about the irreversible leakage of core business value.</p>
-            <p>Restricting access to generative tools via network firewalls does not eliminate usage. When the path to productivity is obstructed by policy, utilization migrates to personal devices and unsecured networks, effectively bypassing all governance.</p>
-            <p>By providing approved enterprise-grade AI interfaces that reduce friction rather than increasing it, the incentive to utilize insecure public tools dissolves.</p>
-            <p>Security in the age of AI is achieved when the secure path is also the most efficient path.</p>
-        </article>    
-        <article id="article-41">
-            <h2 class="article-title">Junior Devs and AI</h2>
-            <div class="article-date">12/01/2026</div>
-            <img src="img/junior-devs-ai.jpg" loading="lazy" />
-            <p>We rightfully celebrate AI for removing the "grunt work" from software development. It is liberating to see boilerplate code, unit test scaffolding, and simple refactors handled instantly. However, as we embrace this efficiency, we must also be mindful of the subtle role that repetitive work plays in professional development.</p>
-            <p>For decades, the path to seniority was paved with these smaller, lower-risk tasks. Debugging a simple race condition or writing a basic CRUD API was not just about shipping features; it was the training ground where intuition was built. It was through these struggles that engineers learned not just how code works, but how it breaks. If we automate the "learning curve" entirely, we risk removing the very ladder that junior engineers climb to reach expertise.</p>
-            <p>There is a distinct difference between generating a solution and understanding the trade-offs behind it. If a junior engineer’s primary role shifts too quickly from writing code to reviewing AI output, they may develop a surface-level familiarity with syntax without the deep, structural understanding that defines a senior architect.</p>
-            <p>This does not mean we should reject these tools. Instead, it places a new responsibility on engineering leadership. We can no longer rely on the work itself to teach our teams. Mentorship must become more intentional, focusing on the "why" rather than just the "how." We need to ensure that as our tools get smarter, our training processes evolve to ensure the next generation of engineers is still challenged to think deeply, not just prompt efficiently.</p>
-        </article>
-        <article id="article-40">
-            <h2 class="article-title">AI and the Cognitive Load</h2>
-            <div class="article-date">10/01/2026</div>
-            <img src="img/ai-cognitive-load.jpg" loading="lazy" />
-            <p>A modern Senior Engineer is expected to know the syntax of four languages, the quirks of three cloud providers, and the history of a decade-old codebase. This is not sustainable. The human brain has a hard limit on working memory, and when we exceed it, we don't just get slower; we make architectural mistakes.</p>
-            <p>The true value of AI in engineering isn't writing code, it is semantic compression. For years, we relied on "Just-in-Case" learning-memorizing API specs and library internals because we might need them. AI allows us to shift to a "Just-in-Time" knowledge model. Instead of reading fifty pages of documentation to find one configuration parameter, we can simply retrieve the pattern. This frees up limited cognitive capacity for high-value work like system design and edge-case analysis.</p>
-            <p>This is most visible when dealing with legacy systems. The highest cognitive load often comes from deciphering code written by developers who left years ago. Rather than spending hours building a mental model of a complex file, we can now use AI to explain data flow and highlight side effects instantly. It turns a forensic investigation into a quick confirmation.</p>
-            <p>However, this power comes with a strict caveat. AI reduces the burden of writing and finding, but it increases the burden of reviewing. If you use tools to generate code you do not fundamentally understand, you haven't reduced your cognitive load, you have merely deferred it to the debugging phase where it is exponentially more expensive.</p>
-        </article>
-        <article id="article-39">
-            <h2 class="article-title">Everything as Code</h2>
-            <div class="article-date">03/01/2026</div>
-            <img src="img/everything_as_code.jpg" loading="lazy" />
-            <p>I recently analyzed Kasava's strategy of managing their entire organization, including backend services, frontend applications, legal documentation and investor materials, within a single repository. This approach extends the traditional monorepo into what I would call a "context monorepo." By co-locating marketing configurations with actual business logic, they enable their AI agents to cross-reference pricing claims on a public website against the enforcement code in the backend, ensuring zero synchronization drift.</p>
-            <p>From a technical standpoint, the implementation prioritizes pragmatic isolation over standard monorepo tooling. This philosophy extends to their documentation strategy with the inclusion of CLAUDE.md files. This signals a subtle but significant shift where repository architecture is optimized not just for human maintainers but to serve as an effective context window for AI agents.</p>
-            <p>While this architecture assumes a high-trust environment that may be difficult to maintain at enterprise scale, it exposes a flaw in how we currently separate concerns. We often sequester documentation and specifications in silos like Confluence or Notion, effectively blinding our AI tools. Kasava's model suggests that maximizing AI leverage requires breaking down the barriers between code and content, even if it means rethinking standard permission boundaries.</p>
-            <p>Read the full engineering deep dive <a href="https://www.kasava.dev/blog/everything-as-code-monorepo">here</a>.</p>
-        </article>
-        <article id="article-38">
-            <h2 class="article-title">Software Carbon Intensity (SCI)</h2>
-            <div class="article-date">02/01/2026</div>
-            <img src="img/carbon.jpg" loading="lazy" />
-            <p>Measuring the carbon impact of software requires moving from abstract estimates to precise metrics. The Software Carbon Intensity (SCI) specification provides a methodology to calculate this as a rate, which is essential for understanding the environmental cost of specific technical actions, such as an API call or a user session.</p>
-            <p>To implement this calculation, it is necessary to define the specific units involved in the formula:</p>
-            <p><strong>SCI = ((E &times; I) + M) / R</strong></p>
-            <p>The components are defined as follows:</p>
+<h2 class="article-title">Hero</h2>
+<div class="article-date">22/01/2026</div>
+<img loading="lazy" src="img/hero.jpg"/>
+<p>Every engineering organization has a “hero”. This is the person who understands the undocumented legacy code, who jumps on a call at 3 AM to restart a frozen service and the one we intuitively turn to when production is on fire. We typically reward this behavior with praise, bonuses and status. While the individual’s dedication is admirable the reliance on them is a strategic mistake.</p>
+<p>In a resilient system the presence of a hero is not an asset, it is an architectural bug. It indicates a single point of failure that happens to be human. If a deployment succeeds only because a specific individual manually intervened, that process is broken. If an outage is resolved only because one person "just knew" where to look, the observability stack is insufficient.</p>
+<p>Relying on heroism is unfair to the individual, who inevitably faces burnout, and it is dangerous for the business. It masks the true fragility of the system. Key person dependency creates an unacceptable level of operational risk and the institutional knowledge remains locked in a single mind rather than codified in the platform.</p>
+<p>True seniority is shown by making oneself redundant through documentation, automation and mentorship. We must stop glorifying the firefighters and start celebrating the fire prevention. A boring, uneventful release is the ultimate sign of a mature engineering culture.</p>
+</article>
+
+
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h3>Recent Posts</h3>
             <ul>
-                <li><strong>Energy (E):</strong> Measured in <strong>Kilowatt-hours (kWh)</strong>. This represents the total electricity consumed by the underlying infrastructure (servers, storage, and networking) during the period being measured.</li>
-                <li><strong>Location-based Carbon Intensity (I):</strong> Measured in <strong>grams of CO2 equivalent per Kilowatt-hour (gCO2e/kWh)</strong>. This figure reflects the carbon emissions of the local energy grid at the time the energy was consumed.</li>
-                <li><strong>Embodied Carbon (M):</strong> Measured in <strong>grams of CO2 equivalent (gCO2e)</strong>. This accounts for the emissions generated during the manufacturing, transport, and disposal of the hardware. This value is typically amortized over the hardware's lifespan and allocated to the software based on its resource share.</li>
-                <li><strong>Functional Unit (R):</strong> This is the <strong>Unit of Scale</strong>. To reach a meaningful rate, you divide the total emissions by a functional unit relevant to your business, such as <strong>per API call</strong>, <strong>per user</strong>, or <strong>per transaction</strong>.</li>
+                
+                <li>
+                    <a href="20260113_shadow_ai.html">
+                        <img src="img/shadow-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Shadow AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260112_junior_devs_and_ai.html">
+                        <img src="img/junior-devs-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Junior Devs and AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260110_ai_and_the_cognitive_load.html">
+                        <img src="img/ai-cognitive-load.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        AI and the Cognitive Load
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260103_everything_as_code.html">
+                        <img src="img/everything_as_code.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Everything as Code
+                    </a>
+                </li>
+                
             </ul>
-            <p>The resulting <strong>SCI Score</strong> is expressed as <strong>gCO2e per Functional Unit</strong>.</p>
-            <p>By standardizing these units, IT professionals can establish a baseline for their systems. This allows for a granular view of how architectural changes, such as optimizing a database query or migrating to a more efficient instance type, directly reduce the carbon emitted per unit of work.</p>
-            <p>The full technical details are available via the Green Software Foundation: <a href="https://sci.greensoftware.foundation/">https://sci.greensoftware.foundation/</a></p>
-        </article>
-        <article id="article-37">
-            <h2 class="article-title">Books in 2025</h2>
-            <div class="article-date">30/12/2025</div>
-            <img src="img/books_2025.jpeg" loading="lazy" />
-            <p>Looking back at some of the books I read in 2025, I noticed a distinct theme. While technical skills are the baseline for working in IT, the ability to understand systems, people and strategy is what truly drives a career forward.</p>
-            <p>Revisiting "The Phoenix Project" alongside "Team Topologies" was a powerful exercise. It reinforced the idea that software architecture is inextricably linked to organizational architecture. You cannot optimize your deployment pipeline if you do not optimize your communication structures. Understanding cognitive load and team flow is just as critical as the code itself.</p>
-            <p>With the rapid evolution of AI, reading Harari’s "Nexus" and Doctorow’s "Enshittification" felt necessary. These books serve as a reminder that we need to be vigilant about the long-term impacts of the platforms we create and maintain.</p>
-            <p>"The Lean Startup" and "The First 90 Days" provided a solid grounding in agility. Whether you are launching a new feature or stepping into a new role, the ability to validate assumptions quickly and deliver value early is the core of modern IT strategy.</p>
-            <p>Perhaps the most useful book for my day-to-day work was "Meditations" by Marcus Aurelius. In an industry often defined by urgent incidents and rapid change, Stoicism offers a practical framework for resilience.</p>
-            <p>To be effective in IT, we have to look beyond the screen. We need to understand the business, the ethics and the people behind the technology.</p>
-        </article>
-        <article id="article-36">
-            <h2 class="article-title">Carbon Aware Metrics in Software Development</h2>
-            <div class="article-date">29/12/2025</div>
-            <img src="img/green.jpg" loading="lazy" />
-            <p>The software industry is witnessing a transition from performance-at-all-costs to carbon-aware engineering. This is not about purchasing offsets to claim neutrality, it is about architectural decisions that respond to the physical reality of the energy grid.</p>
-            <p>Core to this shift is the Software Carbon Intensity (SCI) specification. By measuring emissions per functional unit, engineering teams can treat carbon as a constraint similar to latency or memory. The mechanisms for reduction are tangible:</p>
-            <p>1. Temporal Shifting: Scheduling heavy batch loads or model training when grid intensity is low (e.g. high wind/solar availability).</p>
-            <p>2. Spatial Shifting: Routing workloads to geographic regions where the current energy mix is cleaner.</p>
-            <p>3. Demand Shaping: Adjusting application fidelity based on real-time energy availability.</p>
-            <p>The convergence of FinOps and GreenOps provides the economic lever. While efficiency usually drives down costs, carbon awareness requires sophisticated orchestration to balance grid intensity against spot pricing and performance SLAs. Sustainability is evolving from a policy statement into a compile-time optimization.</p>
-        </article>
-        <article id="article-35">
-            <h2 class="article-title">Case study: How Zoom Scaled 30x in 90 Days</h2>
-            <div class="article-date">22/12/2025</div>
-            <img src="img/zoom.jpg" loading="lazy" />
-            <p>In December 2019, Zoom had 10 million daily meeting participants. By April 2020? 300 million. That's not growth. That's a controlled explosion.</p>
-            <p>During the COVID-19 pandemic, Zoom went from a business tool to global infrastructure overnight. Schools, hospitals, governments, families, everyone needed video conferencing simultaneously.</p>
-            <p>Built on AWS cloud architecture that could scale dynamically, Zoom expanded their security monitoring infrastructure from a handful of servers to over 250 indexers and 200,000 forwarders at peak. They added 15+ data centers in months to handle regional demand and implemented end-to-end encryption across the platform.</p>
-            <p>Security data logs grew from gigabytes per day to hundreds of terabytes per day. Zoom used Amazon EMR with Apache Hudi to ingest 150 million Kafka messages in under 5 minutes.</p>
-            <p>When security issues emerged, CEO Eric Yuan made a decision that many executives wouldn't: he paused all feature development for 90 days to focus exclusively on security. He hired new security executives, published a 90-day security plan with weekly updates, embedded security reviews in every phase of development (design, build, test) and took personal accountability.</p>
-            <p>Most companies prepare for 2x growth. Maybe 5x if they're ambitious. Zoom had to handle 30x while simultaneously fixing security issues under global scrutiny.</p>
-            <p>They succeeded because their cloud-native architecture allowed elastic scaling, cross-functional teams could make rapid decisions without bureaucratic approval chains, leadership prioritized trust over short-term feature velocity and they were transparent about challenges rather than hiding them.</p>
-            <p>The next crisis probably won't look like a pandemic, but it will require infrastructure that can scale orders of magnitude, not incrementally. It will require culture where teams can make rapid decisions. It will require leadership willing to pause revenue-generating work to fix fundamental issues. And it will require transparency that builds trust when things break.</p>
-        </article>
-        <article id="article-34">
-            <h2 class="article-title">99, 99.9, 99.99 and 99.999% SLA</h2>
-            <div class="article-date">02/12/2025</div>
-            <img src="img/sla.jpg" loading="lazy" />
-            <p>The difference between availability percentages:</p>
-            <p>- 99% = 3.65 days downtime/year</p>
-            <p>- 99.9% = 8.77 hours downtime/year</p>
-            <p>- 99.99% = 52.6 minutes downtime/year</p>
-            <p>- 99.999% = 5.26 minutes downtime/year</p>
-            <p>Each additional "9" demands exponentially more investment. Redundant systems, automated failover, distributed architectures, continuous monitoring and substantially higher infrastructure costs.</p>
-            <p>The question isn't "how many nines should we target?" It's "what does downtime actually cost us?"</p>
-            <p>A payment processing system going down for even five minutes can mean millions in lost transactions and immediate regulatory scrutiny. An e-commerce platform during Black Friday can't afford 52 minutes of downtime. Healthcare systems managing patient records need near-constant availability because lives may depend on access to critical information.</p>
-            <p>But an internal HR portal experiencing 8 hours of downtime spread across a year is inconvenient, not catastrophic. A corporate blog being down for half a day won't damage the business. Development and staging environments can tolerate even lower availability without meaningful impact.</p>
-            <p>The right SLA aligns availability with actual business impact. A critical platform at 99.9% is underserving users. An internal tool at 99.999% is probably burning money on unnecessary infrastructure.</p>
-        </article> 
-        <article id="article-33">
-            <h2 class="article-title">Simplicity as a Goal</h2>
-            <div class="article-date">26/11/2025</div>
-            <img src="img/simplicity.jpg" loading="lazy" />
-            <p>In 1945, Picasso created a series of lithographs where a fully detailed bull gradually became a single continuous line. What looks like simplification is actually clarity. Removing everything that doesn't define the idea.</p>  
-            <p>Leonardo da Vinci anticipated this mindset with his belief that "simplicity is the ultimate sophistication".</p>  
-            <p>Steve Jobs turned that philosophy into Apple's product strategy. For him, simplicity wasn't minimalism but intention. Refining again and again until the purpose becomes obvious and the noise disappears.</p>  
-            <p>These three examples point to the same lesson: simplicity is not the starting point, it is the outcome of disciplined reduction.</p>  
-            <p>In technology we tend to move in the opposite direction. We add features, integrations, layers and processes. Complexity accumulates and suddenly it becomes the default. The desirable goal is to pull in the other direction, to make the problem smaller, the architecture cleaner, the product sharper and the path forward unmistakable.</p>  
-            <p>Reduce, refine and reveal the essential, until what remains is both simple and undeniably true.</p>
-        </article> 
-        <article id="article-32">
-            <h2 class="article-title">AI and Critical Infrastructure</h2>
-            <div class="article-date">19/11/2025</div>
-            <img src="img/outage.jpg" loading="lazy" />
-            <p>A Cloudflare outage this week following AWS disruptions just weeks ago. Two backbone providers and two significant incidents in a short time.</p>            
-            <p>It raises questions about the evolving role of AI in critical infrastructure teams. As these tools become more capable, companies face pressure to optimize costs by reducing headcount, including senior engineering roles.</p>            
-            <p>There's a meaningful distinction between using AI to augment technical teams versus replacing experienced staff entirely. Consumer applications can tolerate different risk profiles than infrastructure services where cascading failures affect millions of businesses simultaneously.</p>            
-            <p>Senior engineers bring capabilities that extend beyond code: pattern recognition, institutional knowledge about system design decisions and the ability to navigate ambiguous emergencies under pressure. These skills develop over years.</p>            
-            <p>The recent outages may be completely unrelated to staffing decisions, or they might be early signals. Either way, the conversation about balancing innovation with reliability in critical infrastructure deserves attention.</p>            
-        </article>        
-        <article id="article-31">
-            <h2 class="article-title">Web Summit 2025 – AI beyond chatbots</h2>
-            <div class="article-date">13/11/2025</div>
-            <img src="img/web_summit_2025.jpeg" loading="lazy" />
-            <p>This year's Web Summit was all about AI evolving from a tool for individuals to a force reshaping teams, industries and even devices.</p>
-            <p>Some of the highlights that stood out to me:</p>
-            <p>Atlassian's CEO shared how Rovo is helping teams work smarter together, a glimpse into how AI is transforming collaboration, not just productivity.</p>
-            <p>Siemens' CTO discussed how IoT and AI are making industrial systems more secure, precise, and innovative, with digital twins playing a key role in the next industrial leap.</p>
-            <p>Qualcomm's CEO painted a future where AI in wearables becomes ubiquitous and where smartphones may lose their central role in our daily lives.</p>
-            <p>Boston Dynamics' CEO showcased how AI-driven robotics is already boosting efficiency in industrial environments and hinted that service industries will be the next frontier.</p>
-            <p>It's clear that we're entering an era where AI isn't just augmenting humans but reshaping how entire systems and organizations operate.</p>            
-        </article>
-        <article id="article-30">
-            <h2 class="article-title">Pioneers are the first to get shot</h2>
-            <div class="article-date">6/11/2025</div>
-            <img src="img/pioneers.jpg" loading="lazy" />
-            <p>The Gartner Hype Cycle and the saying "pioneers are the first to get shot" tell the same story from different angles.</p>
-            <p>At the peak of inflated expectations, early adopters rush in. The technology is exciting but immature, tools are unstable, costs are high and success stories are rare. These are the pioneers. They take the arrows: technical dead ends, regulatory uncertainty or cultural resistance.</p>
-            <p>A few survive and pave the way, but most fail quietly. Then come the settlers, those who enter during the slope of enlightenment, when standards are clearer and real value begins to emerge. They build sustainably and scale efficiently.</p>
-            <p>Innovation rewards courage but timing multiplies its impact. The goal isn't to be first, it's to be ready when it matters.</p>
-        </article>
-        <article id="article-29">
-            <h2 class="article-title">Gartner Hype Cycle</h2>
-            <div class="article-date">30/10/2025</div>
-            <img src="img/hype.jpg" loading="lazy" />
-            <p>The Gartner Hype Cycle is a model that helps visualize how emerging technologies progress through different stages of public perception and maturity. It illustrates how enthusiasm often precedes understanding, and how true value only emerges after initial disillusionment.</p>
-            <p>It follows five key phases:</p>
-            <p>	<b>1. Innovation Trigger</b> - A breakthrough or proof of concept captures attention. There are few usable products, but excitement begins.</p>
-            <p>	<b>2. Peak of Inflated Expectations</b> - Media coverage and marketing drive exaggerated hopes. Early successes are overhyped, while failures are ignored.</p>
-            <p>	<b>3. Trough of Disillusionment</b> - Reality sets in. Implementations fail, investors pull back, and public interest fades.</p>
-            <p> <b>4. Slope of Enlightenment</b> - Lessons from earlier failures lead to realistic improvements and clearer business cases.</p>
-            <p> <b>5. Plateau of productivity</b> - Mainstream adoption starts to take off.</p>
-            <p>Take generative AI as example. In 2023, tools like ChatGPT triggered massive hype, promises of automation, creativity and transformation reached the peak of inflated expectations. Many organizations rushed in without clear use cases, leading to disappointment when results fell short. Now, the industry is entering the slope of enlightenment, where more focused applications such as code assistants, customer support bots and document summarization are delivering tangible productivity gains.</p>
-            <p>The Gartner Hype Cycle is less about predicting winners and more about managing expectations and timing adoption wisely. Smart leaders use it to decide when to experiment and when to scale.</p>
-            <p><a href="https://www.gartner.com/">More about Gartner.</a></p>
-        </article>
-        <article id="article-28">
-            <h2 class="article-title">From Contributor to Builder</h2>
-            <div class="article-date">25/10/2025</div>
-            <img src="img/contributer_builder.jpg" loading="lazy" />
-            <p>The transition from hands-on contributor to team builder is one of the hardest shifts in a technical career. What once depended on personal skill and output now depends on enabling others to perform at their best.</p>
-            <p>Effective leadership is not about directing, it's about creating the conditions for excellence. That means combining technical wisdom with empathy and the ability to set both challenge and safety. Building psychological safety doesn't mean lowering standards, it means understanding that innovation requires risk and that risk occasionally leads to failure.</p>
-            <p>On the other hand, trust is not declared, it's accumulated and built through consistent recognition, transparency and shared experiences that go beyond surface-level interaction. Structured alignment mechanisms like OKRs reinforce that trust by turning intent into clarity and measurable outcomes and reducing ambiguity about definition of success.</p>
-            <p>Leadership in this context is a balance: technical enough to guide, human enough to inspire and structured enough to sustain. The real work is not just building systems, it's building people who can build systems together.</p>
-        </article>
-        <article id="article-27">
-            <h2 class="article-title">When the Cloud Fails</h2>
-            <div class="article-date">20/10/2025</div>
-            <img src="img/cloud_computing.jpg" loading="lazy" />
-            <p>Today's AWS outage reminds us of an uncomfortable truth: our digital systems rests on invisible dependencies. A single misconfiguration, a network disruption or a cascading failure in a major cloud provider can send shockwaves across the globe halting both startups and giants alike.</p>
-            <p>Critics will point to these incidents as proof that we've become too dependent on centralized infrastructure. Yet, paradoxically, the cloud remains the most reliable option we've ever had. Outages are spectacular because they are rare and amplified by the scale of what they power. Before the cloud, similar failures happened silently in server rooms. Hardware would fail, backups would break and disaster recovery plans often existed only on paper.</p>
-            <p>Cloud computing didn't eliminate failure, it industrialized resilience. It brought redundancy, automated failover and economies of scale that few individual companies could ever achieve on their own. But also brought systemic risk.</p>
-            <p>The lesson isn't to abandon the cloud, but to account for failure. Diversify across regions or even providers. Test your backups and assumptions, because reliability isn't a feature of the cloud, it's a discipline.</p>
-        </article>
-        <article id="article-26">
-            <h2 class="article-title">Enshitification</h2>
-            <div class="article-date">16/10/2025</div>
-            <img src="img/enshittification.jpg" loading="lazy" />
-            <p>Cory Doctorow, the writer who coined the term "enshitification", argues that Amazon has finally reached the terminal stage of the process he first described years ago: the point where a platform stops serving users or partners and instead optimizes entirely for itself.</p>
-            <p>In its early years, Amazon built loyalty through low prices, fast delivery, and generous customer policies. Later, it courted sellers with visibility and scale, creating a powerful cycle of growth that reinforced itself with every new customer and merchant. But over time, that cycle turned inward. Search results became pay-to-play. Merchants faced rising fees and were nudged into costly fulfilment programs just to remain visible. Consumers were left with degraded search quality, counterfeit products, and creeping prices hidden behind the convenience of Prime.</p>
-            <p>Doctorow describes this as the final phase of enshitification: the slow transformation of a useful system into one that extracts more than it gives. It is no longer innovation or competition that drives Amazon's behaviour, but the maintenance of dominance through lock-in and algorithmic opacity.</p>
-            <p>His warning goes beyond Amazon itself, it's about what happens when digital ecosystems stop competing for trust and start competing for control. When efficiency, scale, and data concentration become ends in themselves. As Doctorow puts it, enshitification is not inevitable, but reversing it will require regulation, transparency and the courage to reimagine what a fair digital marketplace looks like.</p>
-            <p>Cory's article <a href="https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish">here</a>.</p>
-        </article>
-        <article id="article-25">
-            <h2 class="article-title">The Cost of Always-On Leadership</h2>
-            <div class="article-date">11/10/2025</div>
-            <img src="img/always-on-leadership.jpg" loading="lazy" />
-            <p>In modern organizations, availability is often mistaken for commitment. Leaders feel pressure to be constantly reachable, replying instantly, joining every meeting, staying online late. It signals dedication but quietly erodes effectiveness.</p>
-            <p>When every moment is spent reacting, there's no space left for reflection or strategy. Over time, leaders become exceptional at responding but poor at thinking.</p>
-            <p>Decades ago, "The One Minute Manager" by Ken Blanchard and Spencer Johnson, offered a timeless idea: leadership isn't about constant presence, but focused presence. Short, intentional moments that bring clarity and direction. The lesson holds even more true today when noise never stops.</p>
-            <p>A leader who is always online is rarely fully present. True leadership requires deliberate absence, time to think, to learn, to rest and to return with focus.</p>
-        </article>
-        <article id="article-24">
-            <h2 class="article-title">From Data Collection to Data Understanding</h2>
-            <div class="article-date">08/10/2025</div>
-            <img src="img/data_understanding.jpg" loading="lazy" />
-            <p>Over the last decade, companies have invested heavily in data pipelines, data warehouses and dashboards. Data collection became an obsession, but collecting data isn't the same as understanding it. In many cases, more data simply created more noise and more confusion about what's actually true.</p>
-            <p>The real challenge is not technical, it's interpretive. Turning data into understanding requires clarity of purpose: knowing which questions matter, which signals are meaningful and which metrics reflect progress rather than activity. Without that clarity, teams end up optimizing for what's easy to measure instead of what's important.</p>
-            <p>As an example, dashboards might show increasing engagement metrics, suggesting success. But without context, it's unclear whether users are genuinely finding value or just getting stuck in loops that inflate numbers. The data looks good, but the story it tells is misleading.</p>
-            <p>The shift from collection to understanding starts with alignment. Data teams need to work closely with business and product leaders to define intent. Data quality matter, but so does narrative.</p>
-            <p>Data-driven organizations are not the ones that collect the most information. They are the ones that ask better questions, interpret data with judgment and act with discipline.</p>
-        </article>
-        <article id="article-23">
-            <h2 class="article-title">The Half-Life of Technical Skills</h2>
-            <div class="article-date">04/10/2025</div>
-            <img src="img/technical_skills.jpg" loading="lazy" />
-            <p>Technical knowledge has a half-life. Over time, its value decays, and what once felt essential can quickly become obsolete. The pace of that decay is accelerating. What used to take a decade now happens in just a few years—or faster in fields like AI.</p>
-            <p>Not long ago, Hadoop was the centerpiece of every big data strategy. Entire teams were built around it, certifications were in high demand, and knowing how to manage clusters was a prized skill. Today, very few organizations are investing in Hadoop. The ecosystem shifted toward cloud-native, serverless, and real-time approaches, leaving those who never moved beyond Hadoop struggling to stay relevant.</p>
-            <p>This is the reality of working in tech: the real skill is not mastering a tool once, but mastering the ability to learn, unlearn and relearn continuously. Past expertise has value but relying only on it is dangerous. What matters is how quickly we adapt when that expertise no longer applies.</p>
-            <p>Leaders have a responsibility here too. Staying curious themselves is only half the job. They also need to create environments where learning is not an afterthought but part of the daily rhythm. Teams that treat learning as a continuous process don't just keep up with change, they thrive on it.</p>
-        </article>
-        <article id="article-22">
-            <h2 class="article-title">Data Dispersion in Growing Organizations</h2>
-            <div class="article-date">03/10/2025</div>
-            <img src="img/dispersion.jpg" loading="lazy" />
-            <p>As organizations scale, one of the recurring challenges is the phenomenon of data dispersion. What begins as a centralized system of record such as an ERP, CRM, or core database, gradually fragments into departmental silos.</p>
-            <p>Teams, under pressure to deliver quickly, often bypass central governance by creating local datasets, exporting information into spreadsheets, or adopting specialized SaaS tools. While these decisions may resolve immediate needs, they create long-term complexity. The outcome is duplication and inconsistency, with multiple versions of the truth spread across sales, marketing, and operations. Shadow data sets, maintained outside of IT oversight, accumulate over time and gradually undermine trust in the organization's information landscape.</p>
-            <p>The consequences are predictable: reconciliation processes become slow and expensive, data quality declines, and operational as well as compliance risks increase. The drivers are equally familiar: the tension between speed and control, the proliferation of tools, and the absence of effective governance.</p>
-            <p>Addressing data dispersion requires deliberate action. Organizations must define governance frameworks with clear ownership, establish master data management practices to ensure a single source of truth, and connect silos through integration approaches such as data fabrics or meshes. Just as importantly, they should provide self-service capabilities with the right guardrails so that teams can move quickly without creating new fragmentation.</p>
-            <p>Ultimately, data dispersion is not only a technical issue but also a governance, cultural, and strategic challenge.</p>
-        </article>    
-        <article id="article-21">
-            <h2 class="article-title">Leadership lessons from The Sun Also Rises</h2>
-            <div class="article-date">29/09/2025</div>
-            <img src="img/fiesta.jpg" loading="lazy" />
-            <p>Hemingway's The Sun Also Rises is not a book on leadership. It is a story of disillusionment, of a generation wounded by war, drifting between Paris and Spain in search of meaning. But, when read through the lens of leadership, the novel offers profound lessons.</p>
-            <p>The protagonist, Jake Barnes, is not a leader in any formal sense. He does not command authority, nor does he impose his will. Yet his quiet integrity, his ability to remain composed amidst chaos, and his authenticity make him a point of reference for others. In contrast, the rest of the group often becomes lost in ego, conflict, and the endless pursuit of distraction.</p>
-            <p>Hemingway reminds us that leadership is not always about titles or formal structures. It is about presence, about giving direction when others are adrift, and about managing the complex human dynamics that arise in any team. The absence of purpose in the so-called "lost generation" underlines the necessity of vision: without meaning, people drift apart.</p>
-            <p>Perhaps most striking is the novel's use of bullfighting as metaphor. In the ring, courage, discipline, and dignity under pressure stand in stark contrast to the confusion of the expatriates. The message is clear: leadership is less about control and more about facing uncertainty with honesty, resilience, and grace.</p>
-        </article>
-        <article id="article-20">
-            <h2 class="article-title">Lean and AI</h2>
-            <div class="article-date">27/09/2025</div>
-            <img src="img/lean-in-ai.jpg" loading="lazy" />
-            <p>Implementing AI effectively goes beyond deploying sophisticated models, it's about learning swiftly and delivering measurable value. Lean experimentation provides a structured approach to achieve this.</p>
-            <p>A notable example is Johnson & Johnson, which recently recalibrated its generative AI strategy. Initially, the company supported nearly 900 AI use cases across various functions. However, upon evaluation, they discovered that just 10-15% of these initiatives accounted for 80% of the value. This insight led to a strategic shift towards high-impact areas such as drug discovery, supply chain optimization, and internal support tools like the "Rep Copilot", an AI-driven assistant aiding sales representatives in engaging healthcare professionals.</p>
-            <p>The company has shifted its generative AI strategy from broad experimentation to a focused approach, prioritizing only the highest-value use cases while cutting projects that are redundant, ineffective, or better served by other technologies.</p>
-            <p>This shift highlights a critical lesson: experimentation alone is not enough. Success comes from focusing on initiatives that generate real impact, learning rapidly from each iteration, and strategically applying AI where it can truly transform outcomes. It's a pragmatic approach that balances innovation with measurable value.</p>
-            <p>Source: <a href="https://www.wsj.com/articles/johnson-johnson-pivots-its-ai-strategy-a9d0631f">Johnson & Johnson Pivots Its AI Strategy</a></p>
-        </article>    
-        <article id="article-19">
-            <h2 class="article-title">AI Code Agents: Divide and Conquer</h2>
-            <div class="article-date">17/09/2025</div>
-            <img src="img/divide-and-conquer.jpg" loading="lazy" />
-            <p>Code agents such as Cursor or Claude Code tend to produce more reliable results when working on small, well-defined tasks rather than large, open-ended projects. A request like “build a function that uploads an image to S3” is specific, measurable, and can be executed within the model's reasoning window. In contrast, a request such as “build an Instagram clone” is too broad, underspecified, and quickly exceeds the agent's ability to maintain coherence.</p>
-            <p>The difference lies in scope and ambiguity. Large requests bundle together dozens of design decisions, architectural choices, and interdependent features. They create opportunities for error to propagate and for the model to contradict earlier assumptions. Smaller tasks reduce complexity, minimize dependencies, and offer a clear standard for success.</p>
-            <p>This mirrors established software development practices. Complex systems are not built in a single step but decomposed into smaller units of work, each with its own acceptance criteria. Code agents follow the same principle: they thrive on precision and iteration.</p>
-            <p>The practical takeaway is to approach code agents the way you would structure a development backlog. Break down big ideas into discrete, testable tasks. The narrower the scope, the more effective and dependable the output.</p>
-        </article>
-        <article id="article-18">
-            <h2 class="article-title">Data Gravity</h2>
-            <div class="article-date">12/09/2025</div>
-            <img src="img/gravity.jpg" loading="lazy" />
-            <p>Dave McCrory first introduced the concept of Data Gravity in 2010. He used the very intuitive and convincing analogy: data is similar to a planet, gaining mass when it grows and drawing applications, services, and additional data into its orbit.</p>
-            <p>Over the years, this metaphor has become much more than a technical observation. It has turned into a strategic principle that shapes how organizations think about technology. As data accumulates, it begins to determine where applications are built, how systems interact, and which ecosystems companies inevitably become tied to.</p>
-            <p>The implications for IT strategy are significant. The physical and regulatory location of data influences decisions about cloud adoption, on-premise investments, and hybrid or multi-cloud approaches. The cost and complexity of moving large datasets often lead to platform and vendor lock-in. Latency requirements drive applications to reside closer to the data they consume. And increasingly, laws around privacy and data residency add another dimension to this gravitational pull.</p>
-            <p>In practice, data is no longer just a resource to be managed, it acts as the anchor point around which the rest of the technology landscape must orbit. Forward-looking organizations recognize this and design architectures that balance agility with the realities of immovable data, whether through distributed models, edge strategies, or careful governance frameworks.</p>
-            <p>Understanding and planning for data gravity not only helps avoid technical bottlenecks, but also positions companies to turn data into a competitive advantage.</p>
-        </article>
-        <article id="article-17">
-            <h2 class="article-title">Are you sure that "pattern" you see is real?</h2>
-            <div class="article-date">10/09/2025</div>
-            <img src="img/apophonia.jpg" loading="lazy" />
-            <p>Human brains are superb pattern-recognition machines. That's why we invent, problem-solve, and recognize threats. Occasionally, however, this asset becomes a liability.</p>
-            <p>Apophenia is the predisposition to perceiving meaningful patterns in randomness. It forms the basis for typical biases including:</p>
-            <p>- Gambler's fallacy: believing a roulette wheel is “due” to change.</p>
-            <p>- Clustering illusion: misinterpreting random clusters for true trends.</p>
-            <p>- Filters and confirmation bias: only perceiving the data supporting our views.</p>
-            <p>In business and technology, this matters. Mistaking noise for signal leads to wasted resources, poor strategy, and misplaced confidence.</p>
-            <p>Poor decisions often arise when random data is mistaken for meaningful patterns, such as reading financial market noise as predictable cycles, treating spurious correlations as actionable insights, or assuming isolated events reveal systemic truths.</p>
-            <p>Pattern recognition is powerful, but only when we challenge it with discipline and skepticism.</p>
-        </article>    
-        <article id="article-16">
-            <h2 class="article-title">From APIs to Agent-to-Agent (A2A)</h2>
-            <div class="article-date">02/09/2025</div>
-            <img src="img/a2a.jpg" loading="lazy" />
-            <p>APIs have long been the backbone of digital finance, enabling structured communication between systems. But as financial interactions grow more complex, static calls are no longer sufficient. This is where A2A (agent-to-agent) comes in, a concept that has gained traction recently in discussions at industry forums.</p>        
-            <p>A2A describes autonomous communication between intelligent agents that represent institutions, companies or even individual contracts. These agents can negotiate conditions, validate compliance and execute decisions in real time, while maintaining a fully auditable record.</p>
-            <p>Take a cross-border payment as an example. A company in Portugal needs to transfer €50,000 to a supplier in Brazil. Its agent queries multiple providers: the bank, a fintech payment service, and an alternative network. Each responds with exchange rates, fees and settlement times. The company's agent evaluates the options and executes through the most efficient route, all without manual intervention.</p>
-            <p>Rather than replacing APIs, A2A builds on them, pointing toward a future where financial systems interact dynamically, adapting continuously to context, cost and regulation.</p>
-            <p>As the concept evolves, its practical applications will likely define the next stage of automation in financial services.</p>
-        </article>    
-        <article id="article-15">
-            <h2 class="article-title">AI Vanity Metrics</h2>
-            <div class="article-date">25/08/2025</div>
-            <img src="img/ai-vanity.jpg" loading="lazy" />
-            <p>AI adoption in software development is accelerating, but so is skepticism among developers. Management often celebrates impressive numbers, but many engineers see through these vanity metrics that look good in presentations but don't reflect the reality of building software.</p>
-            <p>Counting lines of code generated by AI is a common example. Management may report a large percentage of code written by AI, but more code is not necessarily better. AI can produce verbose, redundant or buggy solutions, increasing maintenance costs.</p>
-            <p>Ticket closure rates and sprint velocity are often cited. Closing more tickets does not guarantee that the right features are delivered or customer problems are solved.</p>
-            <p>Claims about time saved per developer can also be misleading. The time saved is often spent debugging or rewriting AI-generated code, reducing actual benefits. Similarly, adoption rates and flashy demos can look impressive without proving real value or scalability.</p>
-            <p>Better indicators of AI's value include bug rates, avoided defects, code review burden, and overall cycle time from idea to production. Security issues, maintainability, scalability and technical debt are also critical, as is developer satisfaction. If engineers are productive, creative and supported, AI adoption is genuinely adding value, if not, the tools are failing.</p>
-            <p>Developers resist when AI adoption is justified by meaningless numbers and when hidden costs like review time, debugging and technical debt are ignored. As one developer wrote in Reddit: "AI sort of becomes a management tool, not a developer tool". Vanity metrics create friction by making AI a selling proposition rather than a productivity boost.</p>
-            <p>AI can significantly augment development, but only if companies measure meaningful outcomes. Leaders should ask whether AI improves reliability, reduces time-to-market, addresses customer needs and expectations and genuinely boosts developer productivity.</p>
-            <p>Shifting from vanity metrics to actionable metrics is essential. Only then can AI move from hype to genuine impact.</p>
-        </article>
-        
-        <article id="article-14">
-            <h2 class="article-title">Small Batches</h2>
-            <div class="article-date">02/08/2025</div>
-            <img src="img/small-batches.jpg" loading="lazy" />
-            <p>In the book "The Lean Startup", Eric Ries presents a compelling argument for working in small batches, an idea that seems simple on the surface but has far-reaching implications for how we approach technology and operations.</p>
-            <p>The principle is straightforward: instead of building large, complex systems or features in one go, break the work into small, testable, and releasable chunks. Ship early. Learn fast. Repeat.</p>
-<p>To illustrate this, Ries uses an example from a traditional office setting. Imagine you need to send out 100 newsletters. One approach is to fold all 100, then stuff all 100 into envelopes, then add stamps to all 100. The other approach is to fold, stuff, and stamp one newsletter at a time. The second method, despite seeming slower, is almost always faster overall. Why? Because problems are identified sooner (a misfit envelope, a missing component), and the process becomes more efficient with real-time learning and iteration.</p>
+        </div>
 
-<p>This logic applies directly to IT. Working in small batches allows you to:</p>
-
-<p>- Deliver software incrementally through Agile methods</p>
-
-<p>- Test and deploy frequently via CI/CD</p>
-
-<p>- Make controlled, reversible infrastructure changes</p>
-
-<p>- Detect and resolve issues quickly due to a smaller change surface</p>
-
-
-<p>Small batches create faster feedback loops, reduce risk, and encourage continuous improvement. They help teams stay aligned, deliver value sooner, and adapt to uncertainty with more confidence.</p>
-
-<p>By contrast, big batch approaches delay learning, compound complexity, and increase the likelihood of failure.</p>
-
-<p>Whether you're writing code, managing infrastructure, or launching new products, adopting a small batch mindset can lead to better outcomes across the board.</p>
-        </article>
-        <article id="article-13">
-            <h2 class="article-title">Why a Great Tech Lead Doesn't Have All the Answers</h2>
-            <div class="article-date">31/07/2025</div>
-            <img src="img/knowledge.jpg" loading="lazy" />
-            <p>There's a widespread belief that a tech lead needs to have all the answers, but in reality, the best tech leads know that their strength lies in asking the right questions, not in being the sole problem-solver.</p>
-            <p>A tech lead's role goes beyond technical decisions, it's about guiding the team, aligning with the business, and fostering collaboration across departments. Trying to provide all the answers often stifles team creativity and slows growth. When the lead always jumps in with a solution, it creates dependency and discourages others from thinking critically. But when a tech lead says, "I don't know - what do you think?", they empower the team to take ownership and grow their problem-solving skills.</p>
-            <p>It also prevents burnout. Carrying the weight of every decision is unsustainable and pulls a lead away from strategic thinking. Sharing responsibility and trusting the team builds a more resilient, innovative culture.</p>
-            <p>Ultimately, a great tech lead isn't the one who knows everything. It's the one who listens, guides, and creates space for others to thrive. Leadership isn't about having all the answers, it's about helping the team find them together.</p>
-        </article> 
-        <article id="article-12">
-            <h2 class="article-title">The Backlog Is Not a Dumping Ground</h2>
-            <div class="article-date">27/07/2025</div>
-            <img src="img/backlog.jpg" loading="lazy" />
-            <p>In Agile teams, the backlog is supposed to be a clear, focused list of work that drives real value. But more often than not, it ends up as something else entirely different: a dumping ground for every idea, request or feature anyone has ever mentioned.</p>
-            <p>It usually starts like this: someone says "let's just throw it in the backlog", over time, this becomes the norm. Every suggestion, every edge case, every feature that might be useful someday gets logged and forgotten. No one knows what's in there anymore, no one is sure what matters. </p>
-            <p>This isn't just a mess, it's toxic to productivity. When the backlog becomes unmanageable, the team loses focus, decision-making slows down, planning gets harder, developers pick up stories that lack clarity or purpose and stakeholders feel ignored because their input disappears into a black hole. And the worst part, it becomes impossible to tell what is truly important.</p>
-            <p>Agile is built on the ability to respond to change - but ironically, a cluttered backlog makes that harder. Teams become less confident in adjusting direction because the backlog offers no guidance. It's just noise.</p>
-            <p>Backlog grooming should be a regular and collaborative process, not a solo admin task. It's where clarity is created and  bad ideas die, so that the good ones can move forward.</p>
-            <p>If your team starts treating the backlog as a tool for focus, not storage, everything changes. Planning gets easier, prioritization becomes clearer and Agile starts to feel like it should.</p>
-        </article> 
-        <article id="article-11">
-            <h2 class="article-title">Agile And Mini Waterfalls</h2>
-            <div class="article-date">24/07/2025</div>
-            <img src="img/mini-waterfalls.jpg" loading="lazy" />
-            <p>We say we're doing Agile. We run sprints, estimate story points, hold stand-ups… but are we actually being Agile?</p>
-            <p>Too often, Agile is reduced to a checklist of rituals. What we end up with is a bunch of mini waterfalls: design > dev > test, all squeezed into a sprint. Locked scope. Delayed feedback. Progress measured by ticket completion, not value delivered.</p>
-            <p>Agile isn't about speed. It's about learning fast, adapting often, and delivering what matters.</p>
-            <p>If your team can't clearly explain why they're building something, or if change feels like a disruption instead of an opportunity, you're not being Agile, that's just process without purpose.</p>
-        </article>    
-        <article id="article-10">
-            <h2 class="article-title">Five Whys</h2>
-            <div class="article-date">23/07/2025</div>
-            <img src="img/why.jpg" loading="lazy" />
-            <p>The Five Whys method is a simple but powerful tool used to identify the root cause of a problem by asking
-                "why?" five times in succession. It was originally developed by Sakichi Toyoda and became a foundational
-                part of the Toyota Production System and lean manufacturing practices.</p>
-            <p>The process starts with a clear statement of the problem. From there, you ask "why did this happen?" and
-                then continue asking "why?" for each answer you get. The idea is that each answer brings you closer to
-                the underlying cause, not just the surface symptom. You usually reach a root cause by the fifth "why"
-                but it could take more or fewer steps depending on the situation.</p>
-            <p>Example: The car won't start.</p>
-            <p>1. Why? - The battery is dead.</p>
-            <p>2. Why? - The alternator isn't working.</p>
-            <p>3. Why? - The alternator belt is broken.</p>
-            <p>4. Why? - The belt was worn out and not replaced.</p>
-            <p>5. Why? - The car wasn't maintained on schedule.</p>
-            <p>Root cause: Poor maintenance practices.</p>
-            <p>The Five Whys is best for straightforward problems. For more complex ones, it's often combined with other
-                tools, but on its own, it's a great way to get past quick fixes and understand what really needs to
-                change.</p>
-        </article>
-        <article id="article-9">
-            <h2 class="article-title">Backup</h2>
-            <div class="article-date">22/07/2025</div>
-            <p>"A backup isn't a backup unless you've tested it."</p>
-        </article>
-        <article id="article-8">
-            <h2 class="article-title">Startup Productivity</h2>
-            <div class="article-date">19/07/2025</div>
-            <img src="img/startup-productivity.jpg" loading="lazy" />
-            <p>"Startup productivity is not about cranking out more widgets or features. It is about aligning our
-                efforts with a business and product that are working to create value and drive growth.” Eric Ries - The
-                Lean Startup</p>
-            <p>In traditional companies, productivity is often measured by output, how many features are built, lines of
-                code written, or products shipped. But Ries is arguing that for startups, this kind of raw output
-                doesn't necessarily mean progress.</p>
-            <p>Startups operate under extreme uncertainty, so building a feature that nobody uses, or improving a
-                product that doesn't solve a real problem, is a waste of time and money, even if the team was
-                “productive" in a traditional sense.
-            </p>
-            <p>Before building something, ask:</p>
-            <p>- Does this help us validate a hypothesis?</p>
-            <p>- Will it improve the customer experience in a meaningful way?</p>
-            <p>- Is it aligned with what's actually driving traction?</p>
-            <p>If the answer is no, it might be productive activity, but not productive progress.</p>
-        </article>
-        <article id="article-7">
-            <h2 class="article-title">Delegation and the Eisenhower Matrix</h2>
-            <div class="article-date">15/07/2025</div>
-            <img src="img/eisenhower.png" loading="lazy" />
-            <p>The desire to stay on top of everything often leads to a common trap: doing too much, too personally.
-                True leadership isn't about doing it all, it's about doing what matters most and maximize impact. This
-                is where delegation becomes not just a skill, but a strategic necessity.
-            </p>
-
-            <p>The Eisenhower Matrix offers a simple framework to help leaders decide what to act on, what to plan, what
-                to delegate, and what to eliminate. It categorizes tasks along two axes: urgency and importance. Tasks
-                that are both urgent and important should be addressed directly. Important but not urgent tasks like
-                strategic thinking and team development should be scheduled and protected. But the most overlooked
-                quadrant, especially by leaders, is the one filled with tasks that are urgent but not important. These
-                are the perfect candidates for delegation.
-            </p>
-
-            <p>Effective delegation isn't about offloading work, it's about multiplying impact. When leaders hold onto
-                everything they become bottlenecks. Delegating frees up time for higher-level thinking while creating
-                growth opportunities for team members. It builds trust, accountability, and resilience within a team.
-            </p>
-
-            <p>Of course, delegation requires more than simply handing something off. It means providing clarity on
-                expectations, outcomes, and authority. It also requires letting go of perfectionism and trusting others
-                to deliver, sometimes differently, but often just as well, or even better.</p>
-
-        </article>
-
-        <article id="article-6">
-            <h2 class="article-title">The 4 Types of Organizational Culture</h2>
-            <div class="article-date">07/07/2025</div>
-            <img src="img/culture.jpg" loading="lazy" />
-            <p>Walk into any organization, and you'll start to feel it immediately: the way people talk to each
-                other, how decisions are made, what gets celebrated, what's considered normal. That's culture. It's
-                not written on walls or in policy documents, it's in the rhythm of how things actually get done.
-            </p>
-
-            <p>While every workplace is unique, decades of research suggest that most cultures fall into one of
-                four generic types. Each type has its strengths, its tensions, and a distinct way of
-                shaping how people work.
-            </p>
-
-            <h4>Clan Culture</h4>
-
-            <p>In a clan culture, the workplace feels more like a community - or even a family. Relationships matter.
-                Teamwork and loyalty are at the core. Leaders act as mentors or coaches rather than commanders. Feedback
-                tends to be open and informal, and decisions are often made through collaboration rather than hierarchy.
-            </p>
-
-            <p>These organizations prioritize internal cohesion and long-term development. You're likely to hear
-                conversations about trust, shared values, and growing people from within. This type of culture thrives
-                in settings where stability comes from connection rather than control - like early-stage startups,
-                nonprofit organizations, or companies with a strong people-first ethos.</p>
-
-            <p>Clan culture isn't just about being "nice". It's a deliberate strategy: when people feel seen and
-                supported, they often perform at their best. The challenge comes when a business starts to scale or
-                compete aggressively - without structure or sharp decision-making, things can stall.</p>
-
-            <h4>Adhocracy Culture</h4>
-
-            <p>If you're working in a place where every week brings a new experiment or bold idea, you're likely in an
-                adhocracy culture. These environments thrive on innovation, agility, and a healthy dose of risk-taking.
-                Speed matters. So does originality.</p>
-
-            <p>You won't find much bureaucracy here - processes are lightweight, and roles may be fluid. The emphasis is
-                on creating new things, whether that means breakthrough products, disruptive business models, or
-                experimental ways of working. Leadership is visionary and entrepreneurial, and failure is seen not as a
-                threat, but as part of the creative process.</p>
-
-            <p>Adhocracy cultures are often found in fast-moving tech firms, design agencies, or forward-thinking
-                R&amp;D teams. They're magnetic for creatives and problem-solvers, but they can burn people out or
-                collapse under their own chaos if not balanced with some structure and clarity.</p>
-
-            <h4>Market Culture</h4>
-
-            <p>In a market culture, success is defined by performance. This is the world of targets, KPIs, competition,
-                and relentless execution. It's outward-facing - customers, competitors, and market share are top of
-                mind.
-                The language is about outcomes, goals, and winning.</p>
-
-            <p>Leadership here is strong and decisive. People are rewarded for what they achieve, not just how they get
-                there. There's often a sense of urgency and accountability. These organizations tend to scale well and
-                dominate markets - but the tradeoff can be high pressure and less focus on internal cohesion.</p>
-
-            <p>Think of sales organizations, consulting firms, and large enterprises competing at a global level. Market
-                cultures can drive incredible results - but they need to ensure that people don't feel like cogs in a
-                machine.</p>
-
-            <h4>Hierarchy Culture</h4>
-
-            <p>Then there's hierarchy culture: structured, formal, and process-driven. Here, the organization is built
-                for consistency, efficiency, and risk management. Rules, roles, and procedures are clearly defined.
-                Success is about doing things right - on time, within scope, and according to plan.</p>
-
-            <p>Hierarchy cultures are often found in government institutions, hospitals, large manufacturers, or any
-                organization where predictability and control are crucial. Leadership is managerial - focused on
-                coordination, performance monitoring, and smooth operations.</p>
-
-            <p>The advantage of this culture is reliability: things work, and risks are minimized. The downside is that
-                it can become resistant to change or innovation unless there's conscious effort to create space for new
-                thinking.</p>
-
-            <p>These four culture types don't just describe companies in theory.
-                They explain real tensions we see every day: people vs. profit, innovation vs. stability, collaboration
-                vs. competition. No culture type is "best". Each one can thrive or fail depending on the context and
-                leadership.</p>
-
-            <p>These types stem from a model called the <strong>Competing Values Framework (CVF)</strong> by Robert
-                Quinn and John Rohrbaugh.
-                It maps organizations across two dimensions: one that contrasts <em>flexibility vs. stability</em>, and
-                another
-                that contrasts <em>internal focus vs. external focus</em>. The intersection of those tensions gives rise
-                to the four culture types.</p>
-
-            <p>But culture is rarely static. Many organizations shift over time - or blend elements from more than one
-                quadrant. A fast-growing startup may begin as a clan but gradually adopt market-driven traits. A
-                hospital may primarily function as a hierarchy but foster a clan dynamic within care teams.</p>
-        </article>
-        <article id="article-5">
-            <h2 class="article-title">Communication breakdown</h2>
-            <div class="article-date">02/07/2025</div>
-            <img src="img/communication.jpg" loading="lazy" />
-            <p>When major systems go down, we often point to a misconfigured script, a faulty deployment, or a routing
-                error. But if we look more closely, the real culprit is often much more fundamental: a breakdown in
-                communication.</p>
-            <p>In the past few years, we've seen this pattern play out in high-profile outages at Atlassian, Facebook,
-                and Slack - companies known for engineering excellence. Despite having top-tier infrastructure, each of
-                these organizations faced cascading failures made worse by internal misunderstandings, unclear
-                responsibilities, or missing escalation paths.</p>
-            <p>In April 2022, Atlassian experienced a severe outage that affected over 400 customer sites - some for
-                nearly two weeks. The root cause wasn't a novel technical failure, but a routine deletion script that
-                was misunderstood. The parameters were wrongly set, and different teams had differing assumptions about
-                the scope and safety of the operation. Without a clear handover or validation process, live customer
-                environments were accidentally taken down. The recovery effort was slow, not due to lack of expertise,
-                but because the communication channels and documentation weren't aligned to handle such a situation
-                swiftly.</p>
-            <p>In October 2021, Facebook went dark globally for six hours. The trigger was a change to network routing
-                configurations, but the real issue was the lack of internal alignment on failure scenarios. The update
-                removed Facebook's services - including internal tools - from the internet. With critical systems
-                offline, teams couldn't communicate, access internal dashboards, or even enter the data centers. A
-                single misjudged assumption about rollback procedures and internal tool independence turned a manageable
-                change into a complete operational paralysis.</p>
-            <p>Slack's January 2021 outage followed a similar theme. A misconfiguration in internal traffic routing
-                triggered widespread degradation just as the world was returning from the holidays. During the incident,
-                different engineering teams held conflicting mental models of what was failing. This misalignment led to
-                duplicated effort, delayed diagnosis, and inconsistent messaging to customers. The systems were complex
-                - but the real challenge was creating a shared understanding fast enough to respond effectively.</p>
-            <p>These incidents show us that technical excellence alone isn't enough. In complex, fast-moving
-                environments, the quality of internal communication - before, during, and after an incident - is what
-                determines resilience. Systems fail. What matters is how we talk to each other when they do.
-            </p>
-            <p>Communication is infrastructure.</p>
-        </article>
-        <article id="article-4">
-            <h2 class="article-title">Observability vs Monitoring</h2>
-            <div class="article-date">26/06/2025</div>
-            <img src="img/observability.webp" loading="lazy" />
-            <p>There's a lot of talk about observability these days, and it's easy to confuse it with monitoring. But
-                the difference really matters - especially as systems get more complex.</p>
-            <p>Monitoring is about tracking known things. You define metrics and thresholds, set up alerts, and wait to
-                be told when something breaks. It's reactive. You already know the kinds of problems you're looking for,
-                and you build tools to catch them.</p>
-            <p>Observability, on the other hand, is about answering questions you didn't know you'd need to ask. It's
-                about understanding how your systems behave, diagnosing the unexpected, and making smarter decisions
-                based on real data - not assumptions. It's a proactive and exploratory approach to understand the
-                internal state of a system by examining its external outputs.</p>
-            <p>In practice, observability is about putting the right structures in place to see and understand what your
-                systems are doing - all the time, not just when things go wrong. You start by identifying which metrics
-                actually matter for your business and your users - like response times, error rates, or system
-                throughput. Then, you instrument your code to capture useful logs, traces, and metrics. Tools like
-                OpenTelemetry can help make that process more consistent.</p>
-            <p>From there, you build dashboards that highlight what's important and set alerts that trigger on real
-                issues, not noise. Popular tools like Prometheus, Grafana, and the ELK stack make this possible, and
-                platforms like Datadog or New Relic can bring everything into one place.</p>
-            <p>But tools alone aren't enough. Observability has to be part of how the team works. That means using data
-                in retros, reviewing patterns after incidents, and making decisions based on what's actually happening
-                in your systems - not just what you hope is happening.</p>
-            <p>When observability is done right, your team detects and solves problems faster, your systems run more
-                reliably, and decisions get made with more confidence. You spend less time guessing and more time
-                improving. And instead of reacting to issues, you start anticipating them - and building better systems
-                because of it.</p>
-            <p>Observability isn't about collecting more data or spinning up endless dashboards. It's about clarity.
-                It's about helping your team ask better questions, spot issues early, and stay aligned with what really
-                matters - both technically and to the business.</p>
-        </article>
-        <article id="article-3">
-            <h2 class="article-title">Technical Debt</h2>
-            <div class="article-date">23/6/2025</div>
-            <img src="img/technical-debt.png" loading="lazy" />
-            <p>Technical debt is inevitable, but manageable. When left unchecked, it doesn't just affect your codebase,
-                it affects your people, delivery, and business.</p>
-
-            <p>Technical debt gradually erodes team productivity and slows down development cycles, making it harder to
-                ship features or iterate quickly. As the codebase grows, the likelihood of bugs and defects
-                increases-undermining product quality and user trust. Delivery timelines stretch, and the time-to-market
-                for new features suffers.</p>
-
-            <p>Beyond the technical realm, debt can lead to stakeholder frustration, especially when delays or
-                instability affect customer experience. It raises maintenance costs and diverts resources from
-                innovation, reducing your ability to adopt new technologies or scale effectively. Over time, this
-                misalignment between business goals and technical reality introduces risk-whether through security
-                vulnerabilities, platform limitations, or strategic inflexibility.</p>
-
-            <p>Addressing technical debt proactively is essential to maintain agility, reduce operational drag, and keep
-                the focus on building value.</p>
-
-            <p>There are different types of Technical Debt:</p>
-            <p>- Dependencies: Outdated or hard-to-maintain tools/libraries.</p>
-            <p>- Patterns: Poor design choices that cause recurring issues.</p>
-            <p>- Redundancies: Duplicated logic or fragmented systems.</p>
-            <p>- Abstract Elements: Unclear goals or shifting requirements.</p>
-            <p>- Legacy Templates: Inefficient scaffolding holding teams back.</p>
-            <p>- Concept Debt: Building unused or unnecessary features.</p>
-            <p></p>
-            <p>And different strategies to tackle and prevent it:</p>
-            <p>- Automate and update dependencies.</p>
-            <p>- Prioritize refactoring and enforce design reviews.</p>
-            <p>- Audit and consolidate duplicated components.</p>
-            <p>- Align abstract ideas with concrete business value.</p>
-            <p>- Modernize outdated templates and practices.</p>
-            <p>- Validate feature ideas early-only build what matters.</p>
-            <p>- Use agile workflows to identify issues early.</p>
-            <p>- Invest in code quality (reviews, pair programming, static analysis).</p>
-            <p>- Keep teams trained and current.</p>
-            <p>- Foster cross-team alignment.</p>
-            <p>- Design for change-anticipate growth.</p>
-            <p>- Schedule time to refactor and clean up.</p>
-            <p></p>
-            <p>Technical debt isn't just a tech issue. It's a business issue. Managing it well is a competitive
-                advantage.</p>
-        </article>
-        <article id="article-2">
-            <h2 class="article-title">Lessons from Working with LLMs</h2>
-            <div class="article-date">20/2/2025</div>
-            <img src="img/llm.webp" loading="lazy" />
-            <p>I've been actively exploring large language models (LLMs) and chatbots, particularly since the release of
-                DeepSeek. Working with them both in the cloud and locally, I've applied them to various scenarios-from
-                software development and finance to mentoring, data analysis, and even travel planning.</p>
-            <p>Recently, I was analyzing a very large dataset and ran into a roadblock: the file size was simply too
-                large for the LLM to process effectively. I tried several approaches-cleaning, transforming,
-                compressing, and even splitting the data into smaller chunks. In essence, I was adapting my problem to
-                fit the tool.</p>
-
-            <p>Then, in one of my iterations, something unexpected happened. The LLM itself suggested that perhaps I was
-                using the wrong tool for the job. And it was right. I was so focused on making the problem work within
-                the constraints of an LLM that I overlooked more suitable solutions.</p>
-
-            <p>It was a classic case of "when all you have is a hammer, everything looks like a nail." This experience
-                was a great reminder that while LLMs are incredibly powerful, they are not a one-size-fits-all solution.
-                Choosing the right tool for the task is just as important as understanding the problem itself.</p>
-        </article>
-        <article id="article-1">
-            <h2 class="article-title">Conway's Law</h2>
-            <div class="article-date">28/1/2025</div>
-            <img src="img/conways-law.jpg" loading="lazy" />
-            <p>"Any organization that designs a system will produce a design whose structure is a copy of the
-                organization's communication structure."</p>
-            <p>This principle is more than just an observation; it's a strategic insight. The way teams are structured
-                and communicate within an organization profoundly impacts the systems, products, and services they
-                deliver.</p>
-            <p>Team organization is an ongoing process that must evolve with the business. Revisiting and refining team
-                topologies is essential to maintaining alignment and achieving success.</p>
-        </article>
+        <!-- All Posts -->
+        <div class="all-posts">
+            <h3>All Posts</h3>
+            <ul>
+                
+                <li>
+                    <span class="article-date">22/01/2026</span> - <a href="20260122_hero.html">Hero</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">13/01/2026</span> - <a href="20260113_shadow_ai.html">Shadow AI</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">12/01/2026</span> - <a href="20260112_junior_devs_and_ai.html">Junior Devs and AI</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">10/01/2026</span> - <a href="20260110_ai_and_the_cognitive_load.html">AI and the Cognitive Load</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">03/01/2026</span> - <a href="20260103_everything_as_code.html">Everything as Code</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">02/01/2026</span> - <a href="20260102_software_carbon_intensity_sci.html">Software Carbon Intensity (SCI)</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">30/12/2025</span> - <a href="20251230_books_in_2025.html">Books in 2025</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">29/12/2025</span> - <a href="20251229_carbon_aware_metrics_in_software_development.html">Carbon Aware Metrics in Software Development</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">22/12/2025</span> - <a href="20251222_case_study_how_zoom_scaled_30x_in_90_days.html">Case study: How Zoom Scaled 30x in 90 Days</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">02/12/2025</span> - <a href="20251202_99_999_9999_and_99999_sla.html">99, 99.9, 99.99 and 99.999% SLA</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">26/11/2025</span> - <a href="20251126_simplicity_as_a_goal.html">Simplicity as a Goal</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">19/11/2025</span> - <a href="20251119_ai_and_critical_infrastructure.html">AI and Critical Infrastructure</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">13/11/2025</span> - <a href="20251113_web_summit_2025__ai_beyond_chatbots.html">Web Summit 2025 – AI beyond chatbots</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">06/11/2025</span> - <a href="20251106_pioneers_are_the_first_to_get_shot.html">Pioneers are the first to get shot</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">30/10/2025</span> - <a href="20251030_gartner_hype_cycle.html">Gartner Hype Cycle</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">25/10/2025</span> - <a href="20251025_from_contributor_to_builder.html">From Contributor to Builder</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">20/10/2025</span> - <a href="20251020_when_the_cloud_fails.html">When the Cloud Fails</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">16/10/2025</span> - <a href="20251016_enshitification.html">Enshitification</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">11/10/2025</span> - <a href="20251011_the_cost_of_always-on_leadership.html">The Cost of Always-On Leadership</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">08/10/2025</span> - <a href="20251008_from_data_collection_to_data_understanding.html">From Data Collection to Data Understanding</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">04/10/2025</span> - <a href="20251004_the_half-life_of_technical_skills.html">The Half-Life of Technical Skills</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">03/10/2025</span> - <a href="20251003_data_dispersion_in_growing_organizations.html">Data Dispersion in Growing Organizations</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">29/09/2025</span> - <a href="20250929_leadership_lessons_from_the_sun_also_rises.html">Leadership lessons from The Sun Also Rises</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">27/09/2025</span> - <a href="20250927_lean_and_ai.html">Lean and AI</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">17/09/2025</span> - <a href="20250917_ai_code_agents_divide_and_conquer.html">AI Code Agents: Divide and Conquer</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">12/09/2025</span> - <a href="20250912_data_gravity.html">Data Gravity</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">10/09/2025</span> - <a href="20250910_are_you_sure_that_pattern_you_see_is_real.html">Are you sure that "pattern" you see is real?</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">02/09/2025</span> - <a href="20250902_from_apis_to_agent-to-agent_a2a.html">From APIs to Agent-to-Agent (A2A)</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">25/08/2025</span> - <a href="20250825_ai_vanity_metrics.html">AI Vanity Metrics</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">02/08/2025</span> - <a href="20250802_small_batches.html">Small Batches</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">31/07/2025</span> - <a href="20250731_why_a_great_tech_lead_doesnt_have_all_the_answers.html">Why a Great Tech Lead Doesn't Have All the Answers</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">27/07/2025</span> - <a href="20250727_the_backlog_is_not_a_dumping_ground.html">The Backlog Is Not a Dumping Ground</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">24/07/2025</span> - <a href="20250724_agile_and_mini_waterfalls.html">Agile And Mini Waterfalls</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">23/07/2025</span> - <a href="20250723_five_whys.html">Five Whys</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">22/07/2025</span> - <a href="20250722_backup.html">Backup</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">19/07/2025</span> - <a href="20250719_startup_productivity.html">Startup Productivity</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">15/07/2025</span> - <a href="20250715_delegation_and_the_eisenhower_matrix.html">Delegation and the Eisenhower Matrix</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">07/07/2025</span> - <a href="20250707_the_4_types_of_organizational_culture.html">The 4 Types of Organizational Culture</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">02/07/2025</span> - <a href="20250702_communication_breakdown.html">Communication breakdown</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">26/06/2025</span> - <a href="20250626_observability_vs_monitoring.html">Observability vs Monitoring</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">23/06/2025</span> - <a href="20250623_technical_debt.html">Technical Debt</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">20/02/2025</span> - <a href="20250220_lessons_from_working_with_llms.html">Lessons from Working with LLMs</a>
+                </li>
+                
+                <li>
+                    <span class="article-date">28/01/2025</span> - <a href="20250128_conways_law.html">Conway's Law</a>
+                </li>
+                
+            </ul>
+        </div>
     </main>
 
     <footer>
+        <p><a href="rss.xml">RSS Feed</a></p>
         <p id="copyright"></p>
     </footer>
-    <button class="back-to-top" onclick="scrollToTop()">↑</button>
 
     <script src="js/app.js"></script>
 </body>

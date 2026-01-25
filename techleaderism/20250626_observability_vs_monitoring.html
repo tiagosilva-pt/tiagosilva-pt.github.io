@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Observability vs Monitoring</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #333;">
+            <h1>Tech Leaderism</h1>
+        </a>
+    </header>
+
+    <main id="articles">
+        <article>
+            <article id="article-4">
+<h2 class="article-title">Observability vs Monitoring</h2>
+<div class="article-date">26/06/2025</div>
+<img loading="lazy" src="img/observability.webp"/>
+<p>There's a lot of talk about observability these days, and it's easy to confuse it with monitoring. But
+                the difference really matters - especially as systems get more complex.</p>
+<p>Monitoring is about tracking known things. You define metrics and thresholds, set up alerts, and wait to
+                be told when something breaks. It's reactive. You already know the kinds of problems you're looking for,
+                and you build tools to catch them.</p>
+<p>Observability, on the other hand, is about answering questions you didn't know you'd need to ask. It's
+                about understanding how your systems behave, diagnosing the unexpected, and making smarter decisions
+                based on real data - not assumptions. It's a proactive and exploratory approach to understand the
+                internal state of a system by examining its external outputs.</p>
+<p>In practice, observability is about putting the right structures in place to see and understand what your
+                systems are doing - all the time, not just when things go wrong. You start by identifying which metrics
+                actually matter for your business and your users - like response times, error rates, or system
+                throughput. Then, you instrument your code to capture useful logs, traces, and metrics. Tools like
+                OpenTelemetry can help make that process more consistent.</p>
+<p>From there, you build dashboards that highlight what's important and set alerts that trigger on real
+                issues, not noise. Popular tools like Prometheus, Grafana, and the ELK stack make this possible, and
+                platforms like Datadog or New Relic can bring everything into one place.</p>
+<p>But tools alone aren't enough. Observability has to be part of how the team works. That means using data
+                in retros, reviewing patterns after incidents, and making decisions based on what's actually happening
+                in your systems - not just what you hope is happening.</p>
+<p>When observability is done right, your team detects and solves problems faster, your systems run more
+                reliably, and decisions get made with more confidence. You spend less time guessing and more time
+                improving. And instead of reacting to issues, you start anticipating them - and building better systems
+                because of it.</p>
+<p>Observability isn't about collecting more data or spinning up endless dashboards. It's about clarity.
+                It's about helping your team ask better questions, spot issues early, and stay aligned with what really
+                matters - both technically and to the business.</p>
+</article>
+
+        </article>
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h3>More Posts</h3>
+            <ul>
+                
+                <li>
+                    <a href="20260113_shadow_ai.html">
+                        <img src="img/shadow-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Shadow AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260112_junior_devs_and_ai.html">
+                        <img src="img/junior-devs-ai.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Junior Devs and AI
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260110_ai_and_the_cognitive_load.html">
+                        <img src="img/ai-cognitive-load.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        AI and the Cognitive Load
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260103_everything_as_code.html">
+                        <img src="img/everything_as_code.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Everything as Code
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">RSS Feed</a></p>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
