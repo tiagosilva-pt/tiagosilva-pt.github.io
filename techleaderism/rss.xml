@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Tech Leaderism</title>
   <link>https://tiagosilva-pt.github.io/techleaderism/</link>
   <description>A blog about tech, leadership and leadership in tech</description>
-  <image>
-    <url>https://tiagosilva-pt.github.io/techleaderism/img/favicon.svg</url>
-    <title>Tech Leaderism</title>
-    <link>https://tiagosilva-pt.github.io/techleaderism/</link>
-  </image>
+  <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
     <title>Hero</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260122_hero.html</link>
     <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
-    <description><article id="article-43">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260122_hero.html</guid>
+    <description><![CDATA[<article id="article-43">
 <h2 class="article-title">Hero</h2>
 <div class="article-date">22/01/2026</div>
 <img loading="lazy" src="img/hero.jpg"/>
@@ -23,14 +20,15 @@
 <p>Relying on heroism is unfair to the individual, who inevitably faces burnout, and it is dangerous for the business. It masks the true fragility of the system. Key person dependency creates an unacceptable level of operational risk and the institutional knowledge remains locked in a single mind rather than codified in the platform.</p>
 <p>True seniority is shown by making oneself redundant through documentation, automation and mentorship. We must stop glorifying the firefighters and start celebrating the fire prevention. A boring, uneventful release is the ultimate sign of a mature engineering culture.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Shadow AI</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260113_shadow_ai.html</link>
     <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-    <description><article id="article-42">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260113_shadow_ai.html</guid>
+    <description><![CDATA[<article id="article-42">
 <h2 class="article-title">Shadow AI</h2>
 <div class="article-date">13/01/2026</div>
 <img loading="lazy" src="img/shadow-ai.jpg"/>
@@ -42,14 +40,15 @@
 <p>By providing approved enterprise-grade AI interfaces that reduce friction rather than increasing it, the incentive to utilize insecure public tools dissolves.</p>
 <p>Security in the age of AI is achieved when the secure path is also the most efficient path.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Junior Devs and AI</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260112_junior_devs_and_ai.html</link>
     <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-    <description><article id="article-41">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260112_junior_devs_and_ai.html</guid>
+    <description><![CDATA[<article id="article-41">
 <h2 class="article-title">Junior Devs and AI</h2>
 <div class="article-date">12/01/2026</div>
 <img loading="lazy" src="img/junior-devs-ai.jpg"/>
@@ -58,14 +57,15 @@
 <p>There is a distinct difference between generating a solution and understanding the trade-offs behind it. If a junior engineer’s primary role shifts too quickly from writing code to reviewing AI output, they may develop a surface-level familiarity with syntax without the deep, structural understanding that defines a senior architect.</p>
 <p>This does not mean we should reject these tools. Instead, it places a new responsibility on engineering leadership. We can no longer rely on the work itself to teach our teams. Mentorship must become more intentional, focusing on the "why" rather than just the "how." We need to ensure that as our tools get smarter, our training processes evolve to ensure the next generation of engineers is still challenged to think deeply, not just prompt efficiently.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>AI and the Cognitive Load</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260110_ai_and_the_cognitive_load.html</link>
     <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-    <description><article id="article-40">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260110_ai_and_the_cognitive_load.html</guid>
+    <description><![CDATA[<article id="article-40">
 <h2 class="article-title">AI and the Cognitive Load</h2>
 <div class="article-date">10/01/2026</div>
 <img loading="lazy" src="img/ai-cognitive-load.jpg"/>
@@ -74,14 +74,15 @@
 <p>This is most visible when dealing with legacy systems. The highest cognitive load often comes from deciphering code written by developers who left years ago. Rather than spending hours building a mental model of a complex file, we can now use AI to explain data flow and highlight side effects instantly. It turns a forensic investigation into a quick confirmation.</p>
 <p>However, this power comes with a strict caveat. AI reduces the burden of writing and finding, but it increases the burden of reviewing. If you use tools to generate code you do not fundamentally understand, you haven't reduced your cognitive load, you have merely deferred it to the debugging phase where it is exponentially more expensive.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Everything as Code</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260103_everything_as_code.html</link>
     <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-    <description><article id="article-39">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260103_everything_as_code.html</guid>
+    <description><![CDATA[<article id="article-39">
 <h2 class="article-title">Everything as Code</h2>
 <div class="article-date">03/01/2026</div>
 <img loading="lazy" src="img/everything_as_code.jpg"/>
@@ -90,14 +91,15 @@
 <p>While this architecture assumes a high-trust environment that may be difficult to maintain at enterprise scale, it exposes a flaw in how we currently separate concerns. We often sequester documentation and specifications in silos like Confluence or Notion, effectively blinding our AI tools. Kasava's model suggests that maximizing AI leverage requires breaking down the barriers between code and content, even if it means rethinking standard permission boundaries.</p>
 <p>Read the full engineering deep dive <a href="https://www.kasava.dev/blog/everything-as-code-monorepo">here</a>.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Software Carbon Intensity (SCI)</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260102_software_carbon_intensity_sci.html</link>
     <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-    <description><article id="article-38">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260102_software_carbon_intensity_sci.html</guid>
+    <description><![CDATA[<article id="article-38">
 <h2 class="article-title">Software Carbon Intensity (SCI)</h2>
 <div class="article-date">02/01/2026</div>
 <img loading="lazy" src="img/carbon.jpg"/>
@@ -115,14 +117,15 @@
 <p>By standardizing these units, IT professionals can establish a baseline for their systems. This allows for a granular view of how architectural changes, such as optimizing a database query or migrating to a more efficient instance type, directly reduce the carbon emitted per unit of work.</p>
 <p>The full technical details are available via the Green Software Foundation: <a href="https://sci.greensoftware.foundation/">https://sci.greensoftware.foundation/</a></p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Books in 2025</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251230_books_in_2025.html</link>
     <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-37">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251230_books_in_2025.html</guid>
+    <description><![CDATA[<article id="article-37">
 <h2 class="article-title">Books in 2025</h2>
 <div class="article-date">30/12/2025</div>
 <img loading="lazy" src="img/books_2025.jpeg"/>
@@ -133,14 +136,15 @@
 <p>Perhaps the most useful book for my day-to-day work was "Meditations" by Marcus Aurelius. In an industry often defined by urgent incidents and rapid change, Stoicism offers a practical framework for resilience.</p>
 <p>To be effective in IT, we have to look beyond the screen. We need to understand the business, the ethics and the people behind the technology.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Carbon Aware Metrics in Software Development</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251229_carbon_aware_metrics_in_software_development.html</link>
     <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-36">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251229_carbon_aware_metrics_in_software_development.html</guid>
+    <description><![CDATA[<article id="article-36">
 <h2 class="article-title">Carbon Aware Metrics in Software Development</h2>
 <div class="article-date">29/12/2025</div>
 <img loading="lazy" src="img/green.jpg"/>
@@ -151,14 +155,15 @@
 <p>3. Demand Shaping: Adjusting application fidelity based on real-time energy availability.</p>
 <p>The convergence of FinOps and GreenOps provides the economic lever. While efficiency usually drives down costs, carbon awareness requires sophisticated orchestration to balance grid intensity against spot pricing and performance SLAs. Sustainability is evolving from a policy statement into a compile-time optimization.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Case study: How Zoom Scaled 30x in 90 Days</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251222_case_study_how_zoom_scaled_30x_in_90_days.html</link>
     <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-35">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251222_case_study_how_zoom_scaled_30x_in_90_days.html</guid>
+    <description><![CDATA[<article id="article-35">
 <h2 class="article-title">Case study: How Zoom Scaled 30x in 90 Days</h2>
 <div class="article-date">22/12/2025</div>
 <img loading="lazy" src="img/zoom.jpg"/>
@@ -171,14 +176,15 @@
 <p>They succeeded because their cloud-native architecture allowed elastic scaling, cross-functional teams could make rapid decisions without bureaucratic approval chains, leadership prioritized trust over short-term feature velocity and they were transparent about challenges rather than hiding them.</p>
 <p>The next crisis probably won't look like a pandemic, but it will require infrastructure that can scale orders of magnitude, not incrementally. It will require culture where teams can make rapid decisions. It will require leadership willing to pause revenue-generating work to fix fundamental issues. And it will require transparency that builds trust when things break.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>99, 99.9, 99.99 and 99.999% SLA</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251202_99_999_9999_and_99999_sla.html</link>
     <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-34">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251202_99_999_9999_and_99999_sla.html</guid>
+    <description><![CDATA[<article id="article-34">
 <h2 class="article-title">99, 99.9, 99.99 and 99.999% SLA</h2>
 <div class="article-date">02/12/2025</div>
 <img loading="lazy" src="img/sla.jpg"/>
@@ -193,14 +199,15 @@
 <p>But an internal HR portal experiencing 8 hours of downtime spread across a year is inconvenient, not catastrophic. A corporate blog being down for half a day won't damage the business. Development and staging environments can tolerate even lower availability without meaningful impact.</p>
 <p>The right SLA aligns availability with actual business impact. A critical platform at 99.9% is underserving users. An internal tool at 99.999% is probably burning money on unnecessary infrastructure.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Simplicity as a Goal</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251126_simplicity_as_a_goal.html</link>
     <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-33">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251126_simplicity_as_a_goal.html</guid>
+    <description><![CDATA[<article id="article-33">
 <h2 class="article-title">Simplicity as a Goal</h2>
 <div class="article-date">26/11/2025</div>
 <img loading="lazy" src="img/simplicity.jpg"/>
@@ -211,14 +218,15 @@
 <p>In technology we tend to move in the opposite direction. We add features, integrations, layers and processes. Complexity accumulates and suddenly it becomes the default. The desirable goal is to pull in the other direction, to make the problem smaller, the architecture cleaner, the product sharper and the path forward unmistakable.</p>
 <p>Reduce, refine and reveal the essential, until what remains is both simple and undeniably true.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>AI and Critical Infrastructure</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251119_ai_and_critical_infrastructure.html</link>
     <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-32">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251119_ai_and_critical_infrastructure.html</guid>
+    <description><![CDATA[<article id="article-32">
 <h2 class="article-title">AI and Critical Infrastructure</h2>
 <div class="article-date">19/11/2025</div>
 <img loading="lazy" src="img/outage.jpg"/>
@@ -228,14 +236,15 @@
 <p>Senior engineers bring capabilities that extend beyond code: pattern recognition, institutional knowledge about system design decisions and the ability to navigate ambiguous emergencies under pressure. These skills develop over years.</p>
 <p>The recent outages may be completely unrelated to staffing decisions, or they might be early signals. Either way, the conversation about balancing innovation with reliability in critical infrastructure deserves attention.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Web Summit 2025 – AI beyond chatbots</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251113_web_summit_2025__ai_beyond_chatbots.html</link>
     <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-31">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251113_web_summit_2025__ai_beyond_chatbots.html</guid>
+    <description><![CDATA[<article id="article-31">
 <h2 class="article-title">Web Summit 2025 – AI beyond chatbots</h2>
 <div class="article-date">13/11/2025</div>
 <img loading="lazy" src="img/web_summit_2025.jpeg"/>
@@ -247,14 +256,15 @@
 <p>Boston Dynamics' CEO showcased how AI-driven robotics is already boosting efficiency in industrial environments and hinted that service industries will be the next frontier.</p>
 <p>It's clear that we're entering an era where AI isn't just augmenting humans but reshaping how entire systems and organizations operate.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Pioneers are the first to get shot</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251106_pioneers_are_the_first_to_get_shot.html</link>
     <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-30">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251106_pioneers_are_the_first_to_get_shot.html</guid>
+    <description><![CDATA[<article id="article-30">
 <h2 class="article-title">Pioneers are the first to get shot</h2>
 <div class="article-date">6/11/2025</div>
 <img loading="lazy" src="img/pioneers.jpg"/>
@@ -263,14 +273,15 @@
 <p>A few survive and pave the way, but most fail quietly. Then come the settlers, those who enter during the slope of enlightenment, when standards are clearer and real value begins to emerge. They build sustainably and scale efficiently.</p>
 <p>Innovation rewards courage but timing multiplies its impact. The goal isn't to be first, it's to be ready when it matters.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Gartner Hype Cycle</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251030_gartner_hype_cycle.html</link>
     <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-29">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251030_gartner_hype_cycle.html</guid>
+    <description><![CDATA[<article id="article-29">
 <h2 class="article-title">Gartner Hype Cycle</h2>
 <div class="article-date">30/10/2025</div>
 <img loading="lazy" src="img/hype.jpg"/>
@@ -285,14 +296,15 @@
 <p>The Gartner Hype Cycle is less about predicting winners and more about managing expectations and timing adoption wisely. Smart leaders use it to decide when to experiment and when to scale.</p>
 <p><a href="https://www.gartner.com/">More about Gartner.</a></p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>From Contributor to Builder</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251025_from_contributor_to_builder.html</link>
     <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-28">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251025_from_contributor_to_builder.html</guid>
+    <description><![CDATA[<article id="article-28">
 <h2 class="article-title">From Contributor to Builder</h2>
 <div class="article-date">25/10/2025</div>
 <img loading="lazy" src="img/contributer_builder.jpg"/>
@@ -301,14 +313,15 @@
 <p>On the other hand, trust is not declared, it's accumulated and built through consistent recognition, transparency and shared experiences that go beyond surface-level interaction. Structured alignment mechanisms like OKRs reinforce that trust by turning intent into clarity and measurable outcomes and reducing ambiguity about definition of success.</p>
 <p>Leadership in this context is a balance: technical enough to guide, human enough to inspire and structured enough to sustain. The real work is not just building systems, it's building people who can build systems together.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>When the Cloud Fails</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251020_when_the_cloud_fails.html</link>
     <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-27">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251020_when_the_cloud_fails.html</guid>
+    <description><![CDATA[<article id="article-27">
 <h2 class="article-title">When the Cloud Fails</h2>
 <div class="article-date">20/10/2025</div>
 <img loading="lazy" src="img/cloud_computing.jpg"/>
@@ -317,14 +330,15 @@
 <p>Cloud computing didn't eliminate failure, it industrialized resilience. It brought redundancy, automated failover and economies of scale that few individual companies could ever achieve on their own. But also brought systemic risk.</p>
 <p>The lesson isn't to abandon the cloud, but to account for failure. Diversify across regions or even providers. Test your backups and assumptions, because reliability isn't a feature of the cloud, it's a discipline.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Enshitification</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251016_enshitification.html</link>
     <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-26">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251016_enshitification.html</guid>
+    <description><![CDATA[<article id="article-26">
 <h2 class="article-title">Enshitification</h2>
 <div class="article-date">16/10/2025</div>
 <img loading="lazy" src="img/enshittification.jpg"/>
@@ -334,14 +348,15 @@
 <p>His warning goes beyond Amazon itself, it's about what happens when digital ecosystems stop competing for trust and start competing for control. When efficiency, scale, and data concentration become ends in themselves. As Doctorow puts it, enshitification is not inevitable, but reversing it will require regulation, transparency and the courage to reimagine what a fair digital marketplace looks like.</p>
 <p>Cory's article <a href="https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish">here</a>.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>The Cost of Always-On Leadership</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251011_the_cost_of_always-on_leadership.html</link>
     <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-25">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251011_the_cost_of_always-on_leadership.html</guid>
+    <description><![CDATA[<article id="article-25">
 <h2 class="article-title">The Cost of Always-On Leadership</h2>
 <div class="article-date">11/10/2025</div>
 <img loading="lazy" src="img/always-on-leadership.jpg"/>
@@ -350,14 +365,15 @@
 <p>Decades ago, "The One Minute Manager" by Ken Blanchard and Spencer Johnson, offered a timeless idea: leadership isn't about constant presence, but focused presence. Short, intentional moments that bring clarity and direction. The lesson holds even more true today when noise never stops.</p>
 <p>A leader who is always online is rarely fully present. True leadership requires deliberate absence, time to think, to learn, to rest and to return with focus.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>From Data Collection to Data Understanding</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251008_from_data_collection_to_data_understanding.html</link>
     <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-24">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251008_from_data_collection_to_data_understanding.html</guid>
+    <description><![CDATA[<article id="article-24">
 <h2 class="article-title">From Data Collection to Data Understanding</h2>
 <div class="article-date">08/10/2025</div>
 <img loading="lazy" src="img/data_understanding.jpg"/>
@@ -367,14 +383,15 @@
 <p>The shift from collection to understanding starts with alignment. Data teams need to work closely with business and product leaders to define intent. Data quality matter, but so does narrative.</p>
 <p>Data-driven organizations are not the ones that collect the most information. They are the ones that ask better questions, interpret data with judgment and act with discipline.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>The Half-Life of Technical Skills</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251004_the_half-life_of_technical_skills.html</link>
     <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-23">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251004_the_half-life_of_technical_skills.html</guid>
+    <description><![CDATA[<article id="article-23">
 <h2 class="article-title">The Half-Life of Technical Skills</h2>
 <div class="article-date">04/10/2025</div>
 <img loading="lazy" src="img/technical_skills.jpg"/>
@@ -383,14 +400,15 @@
 <p>This is the reality of working in tech: the real skill is not mastering a tool once, but mastering the ability to learn, unlearn and relearn continuously. Past expertise has value but relying only on it is dangerous. What matters is how quickly we adapt when that expertise no longer applies.</p>
 <p>Leaders have a responsibility here too. Staying curious themselves is only half the job. They also need to create environments where learning is not an afterthought but part of the daily rhythm. Teams that treat learning as a continuous process don't just keep up with change, they thrive on it.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Data Dispersion in Growing Organizations</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20251003_data_dispersion_in_growing_organizations.html</link>
     <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-22">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20251003_data_dispersion_in_growing_organizations.html</guid>
+    <description><![CDATA[<article id="article-22">
 <h2 class="article-title">Data Dispersion in Growing Organizations</h2>
 <div class="article-date">03/10/2025</div>
 <img loading="lazy" src="img/dispersion.jpg"/>
@@ -400,14 +418,15 @@
 <p>Addressing data dispersion requires deliberate action. Organizations must define governance frameworks with clear ownership, establish master data management practices to ensure a single source of truth, and connect silos through integration approaches such as data fabrics or meshes. Just as importantly, they should provide self-service capabilities with the right guardrails so that teams can move quickly without creating new fragmentation.</p>
 <p>Ultimately, data dispersion is not only a technical issue but also a governance, cultural, and strategic challenge.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Leadership lessons from The Sun Also Rises</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250929_leadership_lessons_from_the_sun_also_rises.html</link>
     <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-21">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250929_leadership_lessons_from_the_sun_also_rises.html</guid>
+    <description><![CDATA[<article id="article-21">
 <h2 class="article-title">Leadership lessons from The Sun Also Rises</h2>
 <div class="article-date">29/09/2025</div>
 <img loading="lazy" src="img/fiesta.jpg"/>
@@ -416,14 +435,15 @@
 <p>Hemingway reminds us that leadership is not always about titles or formal structures. It is about presence, about giving direction when others are adrift, and about managing the complex human dynamics that arise in any team. The absence of purpose in the so-called "lost generation" underlines the necessity of vision: without meaning, people drift apart.</p>
 <p>Perhaps most striking is the novel's use of bullfighting as metaphor. In the ring, courage, discipline, and dignity under pressure stand in stark contrast to the confusion of the expatriates. The message is clear: leadership is less about control and more about facing uncertainty with honesty, resilience, and grace.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Lean and AI</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250927_lean_and_ai.html</link>
     <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-20">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250927_lean_and_ai.html</guid>
+    <description><![CDATA[<article id="article-20">
 <h2 class="article-title">Lean and AI</h2>
 <div class="article-date">27/09/2025</div>
 <img loading="lazy" src="img/lean-in-ai.jpg"/>
@@ -433,14 +453,15 @@
 <p>This shift highlights a critical lesson: experimentation alone is not enough. Success comes from focusing on initiatives that generate real impact, learning rapidly from each iteration, and strategically applying AI where it can truly transform outcomes. It's a pragmatic approach that balances innovation with measurable value.</p>
 <p>Source: <a href="https://www.wsj.com/articles/johnson-johnson-pivots-its-ai-strategy-a9d0631f">Johnson &amp; Johnson Pivots Its AI Strategy</a></p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>AI Code Agents: Divide and Conquer</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250917_ai_code_agents_divide_and_conquer.html</link>
     <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-19">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250917_ai_code_agents_divide_and_conquer.html</guid>
+    <description><![CDATA[<article id="article-19">
 <h2 class="article-title">AI Code Agents: Divide and Conquer</h2>
 <div class="article-date">17/09/2025</div>
 <img loading="lazy" src="img/divide-and-conquer.jpg"/>
@@ -449,14 +470,15 @@
 <p>This mirrors established software development practices. Complex systems are not built in a single step but decomposed into smaller units of work, each with its own acceptance criteria. Code agents follow the same principle: they thrive on precision and iteration.</p>
 <p>The practical takeaway is to approach code agents the way you would structure a development backlog. Break down big ideas into discrete, testable tasks. The narrower the scope, the more effective and dependable the output.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Data Gravity</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250912_data_gravity.html</link>
     <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-18">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250912_data_gravity.html</guid>
+    <description><![CDATA[<article id="article-18">
 <h2 class="article-title">Data Gravity</h2>
 <div class="article-date">12/09/2025</div>
 <img loading="lazy" src="img/gravity.jpg"/>
@@ -466,14 +488,15 @@
 <p>In practice, data is no longer just a resource to be managed, it acts as the anchor point around which the rest of the technology landscape must orbit. Forward-looking organizations recognize this and design architectures that balance agility with the realities of immovable data, whether through distributed models, edge strategies, or careful governance frameworks.</p>
 <p>Understanding and planning for data gravity not only helps avoid technical bottlenecks, but also positions companies to turn data into a competitive advantage.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Are you sure that "pattern" you see is real?</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250910_are_you_sure_that_pattern_you_see_is_real.html</link>
     <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-17">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250910_are_you_sure_that_pattern_you_see_is_real.html</guid>
+    <description><![CDATA[<article id="article-17">
 <h2 class="article-title">Are you sure that "pattern" you see is real?</h2>
 <div class="article-date">10/09/2025</div>
 <img loading="lazy" src="img/apophonia.jpg"/>
@@ -486,14 +509,15 @@
 <p>Poor decisions often arise when random data is mistaken for meaningful patterns, such as reading financial market noise as predictable cycles, treating spurious correlations as actionable insights, or assuming isolated events reveal systemic truths.</p>
 <p>Pattern recognition is powerful, but only when we challenge it with discipline and skepticism.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>From APIs to Agent-to-Agent (A2A)</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250902_from_apis_to_agent-to-agent_a2a.html</link>
     <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-16">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250902_from_apis_to_agent-to-agent_a2a.html</guid>
+    <description><![CDATA[<article id="article-16">
 <h2 class="article-title">From APIs to Agent-to-Agent (A2A)</h2>
 <div class="article-date">02/09/2025</div>
 <img loading="lazy" src="img/a2a.jpg"/>
@@ -503,14 +527,15 @@
 <p>Rather than replacing APIs, A2A builds on them, pointing toward a future where financial systems interact dynamically, adapting continuously to context, cost and regulation.</p>
 <p>As the concept evolves, its practical applications will likely define the next stage of automation in financial services.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>AI Vanity Metrics</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250825_ai_vanity_metrics.html</link>
     <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-15">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250825_ai_vanity_metrics.html</guid>
+    <description><![CDATA[<article id="article-15">
 <h2 class="article-title">AI Vanity Metrics</h2>
 <div class="article-date">25/08/2025</div>
 <img loading="lazy" src="img/ai-vanity.jpg"/>
@@ -523,14 +548,15 @@
 <p>AI can significantly augment development, but only if companies measure meaningful outcomes. Leaders should ask whether AI improves reliability, reduces time-to-market, addresses customer needs and expectations and genuinely boosts developer productivity.</p>
 <p>Shifting from vanity metrics to actionable metrics is essential. Only then can AI move from hype to genuine impact.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Small Batches</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250802_small_batches.html</link>
     <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-14">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250802_small_batches.html</guid>
+    <description><![CDATA[<article id="article-14">
 <h2 class="article-title">Small Batches</h2>
 <div class="article-date">02/08/2025</div>
 <img loading="lazy" src="img/small-batches.jpg"/>
@@ -546,14 +572,15 @@
 <p>By contrast, big batch approaches delay learning, compound complexity, and increase the likelihood of failure.</p>
 <p>Whether you're writing code, managing infrastructure, or launching new products, adopting a small batch mindset can lead to better outcomes across the board.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Why a Great Tech Lead Doesn't Have All the Answers</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250731_why_a_great_tech_lead_doesnt_have_all_the_answers.html</link>
     <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-13">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250731_why_a_great_tech_lead_doesnt_have_all_the_answers.html</guid>
+    <description><![CDATA[<article id="article-13">
 <h2 class="article-title">Why a Great Tech Lead Doesn't Have All the Answers</h2>
 <div class="article-date">31/07/2025</div>
 <img loading="lazy" src="img/knowledge.jpg"/>
@@ -562,14 +589,15 @@
 <p>It also prevents burnout. Carrying the weight of every decision is unsustainable and pulls a lead away from strategic thinking. Sharing responsibility and trusting the team builds a more resilient, innovative culture.</p>
 <p>Ultimately, a great tech lead isn't the one who knows everything. It's the one who listens, guides, and creates space for others to thrive. Leadership isn't about having all the answers, it's about helping the team find them together.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>The Backlog Is Not a Dumping Ground</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250727_the_backlog_is_not_a_dumping_ground.html</link>
     <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-12">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250727_the_backlog_is_not_a_dumping_ground.html</guid>
+    <description><![CDATA[<article id="article-12">
 <h2 class="article-title">The Backlog Is Not a Dumping Ground</h2>
 <div class="article-date">27/07/2025</div>
 <img loading="lazy" src="img/backlog.jpg"/>
@@ -580,14 +608,15 @@
 <p>Backlog grooming should be a regular and collaborative process, not a solo admin task. It's where clarity is created and  bad ideas die, so that the good ones can move forward.</p>
 <p>If your team starts treating the backlog as a tool for focus, not storage, everything changes. Planning gets easier, prioritization becomes clearer and Agile starts to feel like it should.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Agile And Mini Waterfalls</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250724_agile_and_mini_waterfalls.html</link>
     <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-11">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250724_agile_and_mini_waterfalls.html</guid>
+    <description><![CDATA[<article id="article-11">
 <h2 class="article-title">Agile And Mini Waterfalls</h2>
 <div class="article-date">24/07/2025</div>
 <img loading="lazy" src="img/mini-waterfalls.jpg"/>
@@ -596,14 +625,15 @@
 <p>Agile isn't about speed. It's about learning fast, adapting often, and delivering what matters.</p>
 <p>If your team can't clearly explain why they're building something, or if change feels like a disruption instead of an opportunity, you're not being Agile, that's just process without purpose.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Five Whys</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250723_five_whys.html</link>
     <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-10">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250723_five_whys.html</guid>
+    <description><![CDATA[<article id="article-10">
 <h2 class="article-title">Five Whys</h2>
 <div class="article-date">23/07/2025</div>
 <img loading="lazy" src="img/why.jpg"/>
@@ -625,26 +655,28 @@
                 tools, but on its own, it's a great way to get past quick fixes and understand what really needs to
                 change.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Backup</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250722_backup.html</link>
     <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-9">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250722_backup.html</guid>
+    <description><![CDATA[<article id="article-9">
 <h2 class="article-title">Backup</h2>
 <div class="article-date">22/07/2025</div>
 <p>"A backup isn't a backup unless you've tested it."</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Startup Productivity</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250719_startup_productivity.html</link>
     <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-8">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250719_startup_productivity.html</guid>
+    <description><![CDATA[<article id="article-8">
 <h2 class="article-title">Startup Productivity</h2>
 <div class="article-date">19/07/2025</div>
 <img loading="lazy" src="img/startup-productivity.jpg"/>
@@ -664,14 +696,15 @@
 <p>- Is it aligned with what's actually driving traction?</p>
 <p>If the answer is no, it might be productive activity, but not productive progress.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Delegation and the Eisenhower Matrix</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250715_delegation_and_the_eisenhower_matrix.html</link>
     <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-7">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250715_delegation_and_the_eisenhower_matrix.html</guid>
+    <description><![CDATA[<article id="article-7">
 <h2 class="article-title">Delegation and the Eisenhower Matrix</h2>
 <div class="article-date">15/07/2025</div>
 <img loading="lazy" src="img/eisenhower.png"/>
@@ -694,14 +727,15 @@
                 expectations, outcomes, and authority. It also requires letting go of perfectionism and trusting others
                 to deliver, sometimes differently, but often just as well, or even better.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>The 4 Types of Organizational Culture</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250707_the_4_types_of_organizational_culture.html</link>
     <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-6">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250707_the_4_types_of_organizational_culture.html</guid>
+    <description><![CDATA[<article id="article-6">
 <h2 class="article-title">The 4 Types of Organizational Culture</h2>
 <div class="article-date">07/07/2025</div>
 <img loading="lazy" src="img/culture.jpg"/>
@@ -771,14 +805,15 @@
                 quadrant. A fast-growing startup may begin as a clan but gradually adopt market-driven traits. A
                 hospital may primarily function as a hierarchy but foster a clan dynamic within care teams.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Communication breakdown</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250702_communication_breakdown.html</link>
     <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-5">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250702_communication_breakdown.html</guid>
+    <description><![CDATA[<article id="article-5">
 <h2 class="article-title">Communication breakdown</h2>
 <div class="article-date">02/07/2025</div>
 <img loading="lazy" src="img/communication.jpg"/>
@@ -813,14 +848,15 @@
             </p>
 <p>Communication is infrastructure.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Observability vs Monitoring</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250626_observability_vs_monitoring.html</link>
     <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-4">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250626_observability_vs_monitoring.html</guid>
+    <description><![CDATA[<article id="article-4">
 <h2 class="article-title">Observability vs Monitoring</h2>
 <div class="article-date">26/06/2025</div>
 <img loading="lazy" src="img/observability.webp"/>
@@ -852,14 +888,15 @@
                 It's about helping your team ask better questions, spot issues early, and stay aligned with what really
                 matters - both technically and to the business.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Technical Debt</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250623_technical_debt.html</link>
     <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-3">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250623_technical_debt.html</guid>
+    <description><![CDATA[<article id="article-3">
 <h2 class="article-title">Technical Debt</h2>
 <div class="article-date">23/6/2025</div>
 <img loading="lazy" src="img/technical-debt.png"/>
@@ -901,14 +938,15 @@
 <p>Technical debt isn't just a tech issue. It's a business issue. Managing it well is a competitive
                 advantage.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Lessons from Working with LLMs</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250220_lessons_from_working_with_llms.html</link>
     <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-2">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250220_lessons_from_working_with_llms.html</guid>
+    <description><![CDATA[<article id="article-2">
 <h2 class="article-title">Lessons from Working with LLMs</h2>
 <div class="article-date">20/2/2025</div>
 <img loading="lazy" src="img/llm.webp"/>
@@ -926,14 +964,15 @@
                 was a great reminder that while LLMs are incredibly powerful, they are not a one-size-fits-all solution.
                 Choosing the right tool for the task is just as important as understanding the problem itself.</p>
 </article>
-</description>
+]]></description>
   </item>
   
   <item>
     <title>Conway's Law</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20250128_conways_law.html</link>
     <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
-    <description><article id="article-1">
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20250128_conways_law.html</guid>
+    <description><![CDATA[<article id="article-1">
 <h2 class="article-title">Conway's Law</h2>
 <div class="article-date">28/1/2025</div>
 <img loading="lazy" src="img/conways-law.jpg"/>
@@ -945,7 +984,7 @@
 <p>Team organization is an ongoing process that must evolve with the business. Revisiting and refining team
                 topologies is essential to maintaining alignment and achieving success.</p>
 </article>
-</description>
+]]></description>
   </item>
   
 </channel>
