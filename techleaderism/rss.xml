@@ -2,12 +2,12 @@
 <rss version="2.0">
 <channel>
   <title>Tech Leaderism</title>
-  <link>https://tiagosilva.com</link>
-  <description>A blog about leadership in tech</description>
+  <link>https://tiagosilva-pt.github.io/techleaderism/</link>
+  <description>A blog about tech, leadership and leadership in tech</description>
   
   <item>
     <title>Hero</title>
-    <link>https://tiagosilva.com/20260122_hero.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20260122_hero.html</link>
     <description><article id="article-43">
 <h2 class="article-title">Hero</h2>
 <div class="article-date">22/01/2026</div>
@@ -22,7 +22,7 @@
   
   <item>
     <title>Shadow AI</title>
-    <link>https://tiagosilva.com/20260113_shadow_ai.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20260113_shadow_ai.html</link>
     <description><article id="article-42">
 <h2 class="article-title">Shadow AI</h2>
 <div class="article-date">13/01/2026</div>
@@ -40,7 +40,7 @@
   
   <item>
     <title>Junior Devs and AI</title>
-    <link>https://tiagosilva.com/20260112_junior_devs_and_ai.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20260112_junior_devs_and_ai.html</link>
     <description><article id="article-41">
 <h2 class="article-title">Junior Devs and AI</h2>
 <div class="article-date">12/01/2026</div>
@@ -55,7 +55,7 @@
   
   <item>
     <title>AI and the Cognitive Load</title>
-    <link>https://tiagosilva.com/20260110_ai_and_the_cognitive_load.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20260110_ai_and_the_cognitive_load.html</link>
     <description><article id="article-40">
 <h2 class="article-title">AI and the Cognitive Load</h2>
 <div class="article-date">10/01/2026</div>
@@ -70,7 +70,7 @@
   
   <item>
     <title>Everything as Code</title>
-    <link>https://tiagosilva.com/20260103_everything_as_code.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20260103_everything_as_code.html</link>
     <description><article id="article-39">
 <h2 class="article-title">Everything as Code</h2>
 <div class="article-date">03/01/2026</div>
@@ -85,7 +85,7 @@
   
   <item>
     <title>Software Carbon Intensity (SCI)</title>
-    <link>https://tiagosilva.com/20260102_software_carbon_intensity_sci.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20260102_software_carbon_intensity_sci.html</link>
     <description><article id="article-38">
 <h2 class="article-title">Software Carbon Intensity (SCI)</h2>
 <div class="article-date">02/01/2026</div>
@@ -109,7 +109,7 @@
   
   <item>
     <title>Books in 2025</title>
-    <link>https://tiagosilva.com/20251230_books_in_2025.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251230_books_in_2025.html</link>
     <description><article id="article-37">
 <h2 class="article-title">Books in 2025</h2>
 <div class="article-date">30/12/2025</div>
@@ -126,7 +126,7 @@
   
   <item>
     <title>Carbon Aware Metrics in Software Development</title>
-    <link>https://tiagosilva.com/20251229_carbon_aware_metrics_in_software_development.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251229_carbon_aware_metrics_in_software_development.html</link>
     <description><article id="article-36">
 <h2 class="article-title">Carbon Aware Metrics in Software Development</h2>
 <div class="article-date">29/12/2025</div>
@@ -143,7 +143,7 @@
   
   <item>
     <title>Case study: How Zoom Scaled 30x in 90 Days</title>
-    <link>https://tiagosilva.com/20251222_case_study_how_zoom_scaled_30x_in_90_days.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251222_case_study_how_zoom_scaled_30x_in_90_days.html</link>
     <description><article id="article-35">
 <h2 class="article-title">Case study: How Zoom Scaled 30x in 90 Days</h2>
 <div class="article-date">22/12/2025</div>
@@ -162,7 +162,7 @@
   
   <item>
     <title>99, 99.9, 99.99 and 99.999% SLA</title>
-    <link>https://tiagosilva.com/20251202_99_999_9999_and_99999_sla.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251202_99_999_9999_and_99999_sla.html</link>
     <description><article id="article-34">
 <h2 class="article-title">99, 99.9, 99.99 and 99.999% SLA</h2>
 <div class="article-date">02/12/2025</div>
@@ -183,7 +183,7 @@
   
   <item>
     <title>Simplicity as a Goal</title>
-    <link>https://tiagosilva.com/20251126_simplicity_as_a_goal.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251126_simplicity_as_a_goal.html</link>
     <description><article id="article-33">
 <h2 class="article-title">Simplicity as a Goal</h2>
 <div class="article-date">26/11/2025</div>
@@ -200,7 +200,7 @@
   
   <item>
     <title>AI and Critical Infrastructure</title>
-    <link>https://tiagosilva.com/20251119_ai_and_critical_infrastructure.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251119_ai_and_critical_infrastructure.html</link>
     <description><article id="article-32">
 <h2 class="article-title">AI and Critical Infrastructure</h2>
 <div class="article-date">19/11/2025</div>
@@ -216,7 +216,7 @@
   
   <item>
     <title>Web Summit 2025 – AI beyond chatbots</title>
-    <link>https://tiagosilva.com/20251113_web_summit_2025__ai_beyond_chatbots.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251113_web_summit_2025__ai_beyond_chatbots.html</link>
     <description><article id="article-31">
 <h2 class="article-title">Web Summit 2025 – AI beyond chatbots</h2>
 <div class="article-date">13/11/2025</div>
@@ -234,7 +234,7 @@
   
   <item>
     <title>Pioneers are the first to get shot</title>
-    <link>https://tiagosilva.com/20251106_pioneers_are_the_first_to_get_shot.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251106_pioneers_are_the_first_to_get_shot.html</link>
     <description><article id="article-30">
 <h2 class="article-title">Pioneers are the first to get shot</h2>
 <div class="article-date">6/11/2025</div>
@@ -249,7 +249,7 @@
   
   <item>
     <title>Gartner Hype Cycle</title>
-    <link>https://tiagosilva.com/20251030_gartner_hype_cycle.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251030_gartner_hype_cycle.html</link>
     <description><article id="article-29">
 <h2 class="article-title">Gartner Hype Cycle</h2>
 <div class="article-date">30/10/2025</div>
@@ -270,7 +270,7 @@
   
   <item>
     <title>From Contributor to Builder</title>
-    <link>https://tiagosilva.com/20251025_from_contributor_to_builder.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251025_from_contributor_to_builder.html</link>
     <description><article id="article-28">
 <h2 class="article-title">From Contributor to Builder</h2>
 <div class="article-date">25/10/2025</div>
@@ -285,7 +285,7 @@
   
   <item>
     <title>When the Cloud Fails</title>
-    <link>https://tiagosilva.com/20251020_when_the_cloud_fails.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251020_when_the_cloud_fails.html</link>
     <description><article id="article-27">
 <h2 class="article-title">When the Cloud Fails</h2>
 <div class="article-date">20/10/2025</div>
@@ -300,7 +300,7 @@
   
   <item>
     <title>Enshitification</title>
-    <link>https://tiagosilva.com/20251016_enshitification.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251016_enshitification.html</link>
     <description><article id="article-26">
 <h2 class="article-title">Enshitification</h2>
 <div class="article-date">16/10/2025</div>
@@ -316,7 +316,7 @@
   
   <item>
     <title>The Cost of Always-On Leadership</title>
-    <link>https://tiagosilva.com/20251011_the_cost_of_always-on_leadership.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251011_the_cost_of_always-on_leadership.html</link>
     <description><article id="article-25">
 <h2 class="article-title">The Cost of Always-On Leadership</h2>
 <div class="article-date">11/10/2025</div>
@@ -331,7 +331,7 @@
   
   <item>
     <title>From Data Collection to Data Understanding</title>
-    <link>https://tiagosilva.com/20251008_from_data_collection_to_data_understanding.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251008_from_data_collection_to_data_understanding.html</link>
     <description><article id="article-24">
 <h2 class="article-title">From Data Collection to Data Understanding</h2>
 <div class="article-date">08/10/2025</div>
@@ -347,7 +347,7 @@
   
   <item>
     <title>The Half-Life of Technical Skills</title>
-    <link>https://tiagosilva.com/20251004_the_half-life_of_technical_skills.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251004_the_half-life_of_technical_skills.html</link>
     <description><article id="article-23">
 <h2 class="article-title">The Half-Life of Technical Skills</h2>
 <div class="article-date">04/10/2025</div>
@@ -362,7 +362,7 @@
   
   <item>
     <title>Data Dispersion in Growing Organizations</title>
-    <link>https://tiagosilva.com/20251003_data_dispersion_in_growing_organizations.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20251003_data_dispersion_in_growing_organizations.html</link>
     <description><article id="article-22">
 <h2 class="article-title">Data Dispersion in Growing Organizations</h2>
 <div class="article-date">03/10/2025</div>
@@ -378,7 +378,7 @@
   
   <item>
     <title>Leadership lessons from The Sun Also Rises</title>
-    <link>https://tiagosilva.com/20250929_leadership_lessons_from_the_sun_also_rises.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250929_leadership_lessons_from_the_sun_also_rises.html</link>
     <description><article id="article-21">
 <h2 class="article-title">Leadership lessons from The Sun Also Rises</h2>
 <div class="article-date">29/09/2025</div>
@@ -393,7 +393,7 @@
   
   <item>
     <title>Lean and AI</title>
-    <link>https://tiagosilva.com/20250927_lean_and_ai.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250927_lean_and_ai.html</link>
     <description><article id="article-20">
 <h2 class="article-title">Lean and AI</h2>
 <div class="article-date">27/09/2025</div>
@@ -409,7 +409,7 @@
   
   <item>
     <title>AI Code Agents: Divide and Conquer</title>
-    <link>https://tiagosilva.com/20250917_ai_code_agents_divide_and_conquer.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250917_ai_code_agents_divide_and_conquer.html</link>
     <description><article id="article-19">
 <h2 class="article-title">AI Code Agents: Divide and Conquer</h2>
 <div class="article-date">17/09/2025</div>
@@ -424,7 +424,7 @@
   
   <item>
     <title>Data Gravity</title>
-    <link>https://tiagosilva.com/20250912_data_gravity.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250912_data_gravity.html</link>
     <description><article id="article-18">
 <h2 class="article-title">Data Gravity</h2>
 <div class="article-date">12/09/2025</div>
@@ -440,7 +440,7 @@
   
   <item>
     <title>Are you sure that "pattern" you see is real?</title>
-    <link>https://tiagosilva.com/20250910_are_you_sure_that_pattern_you_see_is_real.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250910_are_you_sure_that_pattern_you_see_is_real.html</link>
     <description><article id="article-17">
 <h2 class="article-title">Are you sure that "pattern" you see is real?</h2>
 <div class="article-date">10/09/2025</div>
@@ -459,7 +459,7 @@
   
   <item>
     <title>From APIs to Agent-to-Agent (A2A)</title>
-    <link>https://tiagosilva.com/20250902_from_apis_to_agent-to-agent_a2a.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250902_from_apis_to_agent-to-agent_a2a.html</link>
     <description><article id="article-16">
 <h2 class="article-title">From APIs to Agent-to-Agent (A2A)</h2>
 <div class="article-date">02/09/2025</div>
@@ -475,7 +475,7 @@
   
   <item>
     <title>AI Vanity Metrics</title>
-    <link>https://tiagosilva.com/20250825_ai_vanity_metrics.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250825_ai_vanity_metrics.html</link>
     <description><article id="article-15">
 <h2 class="article-title">AI Vanity Metrics</h2>
 <div class="article-date">25/08/2025</div>
@@ -494,7 +494,7 @@
   
   <item>
     <title>Small Batches</title>
-    <link>https://tiagosilva.com/20250802_small_batches.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250802_small_batches.html</link>
     <description><article id="article-14">
 <h2 class="article-title">Small Batches</h2>
 <div class="article-date">02/08/2025</div>
@@ -516,7 +516,7 @@
   
   <item>
     <title>Why a Great Tech Lead Doesn't Have All the Answers</title>
-    <link>https://tiagosilva.com/20250731_why_a_great_tech_lead_doesnt_have_all_the_answers.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250731_why_a_great_tech_lead_doesnt_have_all_the_answers.html</link>
     <description><article id="article-13">
 <h2 class="article-title">Why a Great Tech Lead Doesn't Have All the Answers</h2>
 <div class="article-date">31/07/2025</div>
@@ -531,7 +531,7 @@
   
   <item>
     <title>The Backlog Is Not a Dumping Ground</title>
-    <link>https://tiagosilva.com/20250727_the_backlog_is_not_a_dumping_ground.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250727_the_backlog_is_not_a_dumping_ground.html</link>
     <description><article id="article-12">
 <h2 class="article-title">The Backlog Is Not a Dumping Ground</h2>
 <div class="article-date">27/07/2025</div>
@@ -548,7 +548,7 @@
   
   <item>
     <title>Agile And Mini Waterfalls</title>
-    <link>https://tiagosilva.com/20250724_agile_and_mini_waterfalls.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250724_agile_and_mini_waterfalls.html</link>
     <description><article id="article-11">
 <h2 class="article-title">Agile And Mini Waterfalls</h2>
 <div class="article-date">24/07/2025</div>
@@ -563,7 +563,7 @@
   
   <item>
     <title>Five Whys</title>
-    <link>https://tiagosilva.com/20250723_five_whys.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250723_five_whys.html</link>
     <description><article id="article-10">
 <h2 class="article-title">Five Whys</h2>
 <div class="article-date">23/07/2025</div>
@@ -591,7 +591,7 @@
   
   <item>
     <title>Backup</title>
-    <link>https://tiagosilva.com/20250722_backup.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250722_backup.html</link>
     <description><article id="article-9">
 <h2 class="article-title">Backup</h2>
 <div class="article-date">22/07/2025</div>
@@ -602,7 +602,7 @@
   
   <item>
     <title>Startup Productivity</title>
-    <link>https://tiagosilva.com/20250719_startup_productivity.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250719_startup_productivity.html</link>
     <description><article id="article-8">
 <h2 class="article-title">Startup Productivity</h2>
 <div class="article-date">19/07/2025</div>
@@ -628,7 +628,7 @@
   
   <item>
     <title>Delegation and the Eisenhower Matrix</title>
-    <link>https://tiagosilva.com/20250715_delegation_and_the_eisenhower_matrix.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250715_delegation_and_the_eisenhower_matrix.html</link>
     <description><article id="article-7">
 <h2 class="article-title">Delegation and the Eisenhower Matrix</h2>
 <div class="article-date">15/07/2025</div>
@@ -657,7 +657,7 @@
   
   <item>
     <title>The 4 Types of Organizational Culture</title>
-    <link>https://tiagosilva.com/20250707_the_4_types_of_organizational_culture.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250707_the_4_types_of_organizational_culture.html</link>
     <description><article id="article-6">
 <h2 class="article-title">The 4 Types of Organizational Culture</h2>
 <div class="article-date">07/07/2025</div>
@@ -733,7 +733,7 @@
   
   <item>
     <title>Communication breakdown</title>
-    <link>https://tiagosilva.com/20250702_communication_breakdown.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250702_communication_breakdown.html</link>
     <description><article id="article-5">
 <h2 class="article-title">Communication breakdown</h2>
 <div class="article-date">02/07/2025</div>
@@ -774,7 +774,7 @@
   
   <item>
     <title>Observability vs Monitoring</title>
-    <link>https://tiagosilva.com/20250626_observability_vs_monitoring.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250626_observability_vs_monitoring.html</link>
     <description><article id="article-4">
 <h2 class="article-title">Observability vs Monitoring</h2>
 <div class="article-date">26/06/2025</div>
@@ -812,7 +812,7 @@
   
   <item>
     <title>Technical Debt</title>
-    <link>https://tiagosilva.com/20250623_technical_debt.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250623_technical_debt.html</link>
     <description><article id="article-3">
 <h2 class="article-title">Technical Debt</h2>
 <div class="article-date">23/6/2025</div>
@@ -860,7 +860,7 @@
   
   <item>
     <title>Lessons from Working with LLMs</title>
-    <link>https://tiagosilva.com/20250220_lessons_from_working_with_llms.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250220_lessons_from_working_with_llms.html</link>
     <description><article id="article-2">
 <h2 class="article-title">Lessons from Working with LLMs</h2>
 <div class="article-date">20/2/2025</div>
@@ -884,7 +884,7 @@
   
   <item>
     <title>Conway's Law</title>
-    <link>https://tiagosilva.com/20250128_conways_law.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism//20250128_conways_law.html</link>
     <description><article id="article-1">
 <h2 class="article-title">Conway's Law</h2>
 <div class="article-date">28/1/2025</div>
