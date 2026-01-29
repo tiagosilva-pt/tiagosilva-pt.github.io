@@ -7,6 +7,34 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Phantom Obligation</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260129_phantom_obligation.html</link>
+    <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260129_phantom_obligation.html</guid>
+    <description><![CDATA[<article id="article-44">
+<h2 class="article-title">Phantom Obligation</h2>
+<div class="article-date">29/01/2026</div>
+<img loading="lazy" src="img/phantom_obligation.jpg"/>
+<p>I recently discovered the concept of "Phantom Obligation" from Terry Godier. It is the guilt one feels for an uncompleted task or unconsumed content that no one actually asked to do.</p>
+<p>The story starts in 2002 when Brent Simmons, the creator of the RSS reader NetNewsWire, made a pragmatic decision to model his application after email clients. It lowered the learning curve and defined a generation of software, but it also introduced a psychological trap: unread email represents "Social Debt”. An unread message means a human being is actually waiting for a response.</p>
+<p>By copying that visual language (unread counts, red dots, bold text), social urgency was applied to passive consumption, building an environment that creates visceral anxiety for things that carry no actual consequence.</p>
+<p>As IT professionals, we see this manifest constantly in the "Zombie Backlog”, a project with 500 unaddressed tickets that is a monument to Phantom Obligation. It signals to the engineering team that they are perpetually behind, failing to clear a deck that no one is actually watching.</p>
+<p>Godier suggests we trade the Inbox for metaphors that don't enforce debt:</p>
+<p>- The River: Content flows past, and missing things is the premise.</p>
+<p>- The Campfire: Active only when you’re present.</p>
+<p>- The Window: For simple observation.</p>
+<p>- The Library: Where the backlog waits patiently, without judgment.</p>
+<p>We have to ask ourselves: "is anyone actually waiting?". If the answer is no, the obligation is a UI artifact.</p>
+<p>More on Godier's Phantom Obligation <a href="https://www.terrygodier.com/phantom-obligation">here</a>.</p>
+</article>
+
+<hr />
+
+<p></article></p>
+]]></description>
+  </item>
+  
+  <item>
     <title>Hero</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260122_hero.html</link>
     <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
