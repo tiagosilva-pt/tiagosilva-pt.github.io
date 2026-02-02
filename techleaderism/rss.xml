@@ -7,10 +7,32 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Attention and Intention</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260202_attention_vs_intention.html</link>
+    <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260202_attention_vs_intention.html</guid>
+    <description><![CDATA[<article id="article-45">
+<h2 class="article-title">Attention and Intention</h2>
+<div class="article-date">02/02/2026</div>
+<img loading="lazy" src="img/intention.jpg"/>
+<p>The IT industry is currently navigating a fundamental transition between two opposed structural models: the Attention Economy and the Intention Economy. While the former has dominated the last decade of software development, the latter represents a return to pragmatic engineering.</p>
+<p>The Attention Economy, a term popularized by economist and Nobel laureate Herbert Simon, is based on the idea that a wealth of information creates a poverty of attention. In this framework, software is designed to capture and monetize human focus as it treats attention as a finite resource to be mined, often resulting in product features that prioritize session length over actual utility. This model views the user as the product.</p>
+<p>Conversely, the Intention Economy, a concept championed by the journalist Doc Searls, shifts the power back to the user. Intention is defined as the explicit, goal-oriented purpose a user brings to a platform. Software in this economy functions as a precision instrument and its success is measured by how effectively it facilitates a user’s specific objective.</p>
+<p>A system designed for the Attention Economy often suffers from "feature creep" and unnecessary complexity, as every additional minute spent in the UI is viewed as a victory. A system designed for the Intention Economy, however, prioritizes simplicity and speed and it aligns with the Stoic discipline of eliminating the non-essential to focus on what truly matters: the execution of the user's intent.</p>
+<p>LLMs and AI agents represent the technical fulfillment of the Intention Economy. Traditional software often forced a compromise: a user’s intent was expressed through a search bar, but the path to fulfillment was intentionally obscured by multiple layers designed to capture attention. LLMs break this cycle by shifting from a keyword-matching logic to a semantic understanding of purpose. Because these models can parse natural language and maintain context, they allow the user to delegate complex, goal-oriented tasks without navigating the distractions of a traditional UI.</p>
+</article>
+
+<hr />
+
+<p></article></p>
+]]></description>
+  </item>
+  
+  <item>
     <title>Phantom Obligation</title>
-    <link>https://tiagosilva-pt.github.io/techleaderism/20260129_phantom_obligation.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260129_phantom_obligation copy.html</link>
     <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260129_phantom_obligation.html</guid>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260129_phantom_obligation copy.html</guid>
     <description><![CDATA[<article id="article-44">
 <h2 class="article-title">Phantom Obligation</h2>
 <div class="article-date">29/01/2026</div>
