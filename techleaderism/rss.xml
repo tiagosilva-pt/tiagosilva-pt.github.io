@@ -7,6 +7,32 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Software for One</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260210_software_for_one.html</link>
+    <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260210_software_for_one.html</guid>
+    <description><![CDATA[<article id="article-46">
+<h2 class="article-title">Software for One</h2>
+<div class="article-date">10/02/2026</div>
+<img loading="lazy" src="img/software_for_one.jpg"/>
+<p>The shift toward AI-assisted software development is fundamentally altering the unit of value in software engineering, moving us from generalized platforms into a paradigm of hyper-contextual single-user applications.</p>
+
+<p>We are seeing the rise of Disposable Software. When the cost of code generation approaches zero, the economic incentive to build for longevity or broad market appeal diminishes, instead, we see high-utility tools designed to solve a specific problem for an audience of one, intended to be decommissioned once the objective is met.</p>
+
+<p>Today, engineers and non-engineers are bypassing the traditional software development cycles to create Personal Monoliths. These tools are built for an individual’s specific cognitive load rather than a standardized persona, lacking the "Settings" menus or CSS frameworks required for public-facing products, they exist purely for immediate decision-support or process automation.</p>
+
+<p>The strategic value of a Disposable App lies in its precision. In a professional context, these tools often replace the manual sampling or spreadsheet sprawl that fills the gaps between enterprise systems. By designing for obsolescence, organizations can bypass the Agile flow of backlogs and sprint planning for minor utility tools.</p>
+
+<p>Some examples of disposable apps in industry include temporary data visualizers or one-time migration scripts and at a personal level personal, financial tools or highly specific health tracking dashboards are common cases.</p>
+
+<p>For leadership, the pragmatic approach is to shift focus from code maintenance to data and specification durability. If the code is disposable, the only assets that must remain stable are the underlying data formats and the logical prompts used to generate the tool. The era of building for the millionth user remains for infrastructure, but for utility, the most efficient target is now the individual.</p>
+</article>
+
+<hr />
+]]></description>
+  </item>
+  
+  <item>
     <title>Attention and Intention</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260202_attention_vs_intention.html</link>
     <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
@@ -49,8 +75,6 @@
 </article>
 
 <hr />
-
-<p></article></p>
 ]]></description>
   </item>
   
