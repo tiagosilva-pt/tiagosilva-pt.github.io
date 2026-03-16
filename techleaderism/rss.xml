@@ -7,10 +7,30 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Digital Twins</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260316_digital_twins.html</link>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260316_digital_twins.html</guid>
+    <description><![CDATA[<article id="article-47">
+<h2 class="article-title">Digital Twins</h2>
+<div class="article-date">16/03/2026</div>
+<img loading="lazy" src="img/digital_twin.jpg"/>
+<p>Digital twins are practical tools for managing complex systems. At their core, these virtual models are fueled by real-time data. Instead of analyzing static charts of past performance, a digital twin allows for "what-if" scenarios, this shifts operations from reactive firefighting to proactive engineering. System behavior is observed in the simulation before any changes are pushed to the physical environment.</p>
+<p>In buildings, a digital twin uses sensors to track airflow, occupancy, and power use. To understand how an HVAC system handles a heatwave, there is no need to wait for a 40°C day, instead a stress test is run in the model by increasing the "virtual" temperature to identify which floors lose cooling first. This allows for equipment upgrades before a real failure occurs.</p>
+<p>In biology, digital twins model the human heart or specific organs. A surgeon can use patient scans to create a virtual heart that mimics the exact rhythm of the real one. Before the actual procedure, a stress test is performed by simulating different heart rates or medication doses. Observing how the "digital" heart reacts reduces the risk of complications during the actual operation.</p>
+<p>For software architecture, a digital twin acts as a high-fidelity sandbox. Database failures or network spikes for instance, are simulated in the twin to see the "blast radius" without risking a production outage. This allows SRE teams to test recovery protocols in a realistic environment. The process reduces cognitive load because the failure and recovery sequences have already been verified in simulation and decisions are based on proven scripts rather than guesswork.</p>
+<p>The key is to avoid over-complicating the model. A digital twin does not need to be a perfect 1:1 replica of every single component, it only needs to track the metrics that drive business impact: uptime, latency, and power consumption. By focusing on these core variables, the tool provides clear, actionable insights and the confidence to scale operations by identifying the exact breaking point of a system.</p>
+</article>
+
+<hr />
+]]></description>
+  </item>
+  
+  <item>
     <title>Software for One - Part II</title>
-    <link>https://tiagosilva-pt.github.io/techleaderism/20260303_software_for_one_part_two.html</link>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260303_software_for_one_part_two copy.html</link>
     <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260303_software_for_one_part_two.html</guid>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260303_software_for_one_part_two copy.html</guid>
     <description><![CDATA[<article id="article-46">
 <h2 class="article-title">Software for One - Part II</h2>
 <div class="article-date">03/03/2026</div>
