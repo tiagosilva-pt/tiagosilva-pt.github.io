@@ -7,6 +7,25 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Digital Twins: When Models Drift from Reality</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260420_digital_twins_drift.html</link>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260420_digital_twins_drift.html</guid>
+    <description><![CDATA[<article id="article-48">
+<h2 class="article-title">Digital Twins: When Models Drift from Reality</h2>
+<div class="article-date">20/04/2026</div>
+<img loading="lazy" src="img/digital_twin_liability"/>
+<p>The effectiveness of a Digital Twin is fundamentally linked to the quality and synchronicity of the data it consumes. While these virtual models are designed to shift engineering from reactive firefighting to proactive strategy, they introduce a unique risk: the illusion of certainty. A Digital Twin serves as a living reflection of a physical or digital system, yet the moment the data feeding this mirror becomes obsoloete or incomplete, the model ceases to be a strategic asset.</p>
+<p>This divergence is known as data drift, which creates a state of dangerous confidence where engineers may successfully run a stress test against a model, unaware that they are testing a ghost of the actual system rather than its current reality. The resulting failure in production is not a failure of the simulation itself, but a failure to maintain the fidelity between the twin and the parent.</p>
+<p>To mitigate this, a shift toward observability over static input is required. A reliable model must be fueled by telemetry that automatically reflects architectural changes as they happen. Furthermore, the temporal relevance of the data is critical. If a simulation operates on historical snapshots rather than real-time data loops, it transitions from a predictive tool to a retrospective analysis. This gap represents Simulation Debt, the accumulated cost of every minor discrepancy between the virtual and the real.</p>
+<p>For those guiding technical strategy, the priority lies in auditing the fidelity of these models. Decisions are only as robust as the data informing them, and a model that is not regularly verified against production behavior eventually becomes a liability.</p>
+</article>
+
+<hr />
+]]></description>
+  </item>
+  
+  <item>
     <title>Digital Twins</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260316_digital_twins.html</link>
     <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
