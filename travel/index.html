@@ -1,175 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <header>
-        <title>Le Travel Bug</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="img/logo.png">
-    </header>
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Travel Bug</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header style="background-image: url('img/hero.jpg'); background-size: cover; background-position: center;">
         <div class="header-container" onclick="location.href='index.html';" style="cursor: pointer;">
             <img src="img/logo.png" alt="Logo" class="header-logo">
             <h1 class="header-title">Le Travel Bug</h1>
         </div>
         <div class="header-container">
-            <h5 class="mt-5 ff-monospace">Pack light. Travel far. Live long.</h5>
+            <h5 class="mt-5 ff-monospace motto">Pack light. Travel far. Live long.</h5>
         </div>
-    
-                <div class="index-photo-container mt-10">
-                    <div class="index-photo-element ta-c" onclick="location.href='032026_sri_lanka_maldives.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2026/sri_lanka_maldives/1.jpg"/>
-                        <h3 class="mb-5"> Sri Lanka and Maldives </h3>
-                        <h6 class="mt-5"> March 2026 </h6>   
+    </header>
+
+    <main id="articles">
+        <!-- Latest 3 Trips Grid -->
+        <div class="hero-grid">
+            
+            <div class="hero-main">
+                <a href="20260301_sri_lanka_maldives.html" class="hero-card">
+                    <img src="img/2026/sri_lanka_maldives/1.jpg" alt="Sri Lanka and Maldives - March 2026">
+                    <div class="hero-text">
+                        
+                        <strong>Sri Lanka and Maldives</strong>
+                        <span>March 2026</span>
                     </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='022026_bordeaux.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2026/bordeaux/1.jpg"/>
-                        <h3 class="mb-5"> Bordeaux </h3>
-                        <h6 class="mt-5"> February 2026 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122025_barcelona_vic_girona.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/barcelona_vic_girona/1.jpg"/>
-                        <h3 class="mb-5"> Barcelona, Vic & Girona </h3>
-                        <h6 class="mt-5"> December 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122025_tallin_riga.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/baltics/1.JPG"/>
-                        <h3 class="mb-5"> Tallin & Riga Christmas Markets </h3>
-                        <h6 class="mt-5"> December 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='082025_macedonia.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/macedonia/1.JPG"/>
-                        <h3 class="mb-5"> Skopje, North Macedonia </h3>
-                        <h6 class="mt-5"> August 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='082025_bulgaria.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/bulgaria/1.JPG"/>
-                        <h3 class="mb-5"> Bulgaria </h3>
-                        <h6 class="mt-5"> August 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='062025_italy.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/italy/1.JPG"/>
-                        <h3 class="mb-5"> Sicily, Italy </h3>
-                        <h6 class="mt-5"> June 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042025_argentina.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/argentina/1.jpg"/>
-                        <h3 class="mb-5"> Argentina </h3>
-                        <h6 class="mt-5"> April 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042025_uruguay.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/uruguay/1.jpg"/>
-                        <h3 class="mb-5"> Uruguay </h3>
-                        <h6 class="mt-5"> April 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042025_brazil.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/brazil/1.jpg"/>
-                        <h3 class="mb-5"> Rio de Janeiro </h3>
-                        <h6 class="mt-5"> April 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='022025_poland.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/poland/1.JPG"/>
-                        <h3 class="mb-5"> Poland </h3>
-                        <h6 class="mt-5"> February 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='012025_london.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2025/london/6.JPG"/>
-                        <h3 class="mb-5"> London </h3>
-                        <h6 class="mt-5"> January 2025 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122024_barcelona.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2024/barcelona/1.jpg"/>
-                        <h3 class="mb-5"> Barcelona </h3>
-                        <h6 class="mt-5"> December 2024 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='082024_albania.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2024/albania/1.jpeg"/>
-                        <h3 class="mb-5"> Albania </h3>
-                        <h6 class="mt-5"> August 2024 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='052024_new_york.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2024/ny/1.jpeg"/>
-                        <h3 class="mb-5"> New York </h3>
-                        <h6 class="mt-5"> May 2024 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042024_romania.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2024/romania/1.jpeg"/>
-                        <h3 class="mb-5"> Romania </h3>
-                        <h6 class="mt-5"> April 2024 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='022024_luxembourg.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2024/luxembourg/2.JPG"/>
-                        <h3 class="mb-5"> Luxembourg </h3>
-                        <h6 class="mt-5"> February 2024 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122023_bilbao.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2023/bilbao/1.jpeg"/>
-                        <h3 class="mb-5"> Bilbao </h3>
-                        <h6 class="mt-5"> December 2023 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='082023_scotland.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2023/scotland/1.jpeg"/>
-                        <h3 class="mb-5"> Scotland </h3>
-                        <h6 class="mt-5"> August 2023 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='052023_cyprus.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2023/cyprus/2.jpeg"/>
-                        <h3 class="mb-5"> Cyprus </h3>
-                        <h6 class="mt-5"> May 2023 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042022_panama.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2022/panama/2.jpg"/>
-                        <h3 class="mb-5"> Panama </h3>
-                        <h6 class="mt-5"> April 2022 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122021_madrid.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2021/madrid/1.JPG"/>
-                        <h3 class="mb-5"> Madrid </h3>
-                        <h6 class="mt-5"> December 2021 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='082021_western_balkans.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2021/western_balkans/1.jpg"/>
-                        <h3 class="mb-5"> Croatia, Slovenia, Bosnia & Herzegovina and Montenegro </h3>
-                        <h6 class="mt-5"> August 2021 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='022020_paris.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2020/paris/1.JPG"/>
-                        <h3 class="mb-5"> Paris </h3>
-                        <h6 class="mt-5"> February 2020 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122019_sao_tome.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2019/sao_tome/7.JPG"/>
-                        <h3 class="mb-5"> São Tomé and Príncipe </h3>
-                        <h6 class="mt-5"> December 2019 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042019_peru.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2019/peru/1.JPG"/>
-                        <h3 class="mb-5"> Peru </h3>
-                        <h6 class="mt-5"> April 2019 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='042019_colombia.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2019/colombia/1.JPG"/>
-                        <h3 class="mb-5"> Colombia </h3>
-                        <h6 class="mt-5"> April 2019 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='122018_munich.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2018/munich/1.jpg"/>
-                        <h3 class="mb-5"> Munich </h3>
-                        <h6 class="mt-5"> December 2018 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='062018_greece.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2018/greece/1.jpg"/>
-                        <h3 class="mb-5"> Greece </h3>
-                        <h6 class="mt-5"> June 2018 </h6>   
-                    </div>
-                    <div class="index-photo-element ta-c" onclick="location.href='022018_vienna_bratislava.html';" style="cursor: pointer;">
-                        <img class="index-photo" src="img/2018/vienna/1.jpg"/>
-                        <h3 class="mb-5"> Vienna and Bratislava </h3>
-                        <h6 class="mt-5"> February 2018 </h6>   
-                    </div></div><div style="clear:both"></div>
-        <div>
-            <h5>Le Travel Bug - 2026</h5>
-            <h6>made with 💛 by <a href='map.html'>Lunka & Mata</a></h6>
-        <div>
-    </body>
+                </a>
+            </div>
+            
+            
+            <div class="hero-side">
+                
+                <div class="hero-sub">
+                    <a href="20260201_bordeaux.html" class="hero-card">
+                        <img src="img/2026/bordeaux/1.jpg" alt="Bordeaux - February 2026">
+                        <div class="hero-text">
+                            
+                            <strong>Bordeaux</strong>
+                            <span>February 2026</span>
+                        </div>
+                    </a>
+                </div>
+                
+                
+                
+                <div class="hero-sub">
+                    <a href="20251201_tallin_riga.html" class="hero-card">
+                        <img src="img/2025/baltics/1.JPG" alt="Tallin & Riga Christmas Markets - December 2025">
+                        <div class="hero-text">
+                            
+                            <strong>Tallin & Riga Christmas Markets</strong>
+                            <span>December 2025</span>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- More Trips -->
+        
+        <div class="recent-posts">
+            <h3>More trips</h3>
+            <ul>
+                
+                <li>
+                    <a href="20251201_barcelona_vic_girona.html">
+                        <img src="img/2025/barcelona_vic_girona/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Barcelona, Vic & Girona</strong>
+                        
+                        <br>December 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250801_macedonia.html">
+                        <img src="img/2025/macedonia/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Skopje, North Macedonia</strong>
+                        
+                        <br>August 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250801_bulgaria.html">
+                        <img src="img/2025/bulgaria/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Bulgaria</strong>
+                        
+                        <br>August 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250601_italy.html">
+                        <img src="img/2025/italy/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Sicily, Italy</strong>
+                        
+                        <br>June 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250401_brazil.html">
+                        <img src="img/2025/brazil/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Rio de Janeiro</strong>
+                        
+                        <br>April 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250401_argentina.html">
+                        <img src="img/2025/argentina/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Argentina</strong>
+                        
+                        <br>April 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250401_uruguay.html">
+                        <img src="img/2025/uruguay/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Uruguay</strong>
+                        
+                        <br>April 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250201_poland.html">
+                        <img src="img/2025/poland/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Poland</strong>
+                        
+                        <br>February 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20250101_london.html">
+                        <img src="img/2025/london/6.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>London</strong>
+                        
+                        <br>January 2025
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20241201_barcelona.html">
+                        <img src="img/2024/barcelona/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Barcelona</strong>
+                        
+                        <br>December 2024
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20240801_albania.html">
+                        <img src="img/2024/albania/1.jpeg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Albania</strong>
+                        
+                        <br>August 2024
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20240501_new_york.html">
+                        <img src="img/2024/ny/1.jpeg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>New York</strong>
+                        
+                        <br>May 2024
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20240401_romania.html">
+                        <img src="img/2024/romania/1.jpeg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Romania</strong>
+                        
+                        <br>April 2024
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20240201_luxembourg.html">
+                        <img src="img/2024/luxembourg/2.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Luxembourg</strong>
+                        
+                        <br>February 2024
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20231201_bilbao.html">
+                        <img src="img/2023/bilbao/1.jpeg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Bilbao</strong>
+                        
+                        <br>December 2023
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20230801_scotland.html">
+                        <img src="img/2023/scotland/1.jpeg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Scotland</strong>
+                        
+                        <br>August 2023
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20230501_cyprus.html">
+                        <img src="img/2023/cyprus/2.jpeg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Cyprus</strong>
+                        
+                        <br>May 2023
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20220401_panama.html">
+                        <img src="img/2022/panama/2.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Panama</strong>
+                        
+                        <br>April 2022
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20211201_madrid.html">
+                        <img src="img/2021/madrid/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Madrid</strong>
+                        
+                        <br>December 2021
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20210801_western_balkans.html">
+                        <img src="img/2021/western_balkans/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Croatia, Slovenia, Bosnia & Herzegovina and Montenegro</strong>
+                        
+                        <br>August 2021
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20200201_paris.html">
+                        <img src="img/2020/paris/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Paris</strong>
+                        
+                        <br>February 2020
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20191201_sao_tome.html">
+                        <img src="img/2019/sao_tome/7.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>São Tomé and Príncipe</strong>
+                        
+                        <br>December 2019
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20190401_peru.html">
+                        <img src="img/2019/peru/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Peru</strong>
+                        
+                        <br>April 2019
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20190401_colombia.html">
+                        <img src="img/2019/colombia/1.JPG" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Colombia</strong>
+                        
+                        <br>April 2019
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20181201_munich.html">
+                        <img src="img/2018/munich/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Munich</strong>
+                        
+                        <br>December 2018
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20180601_greece.html">
+                        <img src="img/2018/greece/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Greece</strong>
+                        
+                        <br>June 2018
+                        
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20180201_vienna_bratislava.html">
+                        <img src="img/2018/vienna/1.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        
+                        <strong>Vienna and Bratislava</strong>
+                        
+                        <br>February 2018
+                        
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>Le Travel Bug - 2026<br>
+        made with 💛 by <a href="map.html">Lunka & Mata</a></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
 </html>
-    
