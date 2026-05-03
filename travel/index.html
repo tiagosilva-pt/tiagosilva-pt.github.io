@@ -11,15 +11,27 @@
 
 <body>
 
-    <header style="background-image: url('img/hero.jpg'); background-size: cover; background-position: center;">
-        <div class="header-container" onclick="location.href='index.html';" style="cursor: pointer;">
-            <img src="img/logo.png" alt="Logo" class="header-logo">
-            <h1 class="header-title">Le Travel Bug</h1>
-        </div>
-        <div class="header-container">
-            <h5 class="mt-5 ff-monospace motto">Pack light. Travel far. Live long.</h5>
+
+    <header class="hero-header">
+
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="img/hero.mp4" type="video/mp4">
+            <img src="img/hero.jpg" alt="Background Fallback">
+        </video>
+
+        <div onclick="location.href='index.html';" class="hero-content">
+            <div class="hero-title-wrapper">
+                <img src="img/logo.png" alt="Logo" class="hero-logo">
+                <h1 class="hero-title">
+                    Le Travel Bug
+                </h1>
+            </div>
+            <h3 style="font-family: monospace; font-size: 1.5em;">
+                Pack light. Live long. Travel far.
+            </h3>
         </div>
     </header>
+
 
     <main id="articles">
         <!-- Latest 3 Trips Grid -->
