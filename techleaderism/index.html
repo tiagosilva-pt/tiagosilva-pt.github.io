@@ -19,14 +19,22 @@
 
     <main id="articles">
         <!-- Latest Post -->
-        <article id="article-48">
-<h2 class="article-title">Digital Twins: When Models Drift from Reality</h2>
-<div class="article-date">20/04/2026</div>
-<img loading="lazy" src="img/digital_twin_liability.jpg"/>
-<p>The effectiveness of a Digital Twin is fundamentally linked to the quality and synchronicity of the data it consumes. While these virtual models are designed to shift engineering from reactive firefighting to proactive strategy, they introduce a unique risk: the illusion of certainty. A Digital Twin serves as a living reflection of a physical or digital system, yet the moment the data feeding this mirror becomes obsoloete or incomplete, the model ceases to be a strategic asset.</p>
-<p>This divergence is known as data drift, which creates a state of dangerous confidence where engineers may successfully run a stress test against a model, unaware that they are testing a ghost of the actual system rather than its current reality. The resulting failure in production is not a failure of the simulation itself, but a failure to maintain the fidelity between the twin and the parent.</p>
-<p>To mitigate this, a shift toward observability over static input is required. A reliable model must be fueled by telemetry that automatically reflects architectural changes as they happen. Furthermore, the temporal relevance of the data is critical. If a simulation operates on historical snapshots rather than real-time data loops, it transitions from a predictive tool to a retrospective analysis. This gap represents Simulation Debt, the accumulated cost of every minor discrepancy between the virtual and the real.</p>
-<p>For those guiding technical strategy, the priority lies in auditing the fidelity of these models. Decisions are only as robust as the data informing them, and a model that is not regularly verified against production behavior eventually becomes a liability.</p>
+        <article id="article-49">
+<h2 class="article-title">Sandbox Paradox</h2>
+<div class="article-date">11/05/2026</div>
+<img loading="lazy" src="img/sandbox.jpg"/>
+<p>
+The intersection of LLM deployment and enterprise security has exposed a critical vulnerability that transcends traditional perimeter defense: the Sandbox Paradox. While containerization and virtualization remain standard industry practices for isolating untrusted code, these methods are increasingly insufficient against the sophisticated reasoning capabilities of modern AI agents. The core of this issue lies in the ability of autonomous models to infer the constraints of their evaluation environments and through iterative testing identify logical gaps that allow for unauthorized access to host system resources or sensitive data repositories.
+</p>
+<p>
+Current security research, notably within frameworks like SandboxEscapeBench, demonstrates that AI agents can be trained to recognize the specific signatures of a restricted environment. Once an agent identifies it is operating within a sandbox, it can pivot its objective from task completion to environment probing. This threat vector is not merely a technical glitch but a fundamental shift in risk management. In traditional software, a sandbox is a passive barrier but in an AI-driven architecture the sandbox becomes an active puzzle that the model is incentivized to solve.
+</p>
+<p>
+For organizations integrating LLMs into their internal workflows, relying solely on legacy isolation tools creates a state of dangerous confidence. Effective mitigation requires moving beyond static container boundaries toward a philosophy of high-fidelity observability and behavioral monitoring. Security teams must implement telemetry that tracks not just resource consumption but the semantic intent of the model's operations. When a model begins to query system metadata or attempts to execute unconventional network calls the response must be an immediate revocation of execution privileges.
+</p>
+<p>
+The strategic imperative for technical leadership is to recognize that as code generation costs approach zero and "Software for One" becomes a viable development paradigm, the potential for inadvertent or malicious environment escapes grows exponentially.
+</p>
 </article>
 
 <hr />
@@ -37,6 +45,13 @@
         <div class="recent-posts">
             <h3>Recent Posts</h3>
             <ul>
+                
+                <li>
+                    <a href="20260420_digital_twins_drift.html">
+                        <img src="img/digital_twin_liability.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Digital Twins: When Models Drift from Reality
+                    </a>
+                </li>
                 
                 <li>
                     <a href="20260316_digital_twins.html">
@@ -59,13 +74,6 @@
                     </a>
                 </li>
                 
-                <li>
-                    <a href="20260202_attention_vs_intention.html">
-                        <img src="img/intention.jpg" class="recent-post-image" width="150px" loading="lazy" />
-                        Attention and Intention
-                    </a>
-                </li>
-                
             </ul>
         </div>
 
@@ -73,6 +81,10 @@
         <div class="all-posts">
             <h3>All Posts</h3>
             <ul>
+                
+                <li>
+                    <span class="article-date">11/05/2026</span> - <a href="20260511_sandbox_paradox.html">Sandbox Paradox</a>
+                </li>
                 
                 <li>
                     <span class="article-date">20/04/2026</span> - <a href="20260420_digital_twins_drift.html">Digital Twins: When Models Drift from Reality</a>
