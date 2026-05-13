@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indirect Prompt Injection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: #333;">
+            <h1>Tech Leaderism</h1>
+        </a>
+    </header>
+
+    <main id="articles">
+        <article>
+            <article id="article-51">
+<h2 class="article-title">Indirect Prompt Injection</h2>
+<div class="article-date">13/05/2026</div>
+<img loading="lazy" src="img/prompt_injection.jpg"/>
+<p>
+The designing and building of workflows integrating LLMs, has introduced a new threat vector that transcends traditional software vulnerabilities: the evolution of prompt injection from a simple chatbot bypass into a systemic risk. While initial security measures focused on direct injection, where a user provides malicious input to override model instructions, the rise of agentic workflows has shifted the focus toward indirect prompt injection. In this scenario, the model consumes data from external untrusted sources such as third-party plugins, emails or document repositories which may contain hidden malicious instructions. This shift is a fundamental change in the security perimeter, as the threat no longer originates only from the end-user but can be embedded within the data streams that powers the model.
+</p>
+<p>
+The technical seriousness of this type of vulnerability lies in the unclear boundary between instructions and data. Unlike traditional computing systems that keep a strict separation between executable code and data, LLMs treat all inputs as part of a continuous context window. When a model uses a plugin to summarize an external webpage or process an incoming file, any malicious instruction hidden in that content can hijack the model's logic. This can lead to unauthorized data exfiltration or the silent manipulation of processes. This vulnerability is particularly critical in "Disposable Software" environments, where tools are quickly generated to solve specific problems bypassing the security reviews applied to enterprise-wide platforms.  
+</p>
+<p>
+Managing this risk requires a departure from the "break-fix" mentality towards a philosophy of strategic restriction. The proliferation of single-use AI-generated utility tools increases the probability for these type of attacks. The implementation of a "zero-trust" approach to model inputs treating every piece of external data, regardless of its source, as potentially executable code, is an obvious first step mitigating these threat vector. 
+</p>
+<p>
+A model that consumes unverified data creates a state of dangerous confidence among engineering teams. Technical leaders must prioritize the auditing of these models against actual production behavior, ensuring that decisions remain robust and informed by verified and validated data sources.  
+</p>
+</article>
+
+<hr />
+
+        </article>
+
+        <!-- Recent Posts -->
+        <div class="recent-posts">
+            <h3>More Posts</h3>
+            <ul>
+                
+                <li>
+                    <a href="20260512_ai_yes_man.html">
+                        <img src="img/yes_man.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Yes Man AI Agent
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260511_sandbox_paradox.html">
+                        <img src="img/sandbox.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Sandbox Paradox
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260420_digital_twins_drift.html">
+                        <img src="img/digital_twin_liability.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Digital Twins: When Models Drift from Reality
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="20260316_digital_twins.html">
+                        <img src="img/digital_twin.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Digital Twins
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="rss.xml">RSS Feed</a></p>
+        <p id="copyright"></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
