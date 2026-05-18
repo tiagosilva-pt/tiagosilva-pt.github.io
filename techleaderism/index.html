@@ -20,20 +20,17 @@
     <main id="articles">
         <!-- Latest Post -->
         <article id="article-51">
-<h2 class="article-title">Indirect Prompt Injection</h2>
-<div class="article-date">13/05/2026</div>
-<img loading="lazy" src="img/prompt_injection.jpg"/>
+<h2 class="article-title">Transparency as Value Generator</h2>
+<div class="article-date">18/05/2026</div>
+<img loading="lazy" src="img/transparency.jpg"/>
 <p>
-Building LLM-backed workflows has introduced a new threat vector that transcends traditional software vulnerabilities: the evolution of prompt injection from a simple chatbot bypass into a systemic risk. While initial security measures focused on direct injection, where a user provides malicious input to override model instructions, the rise of agentic workflows has shifted the focus toward indirect prompt injection. In this scenario, the model consumes data from external untrusted sources such as third-party plugins, emails or document repositories which may contain hidden malicious instructions. This shift is a fundamental change in the security perimeter, as the threat no longer originates only from the end-user but can be embedded within the data streams that powers the model.
+Historically, proprietary algorithms were kept as precious intellectual property, however as AI models increasingly govern critical decision-making workflows, this traditional posture of secrecy introduces systemic vulnerabilities. Clients, regulatory bodies and end-users are moving beyond functional outputs to demand clarity regarding data handling and data governance.
 </p>
 <p>
-The technical seriousness of this type of vulnerability lies in the unclear boundary between instructions and data. Unlike traditional computing systems that keep a strict separation between executable code and data, LLMs treat all inputs as part of a continuous context window. When a model uses a plugin to summarize an external webpage or process an incoming file, any malicious instruction hidden in that content can hijack the model's logic. This can lead to unauthorized data exfiltration or the silent manipulation of processes. This vulnerability is particularly critical in "Disposable Software" environments, where tools are quickly generated to solve specific problems bypassing the security reviews applied to enterprise-wide platforms.  
+ When a system operates without transparency, engineering teams are restricted to black-box monitoring, a reactive practice that flags failures only after they manifest in production outputs. True operational resilience requires a transition to observability, where internal states and decision paths are continuously analyzed. Without this granular transparency, AI-powered systems remain susceptible to data manipulation that escape basic telemetry. When an architecture treats AI models as opaque systems, it creates silos among engineering, security and product teams, complicating incident response during unexpected failures. In contrast, embedding observability frameworks directly into the workflows, ensures that communication remains clear and verifiable across the entire organization.
 </p>
 <p>
-Managing this risk requires a departure from the "break-fix" mentality towards a philosophy of strategic restriction. The proliferation of single-use AI-generated utility tools increases the probability for these type of attacks. The implementation of a "zero-trust" approach to model inputs treating every piece of external data, regardless of its source, as potentially executable code, is an obvious first step mitigating these threat vector. 
-</p>
-<p>
-A model that consumes unverified data creates a state of dangerous confidence among engineering teams. Technical leaders must prioritize the auditing of these models against actual production behavior, ensuring that decisions remain robust and informed by verified and validated data sources.  
+Ultimately, treating transparency as a core architectural requirement, moves organizations away from generic implementations toward durable and resilient systems. In an era where the cost of building software is dropping significantly, corporate value is no longer concentrated in the ownership of code, but in the durability and verifiability of data structures and logical specifications. Transparency serves as the ultimate assurance of system integrity, positioning the organization to capture market share from competitors whose unverified, opaque systems cannot survive rigorous technical or ethical auditing.
 </p>
 </article>
 
@@ -45,6 +42,13 @@ A model that consumes unverified data creates a state of dangerous confidence am
         <div class="recent-posts">
             <h3>Recent Posts</h3>
             <ul>
+                
+                <li>
+                    <a href="20260513_indirect_prompt_injection.html">
+                        <img src="img/prompt_injection.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Indirect Prompt Injection
+                    </a>
+                </li>
                 
                 <li>
                     <a href="20260512_ai_yes_man.html">
@@ -67,13 +71,6 @@ A model that consumes unverified data creates a state of dangerous confidence am
                     </a>
                 </li>
                 
-                <li>
-                    <a href="20260316_digital_twins.html">
-                        <img src="img/digital_twin.jpg" class="recent-post-image" width="150px" loading="lazy" />
-                        Digital Twins
-                    </a>
-                </li>
-                
             </ul>
         </div>
 
@@ -81,6 +78,10 @@ A model that consumes unverified data creates a state of dangerous confidence am
         <div class="all-posts">
             <h3>All Posts</h3>
             <ul>
+                
+                <li>
+                    <span class="article-date">18/05/2026</span> - <a href="20260518_transparency_as_value_generator.html">Transparency as Value Generator</a>
+                </li>
                 
                 <li>
                     <span class="article-date">13/05/2026</span> - <a href="20260513_indirect_prompt_injection.html">Indirect Prompt Injection</a>
