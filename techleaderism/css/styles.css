@@ -140,3 +140,36 @@ hr {
     list-style-type: none;
     padding-left: 0;
 }
+
+/* Hero Banner */
+.hero-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hero_banner.gif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
+
+.hero-banner .hero-content h1 {
+    font-size: 4rem;
+    margin: 0 0 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner .hero-content p {
+    font-size: 1.2rem;
+    margin: 0;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .hero-banner .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-banner .hero-content p {
+        font-size: 1rem;
+    }
+}
