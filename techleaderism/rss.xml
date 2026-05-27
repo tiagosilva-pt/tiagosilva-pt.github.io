@@ -7,6 +7,29 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Autonomous Codebase</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260528_autonomous_codebase.html</link>
+    <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260528_autonomous_codebase.html</guid>
+    <description><![CDATA[<article id="article-54">
+<h2 class="article-title">Autonomous Codebase</h2>
+<div class="article-date">28/05/2026</div>
+<img loading="lazy" src="img/autonomous_codebase.jpg"/>
+<p>Recent shifts in software engineering suggest we are moving towards an era of autonomous development, where AI systems generate and maintain entire codebases without human intervention. This vision is based on the assumption that intent remains stable throughout the iterative process of software refinement. However, fully automated code generation introduces significant risks regarding the integrity of logic and the propagation of vulnerabilities. When systems generate code based on patterns extracted from public repositories, they often incorporate security issues that require rigorous human analysis to identify and remediate.</p>
+
+<p>Technological teams must acknowledge that code is not merely a sequence of instructions but the description of complex business logic and constraints. Relying solely on code generation increases the risk of technical debt accumulation in unseen layers. This calls for a radical shifting of developer focus from a code author to an auditor of machine output.</p>
+
+<p>Frameworks such as the NIST AI Risk Management Framework, highlights the necessity of human-in-the-loop verification for critical systems. Trusting code architecture to AI agents without formal verification controls, introduces the threat of logic poisoning and non-deterministic execution paths. Teams that prioritize speed over verification frequently encounter unexpected system behaviors that demand human intervention to resolve.</p>
+
+<p>Moreover, the concept of a fully autonomous codebase remains an aspirational goal rather than a near-term reality. Stability in software architecture derives from intentional design and continuous assessment. Tech teams must treat autonomous tools as force multipliers that require constant adjustments rather than simple replacements for humans. The use of AI into the development lifecycle demands more, not less, technical scrutiny.
+</p>
+</article>
+
+<hr />
+]]></description>
+  </item>
+  
+  <item>
     <title>The Evolution of Technical Leadership</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260527_the_evolution_of_technical_leadership.html</link>
     <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
