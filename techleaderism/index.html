@@ -21,16 +21,17 @@
     <main id="articles">
         <!-- Latest Post -->
         <article id="article-54">
-<h2 class="article-title">Autonomous Codebase</h2>
-<div class="article-date">28/05/2026</div>
-<img loading="lazy" src="img/autonomous_codebase.jpg"/>
-<p>Recent shifts in software engineering suggest we are moving towards an era of autonomous development, where AI systems generate and maintain entire codebases without human intervention. This vision is based on the assumption that intent remains stable throughout the iterative process of software refinement. However, fully automated code generation introduces significant risks regarding the integrity of logic and the propagation of vulnerabilities. When systems generate code based on patterns extracted from public repositories, they often incorporate security issues that require rigorous human analysis to identify and remediate.</p>
-
-<p>Tech teams must acknowledge that code is not merely a sequence of instructions but the description of complex business logic and constraints. Relying solely on code generation increases the risk of technical debt accumulation in unseen layers. This calls for a radical shift of the developer focus from a code author to an auditor of machine output.</p>
-
-<p>Frameworks such as the NIST AI Risk Management Framework, highlights the necessity of human-in-the-loop verification for critical systems. Trusting code architecture to AI agents without formal verification controls, introduces the threat of logic poisoning and non-deterministic execution paths. Teams that prioritize speed over verification frequently encounter unexpected system behaviors that demand human intervention to resolve.</p>
-
-<p>Moreover, the concept of a fully autonomous codebase remains an aspirational goal rather than a near-term reality. Stability in software architecture derives from intentional design and continuous assessment. Tech teams must treat autonomous tools as force multipliers that require constant adjustments rather than simple replacements for humans. The use of AI into the development lifecycle demands more, not less, technical scrutiny.
+<h2 class="article-title">The Illusion of Determinism in AI Tools</h2>
+<div class="article-date">30/05/2026</div>
+<img loading="lazy" src="img/deterministic_illusion.jpg"/>
+<p>
+Tech leads often gravitate toward the comfort of deterministic systems where inputs consistently return predictable outputs, but with the introduction of LLMs into workflows this paradigm is disrupted by replacing structured logic with probabilistic output. This transition forces a shift in architectural governance as the expectation of fixed behavior clashes with the variability of neural networks. Relying on AI for critical decision-making without acknowledging these stochastic elements introduces high operational risks that extend beyond simple performance variance.
+</p>
+<p>
+From a business logic perspective, integrating LLMs requires a reassessment of liability and risk validation. When deterministic software is replaced by probabilistic frameworks, standard QA methodologies such as unit testing or regression tests, become inadequate and obsolete for verifying compliance and predicting operational behavior. In a business workflow, an unvalidated model output does not only represent a software defect, it constitutes an unquantified  liability that can lead to regulatory non-compliance or to the exposure of proprietary data assets.  
+</p>
+<p>
+To maintain control, governance and validation frameworks must evolve from static boundary enforcement to continuous, dynamic validation where LLMs should not be seen as black-boxes, but as highly volatile components requiring rigorous telemetry and observability. This demands the implementation of runtime guardrails capable of detecting strange model behavior and mitigating data drift. The cost of deploying probabilistic systems includes the permanent overhead of continuous monitoring and continuous auditing.
 </p>
 </article>
 
@@ -42,6 +43,13 @@
         <div class="recent-posts">
             <h3>Recent Posts</h3>
             <ul>
+                
+                <li>
+                    <a href="20260528_autonomous_codebase.html">
+                        <img src="img/autonomous_codebase.jpg" class="recent-post-image" width="150px" loading="lazy" />
+                        Autonomous Codebase
+                    </a>
+                </li>
                 
                 <li>
                     <a href="20260527_the_evolution_of_technical_leadership.html">
@@ -58,16 +66,9 @@
                 </li>
                 
                 <li>
-                    <a href="20260518_transparency_as_value_generator copy.html">
+                    <a href="20260518_transparency_as_value_generator.html">
                         <img src="img/transparency.jpg" class="recent-post-image" width="150px" loading="lazy" />
                         Transparency as Value Generator
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="20260513_indirect_prompt_injection.html">
-                        <img src="img/prompt_injection.jpg" class="recent-post-image" width="150px" loading="lazy" />
-                        Indirect Prompt Injection
                     </a>
                 </li>
                 
@@ -78,6 +79,10 @@
         <div class="all-posts">
             <h3>All Posts</h3>
             <ul>
+                
+                <li>
+                    <span class="article-date">30/05/2026</span> - <a href="20260530_illusion_of_determinism_in_ai.html">The Illusion of Determinism in AI Tools</a>
+                </li>
                 
                 <li>
                     <span class="article-date">28/05/2026</span> - <a href="20260528_autonomous_codebase.html">Autonomous Codebase</a>
@@ -92,7 +97,7 @@
                 </li>
                 
                 <li>
-                    <span class="article-date">18/05/2026</span> - <a href="20260518_transparency_as_value_generator copy.html">Transparency as Value Generator</a>
+                    <span class="article-date">18/05/2026</span> - <a href="20260518_transparency_as_value_generator.html">Transparency as Value Generator</a>
                 </li>
                 
                 <li>
