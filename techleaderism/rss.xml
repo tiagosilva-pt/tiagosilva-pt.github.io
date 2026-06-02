@@ -7,6 +7,33 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>Tech Lead as a Context Curator</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260602_tech_lead_as_context_curator.html</link>
+    <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260602_tech_lead_as_context_curator.html</guid>
+    <description><![CDATA[<article id="article-55">
+<h2 class="article-title">Tech Lead as a Context Curator</h2>
+<div class="article-date">02/06/2026</div>
+<img loading="lazy" src="img/context_curation.jpg"/>
+<p>
+As LLMs become integrated into engineering workflows, the focus of tech leads shifts from validating lines of code to curating the context those models consume. When AI tools draw on internal docs, commit history and datasets, the fidelity of their outputs is only as good as the content behind them.
+</p>
+<p>
+Practical curation starts with data hygiene. Tech leads must ensure that what flows into AI-based pipelines is accurate, current and free of sensitive information, which means that designing filters for PII and credentials and pruning obsolete architecture notes are a must-do to ensure alignment between engineering practices with legal and security constraints.</p>
+<p>
+Security-minded curation also reduces likelihood of attacks. Restricting public-facing inputs, sanitizing third‑party content and validating training sources, limits the risk of prompt injection and data poisoning. The tech lead becomes a gatekeeper who balances openness with defensive controls making AI useful and secure.
+</p>
+<p>
+Curation is also the enforcement of standards and best-practices. Feeding the context with well curated docs, design patterns and good code examples, AI assistants will amplify the chosen standards and incorporate them in the output.
+</p>
+<p>
+Technical leadership in an AI‑augmented world achieves the highest‑impact work in organizing and sanitizing knowledge, creating the conditions to feed the best context possible to AI flows, so that automated systems act as reliable extensions of the team. Teams that treat context curation as a core engineering responsibility will extract far more value from their models.
+</p>
+</article>
+]]></description>
+  </item>
+  
+  <item>
     <title>The Illusion of Determinism in AI Tools</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260530_illusion_of_determinism_in_ai.html</link>
     <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
