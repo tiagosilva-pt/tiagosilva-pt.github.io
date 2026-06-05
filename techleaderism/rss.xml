@@ -7,6 +7,31 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>The Death of the Feature Backlog</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260605_the_death_of_the_feature_backlog.html</link>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260605_the_death_of_the_feature_backlog.html</guid>
+    <description><![CDATA[<article id="article-56">
+<h2 class="article-title">The Death of the Feature Backlog</h2>
+<div class="article-date">05/06/2026</div>
+<img loading="lazy" src="img/death_of_backlog.jpg"/>
+<p>
+For decades, the feature backlog has been the North Star of engineering organizations. It promised a clean and linear pipeline: convert requirements into code, ship features and measure velocity. But in the age of AI agents and autonomous systems, this promise is broken. The assumption that software value scales with feature count was always a simplification, but now it is a liability.
+</p>
+<p>
+When generative systems drive a significant portion of your codebase, the ultimate challenge is no longer building more. Instead, it is architecting systems robust enough to contain what humans and machines might break. A traditional backlog is a list of incremental improvements, however, orchestrating AI systems requires high-level decisions about architecture, safety boundaries and data integrity, all critical needs that a standard feature story simply cannot capture.
+</p>
+<p>
+This shift creates real friction with traditional organizational habits as burndown charts and release velocity reports become obsolete. An engineering team spending a quarter focused on observability, reviewing model outputs and establishing governance frameworks looks unproductive on a spreadsheet, yet this foundational work is precisely what allows autonomous systems to scale without catastrophic failure. Teams that continue to organize around features will find themselves in reactive mode always responding to the next issue, the next incident or the next hallucination. Teams that shift to outcome-based roadmaps, where success is measured by system reliability, latency and resilience against adversarial input, gain the clarity to act proactively.
+</p>
+<p>
+What replaces the backlog is a hybrid approach: a few critical features that matter for business or user experience, wrapped in a larger commitment to architectural resilience. The best approach is no longer shipping the most stories, is building the foundation so that whether the next fifty features come from humans or machines, the system remains coherent and safe.
+</p>
+</article>
+]]></description>
+  </item>
+  
+  <item>
     <title>Tech Lead as a Context Curator</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260602_tech_lead_as_context_curator.html</link>
     <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
