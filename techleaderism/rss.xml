@@ -7,6 +7,31 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>The Paradox of Over-Automation</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260608_the_paradox_of_over_automation.html</link>
+    <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260608_the_paradox_of_over_automation.html</guid>
+    <description><![CDATA[<article id="article-57">
+<h2 class="article-title">The Paradox of Over-Automation</h2>
+<div class="article-date">08/06/2026</div>
+<img loading="lazy" src="img/automation_paradox.jpg"/>
+<p>
+Automation is sold as a path to resilience but it can also create a fragile illusion of control. When teams rely on AI agents to manage critical workflows, process execution becomes opaque and the team loses institutional memory. That gap matters because, when systems deviate from expected behavior, no one has the context or experience needed to intervene safely.
+</p>
+<p>
+The most dangerous automation is the kind that hides technical debt. Automated patching and remediation may make incidents disappear from dashboards, but they do not remove the underlying failures. By masking recurring problems, over-automation prevents engineers from building the diagnostic expertise required to respond to complex outages and new attack techniques.
+</p>
+<p>
+This is not a call to abandon automation, it is a call to govern it explicitly. Tech teams must pair autonomous execution with observability that emphasizes explanation over efficiency and automated systems should produce signals humans can audit, passing to human experts the authority to override machine logic when context demands it.
+</p>
+<p>
+The healthiest model treats automation as a partner not as a replacement, that means preserving human-in-the-loop checks, documenting the assumptions behind automated decisions and maintaining the skills needed to troubleshoot the system when it fails. This discipline preserves agility while preventing efficiency from becoming a hidden point of failure.
+</p>
+</article>
+]]></description>
+  </item>
+  
+  <item>
     <title>The Death of the Feature Backlog</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260605_the_death_of_the_feature_backlog.html</link>
     <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
