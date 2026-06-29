@@ -7,6 +7,33 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>From Know-it-All to Learn-it-All</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260629_from_know_it_all_to_learn_it_all.html</link>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260629_from_know_it_all_to_learn_it_all.html</guid>
+    <description><![CDATA[<p><article id="article-59"></p>
+
+<h2 class="article-title">From Know-it-All to Learn-it-All</h2>
+
+<div class="article-date">29/06/2026</div>
+
+<p><img loading="lazy" src="img/learn-it-all.jpg"/></p>
+
+<p>
+When Microsoft, under Satya Nadella's leadership, transitioned from a "Know-it-All" culture to a "Learn-it-All" framework, the company moved away from an intellectual gatekeeping and aggressive ownership mindset that often paralyzed innovation. Today, this specific cultural evolution proves to be the ultimate prerequisite for engineering teams attempting to adopt and embrace AI within their development lifecycle.
+</p>
+
+<p>
+The rapid shift toward AI-first systems usually faces significant resistance from the traditional engineering cultures that Nadella dismantled. In legacy environments, engineers often protect established architectures to maintain authority, frequently rejecting external models and novel approaches to old problems. Conversely, when a team operates under a "Learn-it-All" model the organization naturally leans into technological disruption. Instead of wasting energy defending legacy codebases, the engineering team adapts to leverage the best available external models and frameworks.
+</p>
+
+<p>
+Operating an engineering organization in the age of generative AI requires treating every architectural decision as an ongoing evolution rather than a static monument. Tech leads must move away from individual hero-culture metrics and instead incentivize teams that effectively build upon AI capabilities. Rather than suffering from corporate inertia when a new model or agentic workflow emerges, teams operating with a growth mindset remain capable of shifting codebases at an accelerated velocity.
+</p>
+]]></description>
+  </item>
+  
+  <item>
     <title>The Legacy Code of Tomorrow</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260625_the_legacy_code_of_tomorrow.html</link>
     <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
