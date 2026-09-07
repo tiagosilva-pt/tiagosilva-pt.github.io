@@ -7,6 +7,41 @@
   <atom:link href="https://tiagosilva-pt.github.io/techleaderism/rss.xml" rel="self" type="application/rss+xml" />
   
   <item>
+    <title>When You Don’t Own Your Code</title>
+    <link>https://tiagosilva-pt.github.io/techleaderism/20260907_copyright_protection.html</link>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    <guid isPermaLink="true">https://tiagosilva-pt.github.io/techleaderism/20260907_copyright_protection.html</guid>
+    <description><![CDATA[<p><article id="article-60"></p>
+
+<h2 class="article-title">When You Don’t Own Your Code</h2>
+
+<div class="article-date">07/09/2026</div>
+
+<p><img loading="lazy" src="img/copyright-protection.jpg"/></p>
+
+<p>
+As engineering teams are encouraged to use AI tools to ship code faster, many remain unaware how vibe-coding or any other forms of AI-generated code negatively affects the legal protection of their codebase and how most of the times the AI-generated code falls into the public domain. In most territories, including the EU and the US, copyright only applies if there is human intervention. Without some sort of human creativity involved, a block of code, or an entire application written 100% by AI, cannot be protected by copyright.
+</p>
+
+<p>
+Consider a team that decides to build a fully working web app that includes backend, UI and infrastructure, without a human writing a single line of code. The team defines the scope, the user journey and the application rules and passes them as prompts to an LLM that generates the final product. In this case there’s no human creativity involved in the output code and the final product falls into the public domain. Of course the team can protect the product by running the code on their own server with terms of service that forbid reverse engineering, scraping, duplication or unauthorized access to servers running the code, but the code itself is not owned by anyone and is automatically in the public domain.
+</p>
+
+<p>
+Originality and human creativity are fundamental prerequisites for copyright protection, regardless of the effort or investment. Similarly, patent protection does not apply to AI-generated code because major jurisdictions require that the inventor must be a person. But even in the scenario of human-written code, patents only apply to concepts, non-obvious processes or new architectures. A .py file for instance cannot be patented. 
+</p>
+
+<p>
+In a reality where software is largely AI-generated, intellectual property protection gets reduced to trade secrets that cover the business logic and process stored in private servers, and trademarks that protect product name, brand, domain and logo. 
+</p>
+
+<p>
+The pressure to get to market faster and use AI to generate code is replacing code originality as a business moat and competitive advantage and effectively transforming source code into a non-protectable asset, which reduces the ability to legally shield a business from product cloning. 
+</p>
+]]></description>
+  </item>
+  
+  <item>
     <title>From Know-it-All to Learn-it-All</title>
     <link>https://tiagosilva-pt.github.io/techleaderism/20260629_from_know_it_all_to_learn_it_all.html</link>
     <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
